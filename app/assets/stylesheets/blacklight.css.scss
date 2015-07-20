@@ -1,5 +1,14 @@
+$grid-columns: 12;
+$grid-gutter-width: 25px;
+$container-large-desktop: (1200px + $grid-gutter-width);
+$body-bg: #063763;
+
+
 @import 'bootstrap-sprockets';
-
 @import 'bootstrap';
-
 @import 'blacklight/blacklight';
+
+
+.container {
+  background: #fff;
+}
