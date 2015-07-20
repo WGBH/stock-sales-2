@@ -34,18 +34,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5">
-          <img src="http://placehold.it/269x151">
-          NOVA
-        </div>
-        <div class="col-md-5">
-          <img src="http://placehold.it/269x151">
-          Frontline
-        </div>
-        <div class="col-md-5">
-          <img src="http://placehold.it/269x151">
-          American Experience
-        </div>
+        <% @collections.each do |collection| %>
+          <div class="col-md-5">
+            <a href="<%= collection[:href] %>">
+              <img src="<%= collection[:img_src] %>">
+              <%= collection[:name] %>
+            </a>
+          </div>
+        <% end %>
       </div>
     </div>  
 
