@@ -1,14 +1,57 @@
-$grid-columns: 12;
+// Bootstrap config:
+
+$grid-columns: 15;
 $grid-gutter-width: 25px;
 $container-large-desktop: (1200px + $grid-gutter-width);
 $body-bg: #063763;
 
+
+// Local variables:
+
+$well-padding: 19px; // hardcoded internally.
+
+
+// Imports:
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import 'blacklight/blacklight';
 
 
+// CSS overrides:
+
 .container {
-  background: #fff;
+  background: #DEE5F0;
+  padding: 25px;
+}
+
+#main-container {
+  background: $body-bg;
+}
+
+.head {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 13px;
+  margin: -$well-padding;
+}
+
+.body {
+  padding-top: $well-padding;
+}
+
+#home-left .head {
+  background: #F5BA55;
+  color: #FFF
+}
+
+#home-right .head {
+  background: #BDBA21;
+  color: #FFF
+}
+
+.well, .constraints-container {
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
 }
