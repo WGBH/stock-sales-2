@@ -24,29 +24,14 @@
 
 <div class="container">
 
-  <div class="row">
+  <div class="row">  
 
-    <div class="col-md-11" id="home-left">
-      <div class="well">
-        <div class="head">
-          Explore WGBH Collections
-        </div>
-      </div>
-      <div class="row">
-        <% @collections.each do |collection| %>
-          <div class="col-md-5">
-            <a href="<%= collection[:href] %>" class="thumb">
-              <%# TODO: Get rid of BRs and do it the right way. %>
-              <img src="<%= collection[:img_src] %>"><br/>
-              <%= collection[:name] %><br/><br/>
-            </a>
-          </div>
-        <% end %>
-      </div>
-    </div>  
-
-    <div class="col-md-4" id="home-right">
-
+    <div class="col-md-4 pull-right" id="home-right">
+      <%# 
+          Put this first in DOM so small devices get a call to action up top. 
+          TODO: Padding isn't quite right when narrow.
+      %>
+      
       <div class="well">
         <div class="head">
           Search Digital Archive
@@ -60,7 +45,9 @@
             <br/><br/>
             <div>
               <input type="submit" value="Footage" class="btn btn-primary btn-sm col-md-7"/>
-              <input type="button" value="Images" class="btn btn-sm col-md-7 pull-right"/>
+              <%# UGLY: Turn off pull-right for the two narrow modes. %>
+              <input type="button" value="Images" class="btn btn-sm col-md-7 pull-right hidden-sm hidden-xs"/>
+              <input type="button" value="Images" class="btn btn-sm col-md-7 hidden-md hidden-lg"/>
             </div>
             <br/><br/>
             <div>
@@ -96,6 +83,26 @@
         </div>
       </div>
 
-    </div>  
+    </div>
+    
+    <div class="col-md-11 pull-left" id="home-left">
+      <div class="well">
+        <div class="head">
+          Explore WGBH Collections
+        </div>
+      </div>
+      <div class="row">
+        <% @collections.each do |collection| %>
+          <div class="col-md-5" style="float: left;" <%# Float for two columns when narrow. %> >
+            <a href="<%= collection[:href] %>" class="thumb">
+              <%# TODO: Get rid of BRs and do it the right way. %>
+              <img src="<%= collection[:img_src] %>"><br/>
+              <%= collection[:name] %><br/><br/>
+            </a>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    
   </div>
 </div>
