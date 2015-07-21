@@ -21,49 +21,49 @@ $well-padding: 19px; // hardcoded internally.
 // CSS overrides:
 
 .container {
-  background: #DEE5F0;
-  padding-top: 25px;
-  padding-bottom: 25px;
+    background: #DEE5F0;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #main-container {
-  // so that sub-containers can be separated by background-blue.
-  background: $body-bg;
+    // so that sub-containers can be separated by background-blue.
+    background: $body-bg;
 }
 
 .head {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }  
-  
+
 div.head {
-  text-align: center;
-  padding: 13px;
-  margin: -$well-padding;
+    text-align: center;
+    padding: 13px;
+    margin: -$well-padding;
 }
 
 .body {
-  margin-top: $well-padding * 2;
+    margin-top: $well-padding * 2;
 }
 
 .btn {
-  // TODO: This is stylish, but should buttons be more obvious?
-  text-transform: uppercase;
-  border-radius: 0px;
-  border: none;
+    // TODO: This is stylish, but should buttons be more obvious?
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
 }
 
 .btn-primary {
-  background: #EA6014;
+    background: #EA6014;
 }
 
 #home-left .head {
-  background: #F5BA55;
-  color: #FFF
+    background: #F5BA55;
+    color: #FFF
 }
 
 #home-right .head {
-  background: #BDBA21;
-  color: #FFF
+    background: #BDBA21;
+    color: #FFF
 }
 
 .well, .constraints-container {
@@ -73,19 +73,41 @@ div.head {
 }
 
 nav, nav a {
-  color: #dee5f0;
+    color: #8FA6CF;
+}
+
+.blacklight-home nav a[href="/"] {
+    display: none;
+}
+
+.container.top {
+    background: #5174B4;
+}
+
+.top h1 {
+    color: #fff;
+}
+.top p {
+    color: $body-bg;
 }
 
 img {
-  // Shrinks proportionally as div shrinks
-  max-width: 100%;
+    // Shrinks proportionally as div shrinks
+    max-width: 100%;
 }
 
 a.thumb {
-  color: #000;
+    color: #000;
 }
 
 input {
-  background: #939598;
-  color: #fff;
+    background: #939598;
+    color: #fff;
+}
+
+.blurb {
+    font-family: serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #FFF;
 }
