@@ -38,18 +38,23 @@
         </div>
         <div class="body">
           <form action="#">
-            <%# TODO: Get rid of BRs and do it the right way. %>
-            <div>
+            <%# TODO: Bad CSS: hidden classes and BRs are unfortunate. %>
+            <div class="hidden-sm hidden-xs">
+              <div>
+                <input type="text" placeholder="enter keyword" class="col-md-15"></input>
+              </div>
+              <br/><br/>
+              <div>
+                <input type="submit" value="Footage" class="btn btn-primary btn-sm col-md-7"/>
+                <input type="button" value="Images" class="btn btn-sm col-md-7 pull-right"/>
+              </div>
+              <br/><br/>
+            </div>
+            <div class="hidden-md hidden-lg">
               <input type="text" placeholder="enter keyword" class="col-md-15"></input>
-            </div>
-            <br/><br/>
-            <div>
               <input type="submit" value="Footage" class="btn btn-primary btn-sm col-md-7"/>
-              <%# UGLY: Turn off pull-right for the two narrow modes. %>
-              <input type="button" value="Images" class="btn btn-sm col-md-7 pull-right hidden-sm hidden-xs"/>
-              <input type="button" value="Images" class="btn btn-sm col-md-7 hidden-md hidden-lg"/>
+              <input type="button" value="Images" class="btn btn-sm col-md-7"/>
             </div>
-            <br/><br/>
             <div>
               The digital archive is only a small portion of what we offer.
               Can't find what you are looking for?
