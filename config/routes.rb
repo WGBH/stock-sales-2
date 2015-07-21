@@ -4,5 +4,8 @@ Rails.application.routes.draw do
   
   resources :collections,
     only: [:show]
+  
+  resources :about,
+    only: [:show]
 
 end
