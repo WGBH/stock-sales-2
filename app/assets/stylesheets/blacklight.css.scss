@@ -4,7 +4,7 @@ $grid-columns: 15;
 $grid-gutter-width: 25px;
 $container-large-desktop: (1200px + $grid-gutter-width);
 $body-bg: #063763;
-$screen-lg: 1250px; // Default is just 1200px, so our wide graphic was being chomped.
+$screen-lg: $container-large-desktop; // Default is just 1200px, so our wide graphic was being chomped.
 
 // Local variables:
 
@@ -27,18 +27,33 @@ $well-padding: 19px; // hardcoded internally.
 }
 
 #main-container {
+  // so that sub-containers can be separated by background-blue.
   background: $body-bg;
 }
 
 .head {
   text-transform: uppercase;
+}  
+  
+div.head {
   text-align: center;
   padding: 13px;
   margin: -$well-padding;
 }
 
 .body {
-  padding-top: $well-padding;
+  margin-top: $well-padding * 2;
+}
+
+.btn {
+  // TODO: This is stylish, but should buttons be more obvious?
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: none;
+}
+
+.btn-primary {
+  background: #EA6014;
 }
 
 #home-left .head {
@@ -62,5 +77,15 @@ nav, nav a {
 }
 
 img {
+  // Shrinks proportionally as div shrinks
   max-width: 100%;
+}
+
+a.thumb {
+  color: #000;
+}
+
+input {
+  background: #939598;
+  color: #fff;
 }

@@ -4,8 +4,7 @@
     <div class="col-md-6">
       <img src="logo-big.png" alt="WGBH Stock Sales &amp; Licensing"/>
     </div>
-    <div class="col-md-3"></div>
-    <div class="col-md-6" style="
+    <div class="col-md-6 pull-right" style="
         font-family: serif;
         font-size: 25px;
         font-style: italic;
@@ -36,9 +35,10 @@
       <div class="row">
         <% @collections.each do |collection| %>
           <div class="col-md-5">
-            <a href="<%= collection[:href] %>">
-              <img src="<%= collection[:img_src] %>">
-              <%= collection[:name] %>
+            <a href="<%= collection[:href] %>" class="thumb">
+              <%# TODO: Get rid of BRs and do it the right way. %>
+              <img src="<%= collection[:img_src] %>"><br/>
+              <%= collection[:name] %><br/><br/>
             </a>
           </div>
         <% end %>
@@ -51,14 +51,24 @@
         <div class="head">
           Search Digital Archive
         </div>
-        <div class=" body">
-          Enter keyword<br/>
-          Footage/Images SEARCH<br/>
-          <p>
-            The digital archive is only a small portion of what we offer.
-            Can't find what you are looking for?
-            <a href="mailto:stock_sales@wgbh.org">Contact us!</a>
-          </p>
+        <div class="body">
+          <form action="#">
+            <%# TODO: Get rid of BRs and do it the right way. %>
+            <div>
+              <input type="text" placeholder="enter keyword" class="col-md-15"></input>
+            </div>
+            <br/><br/>
+            <div>
+              <input type="submit" value="Footage" class="btn btn-primary btn-sm col-md-7"/>
+              <input type="button" value="Images" class="btn btn-sm col-md-7 pull-right"/>
+            </div>
+            <br/><br/>
+            <div>
+              The digital archive is only a small portion of what we offer.
+              Can't find what you are looking for?
+              <a href="mailto:stock_sales@wgbh.org">Contact us!</a>
+            </div>
+          </form>
         </div>
       </div>
 
@@ -67,9 +77,13 @@
           Free Research
         </div>
         <div class="body">
-          Don't feel like searching?<br/>
-          Let us research our collections for you!</br>
-          REQUEST
+          <p>
+            Don't feel like searching?<br/>
+            Let us research our collections for you!
+          </p>
+          <p style="text-align: center;">
+            <a class="btn btn-sm btn-primary" href="mailto:stock_sales@wgbh.org">Request</a>
+          </p>
         </div>
       </div>
 
