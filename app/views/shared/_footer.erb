@@ -1,12 +1,10 @@
 <nav class="navbar">
   <div class="container-fluid">
     <p class="head">
-      <a href="/about/TODO">About Us</a> |
-      <a href="/about/TODO">Rates and Policies</a> |
-      <a href="/about/TODO">Help</a> |
-      <a href="/about/TODO">Research Request</a> |
-      <a href="/about/TODO">Contact Us</a> |
-      <a href="/about/TODO">Newsletter</a>
+      <% About.all.each_with_index do |about,i| %>
+        <%= ' | ' unless i==0 %>
+        <a href="/about/<%= about.path %>"><%= about.title %></a>
+      <% end %>
     </p>
     <p>
       Copyright 2015 WGBH Educational Foundation. All rights reserved.<br/>

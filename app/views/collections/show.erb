@@ -3,12 +3,11 @@
   <div class="row">
     <div class="col-md-6">
       <p class="head">WGBH Collection</p>
-      <h1 class="col-md-offset-2">NOVA</h1>
+      <h1 class="col-md-offset-2"><%=  @collection.title %></h1>
     </div>
     <div class="col-md-6 pull-right blurb">
-      Over 50 years of<br/>
-      volcanoes, blackholes, and Einstein<br/>
-      from WGBH Boston
+      TODO: Do we want<br/>
+      anything over here?
     </div>
   </div>
 
@@ -21,8 +20,7 @@
   <div class="row">  
     
     <div class="col-md-11 pull-left" id="home-left">
-      TODO: Mockup has a gallery here, but I think we decided we needed more descriptive
-      text about how the collection works?
+      <%= @collection.body_html.html_safe %>
     </div>
     
     <div class="col-md-4" id="home-right">
