@@ -41,10 +41,10 @@
       <div class="row">
         <% @collections.each do |collection| %>
           <div class="col-md-5" style="float: left;" <%# Float for two columns when narrow. %> >
-            <a href="<%= collection[:href] %>" class="thumb">
+            <a href="/collections/<%= collection.path %>" class="thumb">
               <%# TODO: Get rid of BRs and do it the right way. %>
-              <img src="<%= collection[:img_src] %>"><br/>
-              <%= collection[:name] %><br/><br/>
+              <img src="http://placehold.it/272x152"><br/>
+              <%= collection.title %><br/><br/>
             </a>
           </div>
         <% end %>
