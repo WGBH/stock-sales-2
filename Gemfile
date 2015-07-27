@@ -42,5 +42,10 @@ gem 'blacklight'
 
 gem "rsolr", "~> 1.0.6"
 
-
 gem 'cmless', '0.0.3'
+
+gem 'rspec', :group => :test
+gem 'rspec-rails', :group => :test
+gem 'capybara', :group => :test
+
+gem 'simplecov', :require => false, :group => :test
