@@ -1,3 +1,7 @@
 # Example 6
 
-Description here
+6
+
+## Blurb
+
+## Grid

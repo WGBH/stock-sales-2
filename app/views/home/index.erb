@@ -39,11 +39,11 @@
         </div>
       </div>
       <div class="row">
-        <% @collections.each do |collection| %>
+        <% @collections.sort_by(&:order).each do |collection| %>
           <div class="col-md-5" style="float: left;" <%# Float for two columns when narrow. %> >
             <a href="/collections/<%= collection.path %>" class="thumb">
               <%# TODO: Get rid of BRs and do it the right way. %>
-              <img src="http://placehold.it/272x152"><br/>
+              <img src="<%= collection.thumbnail_url %>"><br/>
               <%= collection.title %><br/><br/>
             </a>
           </div>
