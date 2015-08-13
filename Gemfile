@@ -41,6 +41,7 @@ gem 'spring',        group: :development
 gem 'blacklight'
 
 gem "rsolr", "~> 1.0.6"
+gem 'jettywrapper', '~> 1.7'
 
 gem 'cmless', '0.0.3'
 

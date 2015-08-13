@@ -15,5 +15,5 @@
 /log/*.log
 /tmp
 /nbproject
-
+/jetty
 /coverage
