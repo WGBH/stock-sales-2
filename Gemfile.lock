@@ -48,6 +48,8 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    childprocess (0.5.6)
+      ffi (~> 1.0, >= 1.0.11)
     cmless (0.0.3)
       nokogiri (~> 1.6)
       redcarpet (~> 3.2)
@@ -64,11 +66,17 @@ GEM
     docile (1.1.5)
     erubis (2.7.0)
     execjs (2.4.0)
+    ffi (1.9.10)
     hike (1.2.3)
     i18n (0.7.0)
     jbuilder (2.2.11)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
+    jettywrapper (1.8.2)
+      activesupport (>= 3.0.0)
+      childprocess
+      i18n
+      logger
     jquery-rails (3.1.2)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
@@ -76,6 +84,7 @@ GEM
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    logger (1.2.8)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -181,6 +190,7 @@ DEPENDENCIES
   cmless (= 0.0.3)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
+  jettywrapper (~> 1.7)
   jquery-rails
   rails (= 4.1.2)
   rsolr (~> 1.0.6)
