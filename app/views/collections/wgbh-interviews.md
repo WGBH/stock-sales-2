@@ -2,6 +2,8 @@
 
 2
 
+![](https://s3.amazonaws.com/wgbhstocksales.org/clip_2.png)
+
 ## Blurb
 
 ### WGBH Interviews / Archival Content / Historical Series
