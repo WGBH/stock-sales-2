@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/wgbhstocksales.org/clip_1.png)
+![WGBH's Ten O'clock News](https://s3.amazonaws.com/wgbhstocksales.org/content/TOCN1_348x196.png)
 
 ## Blurb
 

@@ -3,12 +3,14 @@ class Collection < Cmless
   attr_reader :grid_html
   attr_reader :head_html
   attr_reader :blurb_html
+
+  PLACEHOLDER_THUMBNAIL = 'http://placehold.it/272x152'
   
   def thumbnail_url
     @thumbnail_url ||=
       Nokogiri::HTML(head_html).xpath('//img[1]/@src').first.text
   rescue
-    'http://placehold.it/272x152'
+    PLACEHOLDER_THUMBNAIL
   end
   
   def order
