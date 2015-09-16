@@ -1,4 +1,4 @@
-# American Experience
+# NOVA
 
 1
 
@@ -6,6 +6,7 @@
 
 ## Blurb
 
-American History, Timelines, Articles Biographies, Maps
+Science & Technology Video shorts, Interactives, Web Content, podcasts
+
 
 ## Grid

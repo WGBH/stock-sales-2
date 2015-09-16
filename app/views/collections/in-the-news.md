@@ -1,4 +1,4 @@
-# American Experience
+# In the News
 
 1
 
@@ -6,6 +6,6 @@
 
 ## Blurb
 
-American History, Timelines, Articles Biographies, Maps
+Recently added content
 
 ## Grid

@@ -1,4 +1,4 @@
-# American Experience
+# Digital Clips
 
 1
 
@@ -6,6 +6,6 @@
 
 ## Blurb
 
-American History, Timelines, Articles Biographies, Maps
+Rights-ready clips
 
 ## Grid
