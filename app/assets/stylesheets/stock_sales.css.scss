@@ -1,0 +1,12 @@
+ul.navbar-right {
+  li.contact {
+    a { color: #BDBA21; }
+  }
+
+  // Mimick Blacklight style for [ul.navbar > li > a]
+  // for navbar-right items that aren't links.
+  li.not_a_link {
+    color: #BDBA21;
+    padding: 15px 10px;
+  }
+}
