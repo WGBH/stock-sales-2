@@ -11,10 +11,8 @@ describe "Validating collections:" do
 
       describe 'thumbnail_url' do
 
-        it 'is not using the placeholder' do
-          expect(collection.thumbnail_url).to_not eq Collection::PLACEHOLDER_THUMBNAIL
-        end
-
+        # To run :check_links tests, set ENV['RSPEC_CHECK_LINKS']=true when
+        # running rspec.
         it 'is a valid image url', :check_links do
           expect(collection.thumbnail_url).to be_a_valid_image_url
         end
