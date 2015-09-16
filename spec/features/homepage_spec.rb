@@ -2,10 +2,20 @@ require 'rails_helper'
 #require_relative '../support/validation_helper'
 
 describe 'Homepage' do
-  it 'has expected content' do
-    visit '/'
 
+  let(:important_text) do
+    [
+      "Over 50 years of footage, images, and web content from WGBH Boston",
+      "Find Extensive Content in the WGBH Collections"
+    ]
+  end
+
+  it 'has all the important text' do
+    visit '/'
     expect(page.status_code).to eq(200)
-    expect(page).to have_text('Explore WGBH Collections')
+    # TODO: find a way to do case insensitive match
+    important_text.each do |text|
+      expect(page).to have_text(text)  
+    end
   end
 end
