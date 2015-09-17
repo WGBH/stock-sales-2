@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/wgbhstocksales.org/clip_1.png)
+![American Archive of Public Broadcasting](https://s3.amazonaws.com/wgbhstocksales.org/content/AAPB_logo_348x196.png)
 
 ## Blurb
 

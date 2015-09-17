@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/wgbhstocksales.org/clip_1.png)
+![Frontline - Muslim Protester](https://s3.amazonaws.com/wgbhstocksales.org/content/Muslim+Protester_348x196.png)
 
 ## Blurb
 

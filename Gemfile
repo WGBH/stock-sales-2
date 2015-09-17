@@ -50,3 +50,8 @@ gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
 
 gem 'simplecov', :require => false, :group => :test
+
+group :development, :test do
+  gem 'pry'
+  gem 'faraday'
+end

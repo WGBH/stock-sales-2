@@ -2,7 +2,7 @@
 
 1
 
-![](https://s3.amazonaws.com/wgbhstocksales.org/clip_1.png)
+![Julia Child cooking shellfish](https://s3.amazonaws.com/wgbhstocksales.org/content/JuliaWithShellfish_348x196.png)
 
 ## Blurb
 

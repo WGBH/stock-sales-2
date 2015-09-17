@@ -2,8 +2,6 @@
 
 2
 
-![](https://s3.amazonaws.com/wgbhstocksales.org/clip_2.png)
-
 ## Blurb
 
 WGBH Archives official website Interviews and in depth program content

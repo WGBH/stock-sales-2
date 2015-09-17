@@ -85,4 +85,6 @@ RSpec.configure do |config|
 #   # test failures related to randomization by passing the same `--seed` value
 #   # as the one that triggered the failure.
 #   Kernel.srand config.seed
+
+  config.filter_run_excluding :check_links unless !!ENV['RSPEC_CHECK_LINKS']
 end
