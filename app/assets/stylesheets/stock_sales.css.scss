@@ -1,12 +1,112 @@
-ul.navbar-right {
-  li.contact {
-    a { color: #BDBA21; }
-  }
+body {
+    font-family: Whitney;  
+}
 
-  // Mimick Blacklight style for [ul.navbar > li > a]
-  // for navbar-right items that aren't links.
-  li.not_a_link {
-    color: #BDBA21;
-    padding: 15px 10px;
-  }
+p .tagline {
+    font-family: Minion Pro; 
+    font-style: medium italic;
+    font-size: 1.5em; /*24/16px*/;
+    line-height:  2em; /*32/16px*/;
+    color: #FFF;
+}
+
+h .box .header {
+    font-style: semibold;
+    font-size: 1.125em; /*18/16px*/;
+    line-height:  1.375em; /*22/16px*/;
+    text-transform: upper-case;
+    text-align: centered;
+    color: #FFF;
+}
+
+p .prompt {
+    font-family: Minion Pro; 
+    font-style: regular;
+    font-size: 0.9375em; /*15/16px*/;
+    line-height: 1.375em; /*22/16px*/;
+    color: #000;
+}
+
+.keyword {
+    font-style: book;
+    font-size: 1.125em; /*18/16px*/;
+    color: #063763;
+    background-color: #939598;
+}
+
+h .collection .name /*homepage*/ {
+    font-style: semibold;
+    font-size: 1.125em; /*18/16px*/;
+    color: #000;
+}
+
+/*
+  What's the intention here?
+H “WGBH COLLECTION” {
+font-family: Whitney; 
+font-style: semibold;
+font-size: 1em; 16/16px;
+font-transform: upper-case;
+color: #063763;
+}*/
+
+h .collection .name .big /*Collection page*/ {
+    font-style: semibold;
+    font-size: 4.5em; /*72/16px*/;
+    text-transform: upper-case;
+    color: #FFF;
+}
+
+p .collection .description {
+    font-family: Minion Pro;
+    font-style: semibold;
+    font-size: 1.375em; /*22/16px*/;
+    line-height:  1.875em; /*30/16px*/;
+    color: #FFF;
+}
+
+h .asset .id {
+    font-style: medium;
+    font-size: 1em; /*16/16px*/;
+    color: #000;
+}
+
+// TODO: Is there a page level class that distinguishes this?
+h .asset .id /*asset page*/{
+    font-style: semibold;
+    font-size: 1.25em; /*20/16px*/;
+    color: #000;
+}
+
+h .asset .title /*asset page*/{
+    font-style: semibold;
+    font-size: 1.875em; /*30/16px*/;
+    color: #000;
+}
+
+h .label {
+    font-style: semibold;
+    font-size: 0.875em; /*14/16px*/;
+    color: #6D6E71;
+    background-color: #E6E7E8;
+}
+
+p .description {
+    font-style: medium;
+    font-size: 1em; /*16/16px*/;
+    line-height: 1.5em; /*24/16px*/;
+    color: #000;
+}
+
+ul.navbar-right {
+    li.contact {
+        a { color: #BDBA21; }
+    }
+
+    // Mimick Blacklight style for [ul.navbar > li > a]
+    // for navbar-right items that aren't links.
+    li.not_a_link {
+        color: #BDBA21;
+        padding: 15px 10px;
+    }
 }
