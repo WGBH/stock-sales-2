@@ -1,8 +1,10 @@
 class Collection < Cmless
   ROOT = File.expand_path('../views/collections', File.dirname(__FILE__))
-  attr_reader :grid_html
   attr_reader :head_html
-  attr_reader :blurb_html
+  attr_reader :short_html
+  attr_reader :long_html
+  attr_reader :links_html
+  attr_reader :grid_html
 
   PLACEHOLDER_THUMBNAIL = 'http://placehold.it/272x152'
   
@@ -11,13 +13,6 @@ class Collection < Cmless
       Nokogiri::HTML(head_html).xpath('//img[1]/@src').first.text
   rescue
     PLACEHOLDER_THUMBNAIL
-  end
-  
-  def order
-    @order ||= begin
-      i = Nokogiri::HTML(head_html).text.to_i
-      i == 0 ? Float::INFINITY : i
-    end
   end
   
   def grid_items

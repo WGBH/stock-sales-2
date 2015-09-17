@@ -43,7 +43,7 @@ gem 'blacklight'
 gem "rsolr", "~> 1.0.6"
 gem 'jettywrapper', '~> 1.7'
 
-gem 'cmless', '0.0.3'
+gem 'cmless', '0.0.8'
 
 gem 'rspec', :group => :test
 gem 'rspec-rails', :group => :test
