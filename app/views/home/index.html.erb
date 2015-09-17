@@ -16,7 +16,7 @@
     
       <div class="row">
         <% @collections.each do |collection| %>
-          <div class="col-md-5" style="float: left;" <%# Float for two columns when narrow. %> >
+          <div class="col-md-4" style="float: left;" <%# Float for two columns when narrow. %> >
             <a href="/collections/<%= collection.path %>" class="thumb">
               <%# TODO: Get rid of BRs and do it the right way. %>
               <img src="<%= collection.thumbnail_url %>"><br/>
