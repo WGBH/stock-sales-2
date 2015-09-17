@@ -2,7 +2,6 @@
 
 $grid-gutter-width: 25px;
 $container-large-desktop: (1200px + $grid-gutter-width);
-$body-bg: #063763;
 $screen-lg: $container-large-desktop; // Default is just 1200px, so our wide graphic was being chomped.
 
 // Local variables:
@@ -20,7 +19,7 @@ $well-padding: 19px; // hardcoded internally.
 // CSS overrides:
 
 .container {
-    background: #DEE5F0;
+    background: $light-blue;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -80,7 +79,7 @@ nav, nav a {
 }
 
 .container.top {
-    background: #5174B4;
+    background: $med-blue;
 }
 
 .top h1 {
