@@ -1,20 +1,4 @@
-<div class="container top">
-
-  <div class="row">
-    <div class="col-md-6">
-      <img src="logo-big.png" alt="WGBH Stock Sales &amp; Licensing"/>
-    </div>
-    <div class="col-md-6 pull-right blurb">
-      Over 50 years of<br/>
-      footage, images, and web content<br/>
-      from WGBH Boston
-    </div>
-  </div>
-
-</div>
-<div>
-  <img src="http://placehold.it/1225x230">
-</div>
+<%= render partial: 'home/masthead' %>
 
 <br/>
 
@@ -22,25 +6,17 @@
 
   <div class="row">  
 
-    <div class="col-md-4 pull-right" id="home-right">
-      <%# 
-          Put this first in DOM so small devices get a call to action up top. 
-          TODO: Padding isn't quite right when narrow.
-      %>
- 
-      <%= render partial: 'shared/sidebar' %>
-
-    </div>
+    <div class="col-md-12" id="home-left">
     
-    <div class="col-md-11 pull-left" id="home-left">
       <div class="well">
         <div class="head">
           Find Extensive Content in the WGBH Collections
         </div>
       </div>
+    
       <div class="row">
         <% @collections.each do |collection| %>
-          <div class="col-md-5" style="float: left;" <%# Float for two columns when narrow. %> >
+          <div class="col-md-4" style="float: left;" <%# Float for two columns when narrow. %> >
             <a href="/collections/<%= collection.path %>" class="thumb">
               <%# TODO: Get rid of BRs and do it the right way. %>
               <img src="<%= collection.thumbnail_url %>"><br/>
@@ -49,7 +25,9 @@
             </a>
           </div>
         <% end %>
+    
       </div>
+    
     </div>
     
   </div>
