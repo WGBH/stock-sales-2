@@ -1,43 +1,60 @@
 <div class="container top">
-
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-4">
       <p class="head">WGBH Collection</p>
-      <h1 class="col-md-offset-2"><img src="<%= @collection.thumbnail_url %>"/></h1>
+      <h1 class="col-md-offset-2"><%= @collection.title %></h1>
     </div>
-    <div class="col-md-10 pull-right blurb">
-      <%= @collection.long_html.html_safe %>
+    <div class="col-md-8">
+      <%= @collection.short_html.html_safe %>
     </div>
   </div>
-
 </div>
 
 <br/>
 
 <div class="container">
-
-  <div class="row">  
-    
-    <div class="col-md-11 pull-left" id="home-left">
-      <% @collection.grid_items.each do |item| %>
-        <div class="col-md-5" style="float: left;" <%# Float for two columns when narrow. %> >
-          <a href="<%= item.url %>" class="thumb">
-            <%# TODO: Get rid of BRs and do it the right way. %>
-            <img src="<%= item.thumbnail_url %>"><br/>
-            <%= item.title %><br/>
-            <small><%= item.subtitle %></small><br/><br/>
-          </a>
-        </div>
-      <% end %>
+  <div class="row"> 
+    <div class="col-md-8">
+      <%= @collection.long_html.html_safe %>
     </div>
-    
-    <div class="col-md-4" id="home-right">
-      <p>TODO: Is this right? Same search options as on the homepage?
-        Or maybe we don't want to steer folks in that direction?</p>
- 
-      <%= render partial: 'shared/sidebar' %>
-
+    <div class="col-md-4">
+      <div>
+        TODO: SEARCH
+      </div>
+      <div>
+        <h4>Helpful Links</h4>
+        <%= @collection.links_html.html_safe %>
+      </div>
     </div>
-    
+  </div>
+  
+  <div class="row">
+    <% @collection.grid_items.each do |item| %>
+      <div class="col-md-4" >
+        <a href="<%= item.url %>" class="thumb">
+          <%# TODO: Get rid of BRs and do it the right way. %>
+          <img src="<%= item.thumbnail_url %>"><br/>
+          <%= item.title %><br/>
+          <small><%= item.subtitle %></small><br/><br/>
+        </a>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<br/>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" >
+      License Footage from WGBH Programs
+    </div>
+    <div class="col-md-4" >
+      Search WGBH Interviews and more
+      from WGBH Archives Open Vault
+    </div>
+    <div class="col-md-4" >
+      Search over 10,000 WGBH clips
+    </div>
   </div>
 </div>
