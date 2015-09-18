@@ -1,9 +1,9 @@
-body {
+html > body {
     font-family: Whitney;  
 }
 
 p .tagline {
-    font-family: Minion Pro; 
+    font-family: imsoncray-exttay-semibolditalic; 
     font-style: medium italic;
     font-size: 1.5em; /*24/16px*/;
     line-height:  2em; /*32/16px*/;
@@ -20,7 +20,7 @@ h .box .header {
 }
 
 p .prompt {
-    font-family: Minion Pro; 
+    font-family: imsoncray-exttay-regular; 
     font-style: regular;
     font-size: 0.9375em; /*15/16px*/;
     line-height: 1.375em; /*22/16px*/;
@@ -58,7 +58,7 @@ h .collection .name .big /*Collection page*/ {
 }
 
 p .collection .description {
-    font-family: Minion Pro;
+    font-family: imsoncray-exttay-semibold;
     font-style: semibold;
     font-size: 1.375em; /*22/16px*/;
     line-height:  1.875em; /*30/16px*/;
@@ -99,7 +99,36 @@ p .description {
 }
 
 
+/*
 
+Latest from design
+
+P descriptionhome page{
+font-family: Whitney;
+font-style: medium;
+font-size: 1em; 18/16px;
+line-height: 1.12em; 24/16px;
+color: #000;
+
+}H Helpful Links collection page {
+font-family: Whitney; 
+font-style: medium;
+font-size: 1.125em; 18/16px;
+color: #000;
+}
+
+P main description collection page {
+font-family: Whitney;
+font-style: book;
+font-size: 1.25 em; 20/16px;
+line-height: 1.75em; 28/16px;
+color: #000;
+}
+
+*/
+
+
+@import "fonts";
 @import "colors";
 @import "utility";
 @import "masthead";
