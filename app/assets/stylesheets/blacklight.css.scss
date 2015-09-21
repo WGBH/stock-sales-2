@@ -20,7 +20,6 @@ $well-padding: 19px; // hardcoded internally.
 
 .container {
     background: $light-blue;
-    padding-top: 25px;
     padding-bottom: 25px;
 }
 
@@ -29,14 +28,11 @@ $well-padding: 19px; // hardcoded internally.
     background: $body-bg;
 }
 
-.head {
-    text-transform: uppercase;
-}  
-
 div.head {
     text-align: center;
     padding: 13px;
-    margin: -$well-padding;
+    text-transform: uppercase;
+    margin-bottom: $well-padding;
 }
 
 .body {
@@ -54,7 +50,7 @@ div.head {
     background: #EA6014;
 }
 
-#home-left .head {
+#grid .head {
     background: #F5BA55;
     color: #FFF
 }
