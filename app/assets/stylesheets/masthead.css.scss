@@ -10,6 +10,7 @@
   .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
+    background-color: $dark-blue; // Just so the out-links on the right are bounded.
   }
 
   .top-row {
@@ -19,12 +20,23 @@
 
   .tagline {
     font-family: 'Crimson Text', serif;
-    font-size: 25px;
+    font-size: 23px;
     font-style: italic;
     color: #FFF;
   }
 
   .sidebox {
-    margin-top: 10px;
+    margin: 20px 0px 20px 20px;
+    background-color: $light-blue;
+    .head {
+      margin: 0px;
+    }
+    .body {
+      margin-top: 0px; // Override default of $well-padding * 2;
+      .well {
+        margin: 15px 10px;
+      }
+      padding-bottom: 15px;
+    }
   }
 }
