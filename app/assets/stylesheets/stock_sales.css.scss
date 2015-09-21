@@ -1,9 +1,9 @@
 html > body {
-    font-family: "Whitney SSm A", "Whitney SSm B";  
+    font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;  
 }
 
 p .tagline {
-    font-family: imsoncray-exttay-semibolditalic; 
+    font-family: 'Crimson Text', serif; 
     font-style: medium italic;
     font-size: 1.5em; /*24/16px*/;
     line-height:  2em; /*32/16px*/;
@@ -20,7 +20,7 @@ h .box .header {
 }
 
 p .prompt {
-    font-family: imsoncray-exttay-regular; 
+    font-family: 'Crimson Text', serif; 
     font-style: regular;
     font-size: 0.9375em; /*15/16px*/;
     line-height: 1.375em; /*22/16px*/;
@@ -58,7 +58,7 @@ h .collection .name .big /*Collection page*/ {
 }
 
 p .collection .description {
-    font-family: imsoncray-exttay-semibold;
+    font-family: 'Crimson Text', serif;
     font-style: semibold;
     font-size: 1.375em; /*22/16px*/;
     line-height:  1.875em; /*30/16px*/;
