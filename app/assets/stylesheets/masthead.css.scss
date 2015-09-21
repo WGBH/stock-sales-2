@@ -36,7 +36,11 @@
       .well {
         margin: 15px 10px;
       }
-      padding-bottom: 15px;
+      input {
+        background: #F5F5F5;
+        color: #000;
+      }
+      padding-bottom: 15px; // Last well was flush to bottom.
     }
   }
 }
