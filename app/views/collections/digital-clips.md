@@ -10,6 +10,10 @@
 
 Rights ready clips
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 Our rights ready digital clip collection was created from WGBH’s most well known 

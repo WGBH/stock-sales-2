@@ -10,6 +10,10 @@
 
 Recently added content
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 Visit this part of our site to see what’s been recently added to our collection

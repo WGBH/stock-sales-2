@@ -13,6 +13,10 @@
 Science & Technology<br/>
 Video shorts, Interactives, Web Content, podcasts
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 NOVA : The longest running SCIENCE documentary series on television, broadcast since 1974.  

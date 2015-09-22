@@ -11,6 +11,10 @@
 American History, Timelines, Articles<br/>
 Biographies, Maps
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 American Experience is television’s most watched history series which has been 

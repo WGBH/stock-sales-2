@@ -11,6 +11,10 @@
 The Machine that Changed the World, Rx For Survival,<br/>
 Africans in America, Age of Columbus, and more
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 For many years WGBH produced a large number of critically acclaimed “limited”

@@ -11,6 +11,10 @@
 Our most famous PBS personality;<br/>
 The French Chef and Dinner with Julia series
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 Julia Child got her start in television at WGBH in 1963, with Season One of the 

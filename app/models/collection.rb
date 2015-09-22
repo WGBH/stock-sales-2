@@ -2,6 +2,7 @@ class Collection < Cmless
   ROOT = File.expand_path('../views/collections', File.dirname(__FILE__))
   attr_reader :head_html
   attr_reader :short_html
+  attr_reader :medium_html
   attr_reader :long_html
   attr_reader :links_html
   attr_reader :grid_html

@@ -11,6 +11,10 @@
 Boston footage, WGBH 10:00 News, the Blizzard of 1978,<br/>
 The Big Dig, Whitey Bulger and more
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 WGBH’s local programming is rich and varied and includes many excellent series 

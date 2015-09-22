@@ -11,6 +11,10 @@
 James Brown at the Boston Garden. Jazz, Classical,<br/>
 Blues, Funk, Soul, Latin and Pop music.
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 The WGBH music collection consists of interviews with musicians, archival 

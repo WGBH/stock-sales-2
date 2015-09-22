@@ -11,6 +11,10 @@
 40,000 hours of public television and radio<br/>
 programs, including The WGBH Collection
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 The newly launched website of the American Archive of Public Broadcasting (AAPB)

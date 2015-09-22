@@ -11,6 +11,10 @@
 News & investigative reporting<br/>
 Streaming programs, articles, video shorts, interviews
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 Frontline: Television’s top rated **NEWS** and **INVESTIGATIVE** documentary series, 

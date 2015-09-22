@@ -11,6 +11,10 @@
 Tennis at Longwood, the Boston Marathon, the Celtics.<br/>
 Golf and Ice Skating
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 Did you know that WGBH was the first television channel to broadcast professional 

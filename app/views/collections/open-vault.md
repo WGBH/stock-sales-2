@@ -11,6 +11,10 @@
 WGBH Archives official website<br/>
 Interviews and in depth program content 
 
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
+
 ## Long
 
 ### INTERVIEWS, ground-breaking WGBH television series
