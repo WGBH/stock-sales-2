@@ -2,33 +2,30 @@
 
 <br/>
 
-<div class="container">
+<div class="container" id="grid">
 
-  <div class="row">  
-
-    <div class="col-md-12" id="home-left">
-    
-      <div class="well">
-        <div class="head">
+  <div class="row no-gutter">  
+    <div class="col-md-12 head">
           Find Extensive Content in the WGBH Collections
-        </div>
-      </div>
-    
+    </div>
+  </div>
+      
+  <div class="row">  
+    <div class="col-md-12">
       <% @collections.each_slice(3) do |triple| %>
         <div class="row">
           <% triple.each do |collection| %>
             <div class="col-md-4">
               <a href="/collections/<%= collection.path %>" class="thumb">
                 <%# TODO: Get rid of BRs and do it the right way. %>
-                <img src="<%= collection.thumbnail_url %>"><br/>
-                <%= collection.title %><br/>
+                <img src="<%= collection.thumb_src %>"><br/>
+                <b><%= collection.title %></b><br/>
                 <%= collection.short_html.html_safe %><br/>
               </a>
             </div>
           <% end %>
         </div>
       <% end %>
-    
     </div>
   </div>
 </div>

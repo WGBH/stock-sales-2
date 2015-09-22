@@ -6,14 +6,16 @@ class Collection < Cmless
   attr_reader :links_html
   attr_reader :grid_html
 
-  PLACEHOLDER_THUMBNAIL = 'http://placehold.it/272x152'
-  
-  def thumbnail_url
-    @thumbnail_url ||=
+  def thumb_src
+    @thumb_src ||=
       Nokogiri::HTML(head_html).xpath('//img[1]/@src').first.text
-  rescue
-    PLACEHOLDER_THUMBNAIL
   end
+  
+  def splash_src
+    @splash_src ||=
+      Nokogiri::HTML(head_html).xpath('//img[2]/@src').first.text
+  end
+  
   
   def grid_items
     @grid_items ||= begin

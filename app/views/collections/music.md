@@ -2,6 +2,10 @@
 
 9
 
+![](http://placehold.it/348x196)
+
+![](http://placehold.it/770x433)
+
 ## Short
 
 James Brown at the Boston Garden. Jazz, Classical,<br/>

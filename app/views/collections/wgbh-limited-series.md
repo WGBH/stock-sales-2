@@ -2,6 +2,10 @@
 
 11
 
+![](http://placehold.it/348x196)
+
+![](http://placehold.it/770x433)
+
 ## Short
 
 The Machine that Changed the World, Rx For Survival,<br/>

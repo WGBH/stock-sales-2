@@ -2,7 +2,9 @@
 
 5
 
-![American Archive of Public Broadcasting](https://s3.amazonaws.com/wgbhstocksales.org/content/AAPB_logo_348x196.png)
+![](http://placehold.it/348x196)
+
+![](http://placehold.it/770x433)
 
 ## Short
 
