@@ -28,6 +28,10 @@ $well-padding: 19px; // hardcoded internally.
     background: $body-bg;
 }
 
+.navbar .head {
+   text-transform: uppercase; 
+}
+
 div.head {
     text-align: center;
     padding: 13px;

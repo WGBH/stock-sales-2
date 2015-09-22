@@ -2,9 +2,9 @@
 
 8
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![Julia Child cooking shellfish](https://s3.amazonaws.com/wgbhstocksales.org/content/JuliaWithShellfish_348x196.png)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/JuliaWithShellfish_348x196.png)
 
 ## Short
 

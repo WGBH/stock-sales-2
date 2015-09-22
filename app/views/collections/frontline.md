@@ -2,9 +2,9 @@
 
 2
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
 
 ## Short
 

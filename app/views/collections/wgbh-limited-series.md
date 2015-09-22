@@ -2,9 +2,9 @@
 
 11
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![](http://placehold.it/770x433)
+![splash](http://placehold.it/770x433)
 
 ## Short
 

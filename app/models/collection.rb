@@ -8,12 +8,12 @@ class Collection < Cmless
 
   def thumb_src
     @thumb_src ||=
-      Nokogiri::HTML(head_html).xpath('//img[1]/@src').first.text
+      Nokogiri::HTML(head_html).xpath('//img[@alt="thumb"]/@src').first.text
   end
   
   def splash_src
     @splash_src ||=
-      Nokogiri::HTML(head_html).xpath('//img[2]/@src').first.text
+      Nokogiri::HTML(head_html).xpath('//img[@alt="splash"]/@src').first.text
   end
   
   
