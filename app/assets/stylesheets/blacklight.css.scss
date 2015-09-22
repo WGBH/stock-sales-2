@@ -110,3 +110,7 @@ input {
 p {
     margin: 1em 0em 1em; // Blacklight sets a default with no padding above?
 }
+
+.thumb p {
+    margin: 0; // no margin below thumbs.
+}

@@ -35,3 +35,7 @@ Search, Browse and Discover!
 - [LINK to WGBH Collection](http://americanarchive.org/catalog?f[organization][]=WGBH+%28MA%29)
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

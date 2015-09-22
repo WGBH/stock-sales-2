@@ -32,3 +32,7 @@ programs on its site, organized by broadcast year.
 - [Frontline/World episode guide](http://www.pbs.org/frontlineworld/about/episodeguide.html)
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

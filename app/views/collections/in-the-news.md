@@ -23,3 +23,7 @@ story from our library.  This month we focus on President Jimmy Carter, XXXX,  a
 ## Links
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

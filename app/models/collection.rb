@@ -41,7 +41,7 @@ class Collection < Cmless
         OpenStruct.new(
           title: title, 
           subtitle: subtitle, 
-          thumbnail_url: li.xpath('img/@src'),
+          thumb_src: li.xpath('img/@src'),
           url: li.xpath('a/@href').text
         )
       end
