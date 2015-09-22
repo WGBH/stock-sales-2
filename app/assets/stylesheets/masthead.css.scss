@@ -26,21 +26,6 @@
   }
 
   .call_to_action {
-    margin: 20px 0px 20px 20px;
-    background-color: $light-blue;
-    .head {
-      margin: 0px;
-    }
-    .body {
-      margin-top: 0px; // Override default of $well-padding * 2;
-      .well {
-        margin: 15px 10px;
-      }
-      input {
-        background: #F5F5F5;
-        color: #000;
-      }
-      padding-bottom: 15px; // Last well was flush to bottom.
-    }
+    margin: 20px 0px 20px 20px; // darkblue background around box.
   }
 }
