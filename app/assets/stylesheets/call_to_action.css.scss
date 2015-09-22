@@ -1,0 +1,24 @@
+.call_to_action {
+    background: $light-blue;
+    .head {
+        margin: 0px;
+        background: $light-green;
+        color: #FFF
+    }
+    .body {
+        margin-top: 0px; // Override default of $well-padding * 2;
+        background: $light-blue;
+        .well {
+            margin: 15px 10px;
+            height: 7em;
+            img {
+                float: right;
+            }
+        }
+        input {
+            background: #F5F5F5;
+            color: #000;
+        }
+        padding-bottom: 15px; // Last well was flush to bottom.
+    }
+}

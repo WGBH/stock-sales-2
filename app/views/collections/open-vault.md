@@ -2,14 +2,18 @@
 
 4
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![](http://placehold.it/770x433)
+![splash](http://placehold.it/770x433)
 
 ## Short
 
 WGBH Archives official website<br/>
 Interviews and in depth program content 
+
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
 
 ## Long
 
@@ -36,3 +40,7 @@ the “Browse: Series” button on the Open Vault site.
 ## Links
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

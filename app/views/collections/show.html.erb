@@ -1,11 +1,20 @@
 <div class="container top">
+  
+  <p class="head">WGBH Collection</p>
   <div class="row">
     <div class="col-md-4">
-      <p class="head">WGBH Collection</p>
-      <h1 class="col-md-offset-2"><%= @collection.title %></h1>
+      <h1 class="col-md-offset-1">
+        <% if @collection.logo_src %>
+          <img src="<%= @collection.logo_src %>" alt="logo"/>
+        <% else %>
+          <%= @collection.title %>
+        <% end %>
+      </h1>
     </div>
-    <div class="col-md-8">
-      <%= @collection.short_html.html_safe %>
+    <div class="col-md-8 pull-right">
+      <div class="tagline">
+        <%= @collection.medium_html.html_safe %>
+      </div>
     </div>
   </div>
 </div>
@@ -15,12 +24,12 @@
 <div class="container">
   <div class="row"> 
     <div class="col-md-8">
+      <% if @collection.logo_src %>
+        <p><img src="<%= @collection.splash_src %>" alt="splash"/></p>
+      <% end %>
       <%= @collection.long_html.html_safe %>
     </div>
     <div class="col-md-4">
-      <div>
-        TODO: SEARCH
-      </div>
       <div>
         <h4>Helpful Links</h4>
         <%= @collection.links_html.html_safe %>
@@ -30,14 +39,7 @@
   
   <div class="row">
     <% @collection.grid_items.each do |item| %>
-      <div class="col-md-4" >
-        <a href="<%= item.url %>" class="thumb">
-          <%# TODO: Get rid of BRs and do it the right way. %>
-          <img src="<%= item.thumbnail_url %>"><br/>
-          <%= item.title %><br/>
-          <small><%= item.subtitle %></small><br/><br/>
-        </a>
-      </div>
+      <%= render partial: 'shared/thumb_3', locals: { item: item } %>
     <% end %>
   </div>
 </div>
@@ -45,16 +47,7 @@
 <br/>
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-4" >
-      License Footage from WGBH Programs
-    </div>
-    <div class="col-md-4" >
-      Search WGBH Interviews and more
-      from WGBH Archives Open Vault
-    </div>
-    <div class="col-md-4" >
-      Search over 10,000 WGBH clips
-    </div>
+  <div class="row no-gutter">
+    <%= render partial: 'shared/call_to_action' %>
   </div>
 </div>

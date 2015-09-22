@@ -2,14 +2,18 @@
 
 2
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
 
 ## Short
 
 News & investigative reporting<br/>
 Streaming programs, articles, video shorts, interviews
+
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
 
 ## Long
 
@@ -28,3 +32,7 @@ programs on its site, organized by broadcast year.
 - [Frontline/World episode guide](http://www.pbs.org/frontlineworld/about/episodeguide.html)
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

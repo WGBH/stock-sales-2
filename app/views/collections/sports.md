@@ -2,14 +2,18 @@
 
 10
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![](http://placehold.it/770x433)
+![splash](http://placehold.it/770x433)
 
 ## Short
 
 Tennis at Longwood, the Boston Marathon, the Celtics.<br/>
 Golf and Ice Skating
+
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
 
 ## Long
 
@@ -29,3 +33,7 @@ Tom “Satch” Sanders, Jim Brown, Luis Tiant, Phil Esposito and Bobby Orr.
 - Download PDF of WGBH Sports collection
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

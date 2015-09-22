@@ -1,0 +1,10 @@
+<div class="col-md-4">
+  <a href="/collections/<%= item.path %>" class="thumb">
+    <%# TODO: Get rid of BRs and do it the right way. %>
+    <img src="<%= item.thumb_src %>"><br/>
+    <b><%= item.title.html_safe %></b><br/>
+    <% if item.short_html %>
+      <%= item.short_html.html_safe %><br/>
+    <% end %>
+  </a>
+</div>

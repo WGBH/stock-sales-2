@@ -28,6 +28,10 @@ $well-padding: 19px; // hardcoded internally.
     background: $body-bg;
 }
 
+.navbar .head {
+   text-transform: uppercase; 
+}
+
 div.head {
     text-align: center;
     padding: 13px;
@@ -101,4 +105,12 @@ input {
 
 .inline-icon {
     height: 1em;
+}
+
+p {
+    margin: 1em 0em 1em; // Blacklight sets a default with no padding above?
+}
+
+.thumb p {
+    margin: 0; // no margin below thumbs.
 }

@@ -2,14 +2,18 @@
 
 8
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![Julia Child cooking shellfish](https://s3.amazonaws.com/wgbhstocksales.org/content/JuliaWithShellfish_348x196.png)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/JuliaWithShellfish_348x196.png)
 
 ## Short
 
 Our most famous PBS personality;<br/>
 The French Chef and Dinner with Julia series
+
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
 
 ## Long
 
@@ -31,3 +35,7 @@ from the set, and/or screen grabs from the programs.
 - [Schlesinger library – Paul Child stills](http://tinyurl.com/9lv329u)
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

@@ -2,14 +2,18 @@
 
 7
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![](http://placehold.it/770x433)
+![splash](http://placehold.it/770x433)
 
 ## Short
 
 Boston footage, WGBH 10:00 News, the Blizzard of 1978,<br/>
 The Big Dig, Whitey Bulger and more
+
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
 
 ## Long
 
@@ -35,3 +39,7 @@ Contact us for more information.
 - [WGBH 10:00 News](http://bostonlocaltv.org/wgbh)
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

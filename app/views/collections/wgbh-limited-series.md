@@ -2,14 +2,18 @@
 
 11
 
-![](http://placehold.it/348x196)
+![thumb](http://placehold.it/348x196)
 
-![](http://placehold.it/770x433)
+![splash](http://placehold.it/770x433)
 
 ## Short
 
 The Machine that Changed the World, Rx For Survival,<br/>
 Africans in America, Age of Columbus, and more
+
+## Medium
+
+TODO: Medium-length blurb for banner goes here.
 
 ## Long
 
@@ -33,3 +37,7 @@ and coverage of their particular subject.
 - [Science Odyssey (s)](http://www.pbs.org/wgbh/aso/tvseries/promo/program.html)
 
 ## Grid
+
+- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](http://placehold.it/348x196)

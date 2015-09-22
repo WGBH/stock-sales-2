@@ -15,14 +15,7 @@
       <% @collections.each_slice(3) do |triple| %>
         <div class="row">
           <% triple.each do |collection| %>
-            <div class="col-md-4">
-              <a href="/collections/<%= collection.path %>" class="thumb">
-                <%# TODO: Get rid of BRs and do it the right way. %>
-                <img src="<%= collection.thumb_src %>"><br/>
-                <b><%= collection.title %></b><br/>
-                <%= collection.short_html.html_safe %><br/>
-              </a>
-            </div>
+            <%= render partial: 'shared/thumb_3', locals: { item: collection } %>
           <% end %>
         </div>
       <% end %>
