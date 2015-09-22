@@ -2,7 +2,9 @@
 
 2
 
-![Frontline - Muslim Protester](https://s3.amazonaws.com/wgbhstocksales.org/content/Muslim+Protester_348x196.png)
+![](http://placehold.it/348x196)
+
+![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
 
 ## Short
 

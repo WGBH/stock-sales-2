@@ -2,6 +2,10 @@
 
 3
 
+![](http://placehold.it/348x196)
+
+![](http://placehold.it/770x433)
+
 ## Short
 
 American History, Timelines, Articles<br/>

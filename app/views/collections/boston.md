@@ -2,7 +2,9 @@
 
 7
 
-![WGBH's Ten O'clock News](https://s3.amazonaws.com/wgbhstocksales.org/content/TOCN1_348x196.png)
+![](http://placehold.it/348x196)
+
+![](http://placehold.it/770x433)
 
 ## Short
 
