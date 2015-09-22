@@ -106,3 +106,7 @@ input {
 .inline-icon {
     height: 1em;
 }
+
+p {
+    margin: 1em 0em 1em; // Blacklight sets a default with no padding above?
+}
