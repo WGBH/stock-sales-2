@@ -39,14 +39,7 @@
   
   <div class="row">
     <% @collection.grid_items.each do |item| %>
-      <div class="col-md-4" >
-        <a href="<%= item.url %>" class="thumb">
-          <%# TODO: Get rid of BRs and do it the right way. %>
-          <img src="<%= item.thumb_src %>"><br/>
-          <b><%= item.title %></b><br/>
-          <%= item.subtitle %><br/>
-        </a>
-      </div>
+      <%= render partial: 'shared/thumb_3', locals: { item: item } %>
     <% end %>
   </div>
 </div>

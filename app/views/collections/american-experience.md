@@ -31,8 +31,6 @@ of third party material, which has been licensed from other sources.
 
 ## Grid
 
-## Grid
-
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title 1 | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title 2](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title 3](/TODO) ![](http://placehold.it/348x196)
