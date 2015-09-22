@@ -21,18 +21,15 @@ class Collection < Cmless
   public
   
   def thumb_src
-    @thumb_src ||=
-      img_src('thumb')
+    @thumb_src ||= img_src('thumb')
   end
   
   def splash_src
-    @splash_src ||=
-      img_src('splash')
+    @splash_src ||= img_src('splash')
   end
   
   def logo_src
-    @logo_src ||=
-      img_src('logo')
+    @logo_src ||= img_src('logo')
   end
   
   
