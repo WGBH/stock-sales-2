@@ -6,14 +6,33 @@ class Collection < Cmless
   attr_reader :links_html
   attr_reader :grid_html
 
+  private
+  
+  def img_src(alt)
+    Nokogiri::HTML(head_html).xpath("//img[@alt='#{alt}']/@src").first.tap do |optional|
+      if optional
+        return optional.text
+      else
+        return nil
+      end
+    end
+  end
+  
+  public
+  
   def thumb_src
     @thumb_src ||=
-      Nokogiri::HTML(head_html).xpath('//img[@alt="thumb"]/@src').first.text
+      img_src('thumb')
   end
   
   def splash_src
     @splash_src ||=
-      Nokogiri::HTML(head_html).xpath('//img[@alt="splash"]/@src').first.text
+      img_src('splash')
+  end
+  
+  def logo_src
+    @logo_src ||=
+      img_src('logo')
   end
   
   

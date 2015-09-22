@@ -2,6 +2,8 @@
 
 1
 
+![logo](http://placehold.it/400x100)
+
 ![thumb](http://placehold.it/348x196)
 
 ![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova_collection_main_770x433.png)
