@@ -1,0 +1,20 @@
+<div class="container" id="grid">
+
+  <div class="row no-gutter">  
+    <div class="col-md-12 head">
+          Find Extensive Content in the WGBH Collections
+    </div>
+  </div>
+      
+  <div class="row">  
+    <div class="col-md-12">
+      <% @collections.each_slice(3) do |triple| %>
+        <div class="row">
+          <% triple.each do |collection| %>
+            <%= render partial: 'shared/thumb_3', locals: { item: collection } %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
