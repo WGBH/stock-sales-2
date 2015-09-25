@@ -1,12 +1,10 @@
-ul.navbar-right {
-  li.contact {
-    a { color: $light-green; }
-  }
+.navbar {
+    li a:hover { // Long match needed to override Blacklight builtin.
+        color: #FFF;
+        background-color: $dark-blue;
+    }
 
-  // Mimick Blacklight style for [ul.navbar > li > a]
-  // for navbar-right items that aren't links.
-  li.not_a_link {
-    color: $light-green;
-    padding: 15px 10px;
-  }
+    .contact {
+        a { color: $light-green; }
+    }
 }

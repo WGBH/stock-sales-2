@@ -18,10 +18,10 @@
 @import "globals/colors";
 @import "globals/utility";
 
+@import 'blacklight'; // Before locals so it can be over-ridden; after globals so it has variables.
+
 @import "locals/masthead";
 @import "locals/navbar";
 @import "locals/call_to_action";
 @import "locals/collection";
 @import "locals/about";
-
-@import 'blacklight';
