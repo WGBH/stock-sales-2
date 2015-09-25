@@ -2,7 +2,7 @@
 
 1
 
-![logo](http://placehold.it/400x100)
+![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-logo.png)
 
 ![thumb](http://placehold.it/348x196)
 
