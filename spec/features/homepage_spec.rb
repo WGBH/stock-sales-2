@@ -5,7 +5,7 @@ describe 'Homepage' do
 
   let(:important_text) do
     [
-      "Over 50 years of footage, images, and web content from WGBH Boston",
+      "Over 50 years of footage, educational media, and web content from WGBH Boston",
       "Find Extensive Content in the WGBH Collections"
     ]
   end
