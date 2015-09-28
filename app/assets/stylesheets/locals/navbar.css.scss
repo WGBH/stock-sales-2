@@ -7,7 +7,26 @@
     .contact {
         a { color: $light-green; }
     }
+
     li > a { // Matching default to override
         padding: 15px 0 0 30px; // TODO: replace with $gutter
     }
+
+    /* 
+      These come from bootstrap/_grid.scss,
+      but we don't want want everything else 
+      that comes with being a container.
+    */
+    @media (min-width: $screen-sm-min) {
+        width: $container-sm;
+    }
+    @media (min-width: $screen-md-min) {
+        width: $container-md;
+    }
+    @media (min-width: $screen-lg-min) {
+        width: $container-lg;
+    }
+    // Centering:
+    margin-right: auto;
+    margin-left: auto;
 }
