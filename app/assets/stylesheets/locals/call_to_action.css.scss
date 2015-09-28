@@ -9,7 +9,7 @@
         margin-top: 0px; // Override default of $well-padding * 2;
         background: $light-blue;
         .well {
-            margin: 15px 10px;
+            margin: $gutter/2 $gutter/4;
             border: 1px solid $light-grey;
             img {
                 float: right;
@@ -20,6 +20,6 @@
             background: $almost-white;
             color: #000;
         }
-        padding-bottom: 15px; // Last well was flush to bottom.
+        padding-bottom: $gutter; // Last well was flush to bottom.
     }
 }
