@@ -1,0 +1,12 @@
+.thumb {
+    img {
+        display: block;
+    }
+    a {
+        display: block;
+        font-weight: bold;
+        margin-top: 0.5em;
+        color: $dark-blue; // This might apply to <a>s more generally
+    }
+    margin-bottom: 1.5em;
+}
