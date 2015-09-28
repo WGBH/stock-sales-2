@@ -4,7 +4,7 @@
 
 ![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-logo.png)
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-thumb.png)
 
 ![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova_collection_main_770x433.png)
 

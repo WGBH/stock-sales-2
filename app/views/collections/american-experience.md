@@ -4,7 +4,7 @@
 
 ![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/amex-logo.png)
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/amex-thumb.png)
 
 ![splash](http://placehold.it/770x433)
 

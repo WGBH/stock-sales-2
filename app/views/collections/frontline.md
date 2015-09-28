@@ -4,7 +4,7 @@
 
 ![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-logo.png)
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-thumb.png)
 
 ![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
 
