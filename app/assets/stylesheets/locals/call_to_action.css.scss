@@ -10,14 +10,14 @@
         background: $light-blue;
         .well {
             margin: 15px 10px;
-            border: 1px solid #D1D3D4;
+            border: 1px solid $light-grey;
             img {
                 float: right;
                 height: 2em;
             }
         }
         input {
-            background: #F5F5F5;
+            background: $almost-white;
             color: #000;
         }
         padding-bottom: 15px; // Last well was flush to bottom.
