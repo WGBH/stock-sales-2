@@ -13,5 +13,15 @@
  *= require_self
  */
 
-@import 'stock_sales';
-@import 'blacklight';
+@import "globals/defaults";
+@import "globals/fonts";
+@import "globals/colors";
+@import "globals/utility";
+
+@import 'blacklight'; // Before locals so it can be over-ridden; after globals so it has variables.
+
+@import "locals/masthead";
+@import "locals/navbar";
+@import "locals/call_to_action";
+@import "locals/collection";
+@import "locals/about";

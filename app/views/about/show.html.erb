@@ -1,27 +1,14 @@
-<div class="container top">
-
-  <div class="row">
-    <div class="col-md-6">
-      <p class="head">maybe &nbsp; > &nbsp; breadcrumbs &nbsp; > &nbsp; here?</p>
-      <h1 class="col-md-offset-2"><%= @about.title %></h1>
-    </div>
-    <div class="col-md-6 pull-right blurb">
-      And we could put<br>
-      more explanation here?
-    </div>
-  </div>
-
-</div>
-
-<br/>
+<h1>
+  <%= @about.title %>
+</h1>
 
 <div class="container">
-
   <div class="row">  
-    
-    <div class="col-md-15">
-      <%= @about.body_html.html_safe %>
+    <div class="col-md-7">
+      <%= @about.main_html.html_safe %>
     </div>
-    
+    <div class="col-md-4 pull-right"
+      TODO: Helpful Links     
+    </div>
   </div>
 </div>

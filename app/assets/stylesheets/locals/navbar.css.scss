@@ -1,0 +1,10 @@
+.navbar {
+    li a:hover { // Long match needed to override Blacklight builtin.
+        color: #FFF;
+        background-color: $dark-blue;
+    }
+
+    .contact {
+        a { color: $light-green; }
+    }
+}
