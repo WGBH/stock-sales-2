@@ -1,3 +1,7 @@
+<% content_for(:page_title) do %>
+  <%= "#{@about.title} | #{t('blacklight.application_name')}" %>
+<% end %>
+
 <h1>
   <%= @about.title %>
 </h1>
