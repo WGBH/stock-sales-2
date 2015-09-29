@@ -5,7 +5,11 @@ Rails.application.routes.draw do
   resources :collections,
     only: [:show]
   
+  resources :contact_us, path: '/about/contact_us',
+    only: [:index, :new]
+  
   resources :about,
     only: [:show]
 
+  
 end
