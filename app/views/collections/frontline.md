@@ -15,15 +15,15 @@ Streaming programs, articles, video shorts, interviews
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+Television’s top rated **NEWS** and **INVESTIGATIVE** documentary series
 
 ## Long
-
-Frontline: Television’s top rated **NEWS** and **INVESTIGATIVE** documentary series, 
-broadcast on WGBH since 1983.   Frontline now airs year round and recently 
-launched an extensive Youtube Channel with short form videos on issues related 
-to their programs.   Frontline also produced “Frontline/World” (2002-2010) 
-which profiled the global community, covering countries and cultures rarely 
+Featuring in-depth investigative journalism, Frontline's coverage of issues has earned it multiple 
+Emmys since it was first broadcast on WGBH in 1983.  The companion website
+contains extensive interviews, teacher resources, video and additional material
+related to the broadcast subjects.  Frontline also recently launched an extensive 
+Youtube Channel with short form videos. From 2002-2010, Frontline produced
+“Frontline/World” which profiled the global community, covering countries and cultures rarely 
 seen on American television.  Frontline streams 189 current and archival 
 programs on its site, organized by broadcast year. 
 
