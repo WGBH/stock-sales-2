@@ -11,7 +11,9 @@
     <div class="collapse navbar-collapse pull-left">
       <% unless controller_name == 'home' %>
         <ul class="nav navbar-nav head">
-          <li><a href="/"><img src="/logo-small.png"/></a></li>
+          <li><a href="/">
+            <%= render file: "#{Rails.root}/app/views/shared/wgbh-logo.svg" %>  
+          </a></li>
         </ul>
      <% end %>
       <%= content_for(:about_links) if controller_name == 'home'%>
