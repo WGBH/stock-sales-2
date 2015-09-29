@@ -26,6 +26,6 @@
   }
 
   .call_to_action {
-    margin: 20px 0px 20px 20px; // darkblue background around box.
+    margin: $gutter 0px $gutter $gutter; // darkblue background around box.
   }
 }
