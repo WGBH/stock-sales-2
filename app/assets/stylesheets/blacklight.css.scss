@@ -1,6 +1,6 @@
 // Bootstrap config:
 
-$grid-gutter-width: 25px;
+$grid-gutter-width: 30px;
 $container-large-desktop: (1200px + $grid-gutter-width);
 $screen-lg: $container-large-desktop; // Default is just 1200px, so our wide graphic was being chomped.
 
@@ -113,4 +113,11 @@ p {
 
 .thumb p {
     margin: 0; // no margin below thumbs.
+}
+
+.col-md-12 {
+    // Default gives us gutters at the edges which are
+    // half the gutters in between the cells. We actually
+    // want the edge gutters just as wide.
+    padding: 0 $grid-gutter-width;
 }

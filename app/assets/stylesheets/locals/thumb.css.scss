@@ -1,6 +1,9 @@
 .thumb {
     img {
         display: block;
+        width: 400px; 
+        // In md and lg, expands to fill space, though 400 px are not actually available.
+        // In sm and xs, prevents the image from exanding to fill the entire column.
     }
     a {
         display: block;

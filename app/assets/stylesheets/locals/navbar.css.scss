@@ -9,7 +9,7 @@
     }
 
     li > a { // Matching default to override
-        padding: 15px 0 0 30px; // TODO: replace with $gutter
+        padding: $grid-gutter-width/2 0 0 $grid-gutter-width;
     }
 
     /* 
