@@ -1,5 +1,6 @@
 .navbar {
-    li a:hover { // Long match needed to override Blacklight builtin.
+    li a:hover { 
+        // Long match needed to make as specific as builtin.
         color: #FFF;
         background-color: $dark-blue;
     }
@@ -8,9 +9,11 @@
         a { color: $light-green; }
     }
 
-    li > a { // Matching default to override
+    li > a { 
+        // Long match needed to make as specific as builtin.
         padding: $grid-gutter-width/2 0 0 $grid-gutter-width;
     }
+    
 
     /* 
       These come from bootstrap/_grid.scss,
