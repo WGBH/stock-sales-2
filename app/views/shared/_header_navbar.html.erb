@@ -1,23 +1,32 @@
 <nav class="navbar hidden-xs">
   <div class="container-fluid">
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse pull-left">
       <ul class="nav navbar-nav head">
         <li><a href="/"><img src="/logo-small.png"/></a></li>
-        <% About.all.each do |about| %>
-          <li><a href="/about/<%= about.path %>"><%= about.title %></a></li>
-        <% end %>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="contact"><a href="tel:+1+617+300+3939">
-          <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-          <% # or: glyphicon glyphicon-phone-alt %>
-          (617) 300-3939
-         </a></li>
-        <li class="contact"><a href="mailto:stock_sales@wgbh.org">
-          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-          stock_sales@wgbh.org
-        </a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
+    </div>
+    <div class="pull-right">
+      <div class="collapse navbar-collapse pull-right">
+        <ul class="nav navbar-nav">
+          <li class="contact"><a href="tel:+1+617+300+3939">
+            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+            <% # or: glyphicon glyphicon-phone-alt %>
+            (617) 300-3939
+           </a></li>
+          <li class="contact"><a href="mailto:stock_sales@wgbh.org">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            stock_sales@wgbh.org
+          </a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+      <br/>
+      <div class="collapse navbar-collapse pull-right">
+        <ul class="nav navbar-nav head">
+          <% About.each do |about| %>
+            <li><a href="/about/<%= about.path %>"><%= about.title %></a></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
   </div><!-- /.container-fluid -->
 </nav>
