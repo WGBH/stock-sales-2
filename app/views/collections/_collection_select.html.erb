@@ -1,5 +1,5 @@
-<div>
-  <select onchange="window.location.href = this.value;">
+<p>
+  <select onchange="window.location.href = this.value;" class="form-control">
     <option value="/">Explore WGBH Collections</option>
     <% Collection.each do |collection|  %>
       <option value="/collections/<%= collection.path %>">
@@ -7,4 +7,4 @@
       </option>
     <% end %>
   </select>
-</div>
+</p>
