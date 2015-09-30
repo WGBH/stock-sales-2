@@ -11,5 +11,5 @@
         margin-top: 0.5em;
         color: $dark-blue; // This might apply to <a>s more generally
     }
-    margin-bottom: 40px;
+    margin-bottom: $grid-gutter-width;
 }
