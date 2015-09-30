@@ -8,7 +8,7 @@ describe "Validating collections:" do
     describe "Validating data for \"#{collection.title}\":" do
 
       it 'has working page' do
-        visit '/collection/' + collection.path
+        visit '/collections/' + collection.path
         expect(page.status_code).to eq(200)
       end
       
