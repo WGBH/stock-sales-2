@@ -15,11 +15,11 @@ Video shorts, Interactives, Web Content, podcasts
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+The longest running SCIENCE documentary series on television
 
 ## Long
 
-NOVA : The longest running SCIENCE documentary series on television, broadcast since 1974.
+
 An amazing amount of content is available on the NOVA website to search and discover:
 Find programs, short videos, activities, interviews with scientists, episode transcripts, and more.
 NOVA also produces the magazine series, NOVA Science Now, and the web-only series the Secret Life
