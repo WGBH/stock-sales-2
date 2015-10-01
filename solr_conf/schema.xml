@@ -507,7 +507,7 @@
    <field name="timestamp" 
           type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
    
-   <field name="yml" 
+   <field name="json" 
           type="string" indexed="false" stored="true" multiValued="false"/>
    
    <!-- Nothing below needs to be stored. -->
@@ -515,10 +515,6 @@
    <!-- default, catch all search field -->
    <field name="text" 
           type="text" indexed="true" stored="false" multiValued="true"/>
-   
-   <!-- sorting --><!-- TODO: stored=true only for debugging. -->
-   <field name="title" 
-          type="sort" indexed="true" stored="true" multiValued="false"/>
       
  </fields>
 
