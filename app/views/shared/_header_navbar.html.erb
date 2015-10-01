@@ -1,9 +1,22 @@
+<% content_for :about_links do %>
+  <ul class="nav navbar-nav head">
+    <% About.each do |about| %>
+      <li><a href="/about/<%= about.path %>"><%= about.title %></a></li>
+    <% end %>
+  </ul>
+<% end %>
+
 <nav class="navbar hidden-xs">
   <div class="container-fluid">
     <div class="collapse navbar-collapse pull-left">
-      <ul class="nav navbar-nav head">
-        <li><a href="/"><img src="/logo-small.png"/></a></li>
-      </ul>
+      <% unless controller_name == 'home' %>
+        <ul class="nav navbar-nav head">
+          <li><a href="/" style="padding-left: 0px;">
+            <%= render file: "#{Rails.root}/app/views/shared/wgbh-logo.svg" %>  
+          </a></li>
+        </ul>
+     <% end %>
+      <%= content_for(:about_links) if controller_name == 'home'%>
     </div>
     <div class="pull-right">
       <div class="collapse navbar-collapse pull-right">
@@ -21,11 +34,7 @@
       </div><!-- /.navbar-collapse -->
       <br/>
       <div class="collapse navbar-collapse pull-right">
-        <ul class="nav navbar-nav head">
-          <% About.each do |about| %>
-            <li><a href="/about/<%= about.path %>"><%= about.title %></a></li>
-          <% end %>
-        </ul>
+        <%= content_for(:about_links) unless controller_name == 'home' %>
       </div>
     </div>
   </div><!-- /.container-fluid -->
