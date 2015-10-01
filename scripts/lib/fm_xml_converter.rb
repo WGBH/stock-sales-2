@@ -13,7 +13,7 @@ class FmXmlConverter
     doc = Nokogiri::XML(xml)
     JSON.pretty_generate(
       Hash[ doc.xpath('/ROW/*').map { |el| 
-        [el.name, el.text]
+        [el.name.downcase, el.text]
       } ]
     )
   end  
