@@ -4,9 +4,9 @@ describe About do
 
   About.each do |about|
 
-    describe about.title do
+    describe "visiting page \"#{about.title}\"" do
 
-      it 'works' do
+      it 'returns HTTP 200' do
         visit '/about/' + about.path
         expect(page.status_code).to eq(200)
       end
