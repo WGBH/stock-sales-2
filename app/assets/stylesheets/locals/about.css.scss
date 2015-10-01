@@ -3,5 +3,11 @@
         color: #FFF;
         margin-top: 0;
         margin-bottom: $grid-gutter-width;
-    }   
+    }
+    .container {
+        background: #FFF;
+    }
+    .container .pull-right {
+        background: #F00;
+    }
 }
