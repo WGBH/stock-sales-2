@@ -10,7 +10,8 @@ class Asset
   def to_solr
     {
       'id' => id,
-      'json' => to_json
+      'json' => to_json,
+      'text' => @hash.values
     }
   end
   

@@ -9,13 +9,13 @@ describe Ingester do
   end
   
   it 'ingests assets' do
-    expect_to_find(0)
+    expect_to_find('*', 0)
     Ingester.instance.ingest('spec/fixtures/fm-export-results.xml')
-    expect_to_find(1)
+    expect_to_find('nova', 1)
   end
   
-  def expect_to_find(n)
-    response = @solr.get('select', params: {q: '*:*'})
+  def expect_to_find(search, n)
+    response = @solr.get('select', params: {q: 'text:' + search})
     expect(response['response']['numFound']).to eq(n)
   end
   
