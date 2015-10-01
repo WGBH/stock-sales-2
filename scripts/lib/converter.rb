@@ -1,8 +1,9 @@
 require 'singleton'
 require 'nokogiri'
 require 'json'
+require_relative '../../app/models/asset'
 
-class FmXmlConverter
+class Converter
   include Enumerable
   
   def initialize(xml)
@@ -14,13 +15,13 @@ class FmXmlConverter
       # Reparsing every subelement isn't efficient, 
       # but it lets methods operate on strings, which
       # makes testing easier.
-      block.call(self.class.convert_record(record.to_xml))
+      block.call(self.class.to_asset(record.to_xml))
     end
   end
   
-  def self.convert_record(xml)
+  def self.to_asset(xml)
     doc = Nokogiri::XML(xml)
-    JSON.pretty_generate(
+    Asset.new(
       Hash[ doc.xpath('/ROW/*').map { |el| 
         [el.name.downcase, el.text]
       } ]
