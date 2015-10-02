@@ -11,6 +11,12 @@
     <div class="col-md-7">
       <%= @about.main_html.html_safe %>
     </div>
-    <%= render partial: 'shared/helpful_links' %>
+    <div class="col-md-4 pull-right">
+      <p>
+        <%= render partial: 'collections/collection_select' %>
+      </p>
+      <h4>Helpful Links</h4>
+      <%= @about.links_html.html_safe %>    
+    </div>
   </div>
 </div>
