@@ -34,6 +34,7 @@
       <%= @collection.long_html.html_safe %>
     </div>
     <div class="col-md-4">
+      <%= render partial: 'collections/collection_select' %>
       <div>
         <h4>Helpful Links</h4>
         <%= @collection.links_html.html_safe %>
