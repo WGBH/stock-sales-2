@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This grammar has been deprecated - use FMPXMLRESULT instead -->
+<FMPDSORESULT xmlns="http://www.filemaker.com/fmpdsoresult">
+  <ERRORCODE>0</ERRORCODE>
+  <DATABASE>stock-sales-loose</DATABASE>
+  <LAYOUT></LAYOUT>
+  <ROW MODID="0" RECORDID="7">
+    <artesia_id>art-98786543210</artesia_id>
+    <aspect_ratio>4:3</aspect_ratio>
+    <barcode>Barcode1234</barcode>
+    <category>Locations</category>
+    <Ci_ID>ci-98786543210</Ci_ID>
+    <clip_description>La Habana Vieja</clip_description>
+    <clip_keywords>gothic architecture</clip_keywords>
+    <clip_title>gothic building</clip_title>
+    <codec>MP1234</codec>
+    <digital_wrapper>MOV</digital_wrapper>
+    <dimensions>1x2</dimensions>
+    <drive_name>ABC</drive_name>
+    <episode_number>123</episode_number>
+    <event_date>08/09/2000</event_date>
+    <event_location>Havana, Cuba</event_location>
+    <file_name>test.mp4</file_name>
+    <folder_name>folder</folder_name>
+    <format>NTSC</format>
+    <frames_per_second>30</frames_per_second>
+    <id>GBH000123</id>
+    <length>00:00:30;00</length>
+    <origin>mysql</origin>
+    <program>Gratuitous Explosions</program>
+    <series>NOVA</series>
+    <tape_number>1234</tape_number>
+    <time_in>00:00:00;00</time_in>
+    <type>Beta SP</type>
+  </ROW>
+</FMPDSORESULT>
