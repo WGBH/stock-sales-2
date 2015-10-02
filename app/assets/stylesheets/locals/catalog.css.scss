@@ -1,0 +1,30 @@
+.blacklight-catalog-index {
+    #content {
+        background: #FFF;
+        padding: $grid-gutter-width;
+    }
+
+    .search {
+        // TODO: Copy and paste from call_to_action.css
+        // ... but I didn't want to wrap in a well just to get that to apply.
+        img {
+            float: right;
+            height: 2em;
+        }
+        input {
+            background: $almost-white;
+            color: #000;
+            width: 85%;
+        }
+    }
+    
+    #appliedParams,#sortAndPerPage  {
+        background: #FFF;
+        padding: 0 $grid-gutter-width;
+        border: none;
+    }
+    
+    #startOverLink,#per_page-dropdown {
+        display: none;
+    }
+}

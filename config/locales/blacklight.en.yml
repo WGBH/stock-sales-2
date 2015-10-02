@@ -1,3 +1,7 @@
 en:
   blacklight:
     application_name: 'WGBH Stock Sales & Licensing'
+  views:
+    pagination_compact:
+      previous: '&#x25c0; &nbsp;'
+      next: '&nbsp; &#x25b6;'

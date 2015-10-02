@@ -1,0 +1,21 @@
+<%# ADDED: (to hr) %>
+
+<div class='row'>
+  <div class='search col-md-4'>
+    <%= render partial: 'shared/search' %>
+  </div>
+</div>
+  
+<hr/>
+
+<%# DELETED: render 'did_you_mean' %>
+
+<div class='row'>
+  <div class='pull-left'>
+    <%= render 'constraints' %>
+  </div>
+  
+  <div class='pull-right'>
+    <%= render 'sort_and_per_page' %>
+  </div>
+</div>
