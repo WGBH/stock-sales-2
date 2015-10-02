@@ -27,4 +27,14 @@
     #startOverLink,#per_page-dropdown {
         display: none;
     }
+    
+    #documents {
+        .document {
+            border: none;
+        }
+        .document-counter {
+            display: none;
+        }
+    }
+    
 }

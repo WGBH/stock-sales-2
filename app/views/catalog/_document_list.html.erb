@@ -1,0 +1,8 @@
+<% # container for all documents in index list view -%>
+<div id="documents" class="documents-<%= document_index_view_type %>">
+  <% documents.in_groups_of(4, false) do |document_group| %>
+    <div class="row">
+      <%= render document_group, :as => :document %>
+    </div>
+  <% end %>
+</div>
