@@ -8,6 +8,7 @@
         background: #FFF;
     }
     .container .pull-right {
-        background: #F00;
+        background: $light-blue;
+        margin: $grid-gutter-width;
     }
 }
