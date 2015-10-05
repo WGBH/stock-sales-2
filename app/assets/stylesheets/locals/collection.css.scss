@@ -8,14 +8,4 @@
         font-size: 23px;
         color: #FFF;
     }
-
-    .call_to_action {
-        .well {
-            display: inline;
-            width: 30%; // TODO: At 33% it wraps: maybe margins aren't being counted?
-            float: left;
-            position: relative;
-            height: 7em;
-        }
-    }
 }
