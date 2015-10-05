@@ -80,6 +80,9 @@ class Asset
   def id
     @id ||= @hash["id"]
   end
+  def img_src_small
+    @img_src ||= "https://workspace.cimediacloud.com/asset/#{ci_id}/thumbnail/small"
+  end
   def length
     @length ||= @hash["length"]
   end
