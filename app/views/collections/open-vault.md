@@ -13,15 +13,13 @@ Interviews and in depth program content
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+### INTERVIEWS, ground-breaking WGBH television series
 
 ## Long
 
-### INTERVIEWS, ground-breaking WGBH television series
-
 **Open Vault** is the official website of the WGBH Media Library and Archives.  
-Here you will find annotated **INTERVIEWS** from seminal WGBH miniseries from the 
-1980’s and 1990’s: 
+Screen and browse annotated **INTERVIEWS** from seminal WGBH miniseries from the 
+1980’s and 1990’s including: 
 **Vietnam: A Television History** (1983), 
 **War and Peace in the Nuclear Age** (1989) and 
 **Rock and Roll** (1995).
