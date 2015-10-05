@@ -2,7 +2,7 @@
 
 4
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/ov-thumb.jpg)
 
 ![splash](http://placehold.it/770x433)
 

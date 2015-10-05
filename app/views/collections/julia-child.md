@@ -2,7 +2,7 @@
 
 8
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/julia_child/julia-thumb.jpg)
 
 ![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/JuliaWithShellfish_348x196.png)
 
