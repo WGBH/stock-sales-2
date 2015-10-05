@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     only: [:show]
   
   resources :contact_us, path: '/about/contact_us',
-    only: [:index, :new]
+    only: [:index]
   
   resources :about,
     only: [:show]
