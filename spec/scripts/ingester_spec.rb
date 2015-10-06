@@ -8,7 +8,12 @@ describe Ingester do
     @solr.delete_by_query('*:*')
     @solr.commit
     
+    @orig_cache = File.read(Converter::THUMB_SRC_CACHE_PATH) rescue nil
     File.write(Converter::THUMB_SRC_CACHE_PATH, '{"ci-98786543210": "http://example.com/fake-thumb"}')
+  end
+  
+  after(:all) do
+    File.write(Converter::THUMB_SRC_CACHE_PATH, @orig_cache) if @orig_cache
   end
   
   it 'ingests assets' do
