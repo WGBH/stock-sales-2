@@ -4,7 +4,7 @@
 
 ![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-logo.png)
 
-![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-thumb.png)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-thumb_348x196.png)
 
 ![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
 
