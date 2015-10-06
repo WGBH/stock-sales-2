@@ -10,7 +10,7 @@
 
 ## Short
 
-Science & Technology<br/>
+Science & Technology:
 Video shorts, Interactives, Web Content, podcasts
 
 ## Medium

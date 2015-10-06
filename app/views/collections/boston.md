@@ -8,7 +8,7 @@
 
 ## Short
 
-Boston footage, WGBH 10:00 News, the Blizzard of 1978,<br/>
+Boston footage, WGBH 10:00 News, the Blizzard of 1978,
 The Big Dig, Whitey Bulger and more
 
 ## Medium
