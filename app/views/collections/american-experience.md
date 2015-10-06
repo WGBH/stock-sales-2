@@ -10,7 +10,7 @@
 
 ## Short
 
-American History, Timelines, Articles<br/>
+American History, Timelines, Articles,
 Biographies, Maps
 
 ## Medium

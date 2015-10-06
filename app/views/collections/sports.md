@@ -8,7 +8,7 @@
 
 ## Short
 
-Tennis at Longwood, the Boston Marathon, the Celtics.<br/>
+Tennis at Longwood, the Boston Marathon, the Celtics.
 Golf and Ice Skating
 
 ## Medium

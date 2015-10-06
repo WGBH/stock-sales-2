@@ -10,7 +10,7 @@
 
 ## Short
 
-News & investigative reporting<br/>
+News & investigative reporting:
 Streaming programs, articles, video shorts, interviews
 
 ## Medium

@@ -8,7 +8,7 @@
 
 ## Short
 
-WGBH Archives official website<br/>
+WGBH Archives official website:
 Interviews and in depth program content 
 
 ## Medium

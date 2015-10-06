@@ -8,7 +8,7 @@
 
 ## Short
 
-Our most famous PBS personality;<br/>
+Our most famous PBS personality;
 The French Chef and Dinner with Julia series
 
 ## Medium

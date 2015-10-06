@@ -8,7 +8,7 @@
 
 ## Short
 
-40,000 hours of public television and radio<br/>
+40,000 hours of public television and radio
 programs, including The WGBH Collection
 
 ## Medium

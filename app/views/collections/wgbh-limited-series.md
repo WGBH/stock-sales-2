@@ -8,7 +8,7 @@
 
 ## Short
 
-The Machine that Changed the World, Rx For Survival,<br/>
+The Machine that Changed the World, Rx For Survival,
 Africans in America, Age of Columbus, and more
 
 ## Medium
