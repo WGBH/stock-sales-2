@@ -6,7 +6,7 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/amex-thumb_348x196.png)
 
-![splash](http://placehold.it/770x433)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/AmexCollectionMain_770x433.png)
 
 ## Short
 
@@ -33,6 +33,9 @@ of third party material, which has been licensed from other sources.
 
 ## Grid
 
-- [TODO Title 1 | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title 2](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title 3](/TODO) ![](http://placehold.it/348x196)
+- [Bonus Video | Take a ride through the Panama Canal](http://www.pbs.org/wgbh/americanexperience/features/bonus-video/tr-travel/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/Panama_348x196.png)
+- [Timeline | Horseracing in the U.S.](http://www.pbs.org/wgbh/americanexperience/features/timeline/seabiscuit/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/Seabiscuit_348x196.jpg)
+- [Interactive Map | Vietnam from 1945 to the postwar](http://www.pbs.org/wgbh/amex/vietnam/maps/map_pop_intro.html) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/Vietnam_348x196.png)
+- [Timeline | Ronald Reagan](http://www.pbs.org/wgbh/americanexperience/features/timeline/reagan/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/Reagan_348x196.jpg)
+- [Audio| Hear Edison's first recording](http://www.pbs.org/wgbh/americanexperience/features/inlineaudio/light-blaine/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/Edison_348x196.png)
+- [Biography| Creating Mount Rushmore](http://www.pbs.org/wgbh/americanexperience/features/biography/rushmore-borglum/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/Rushmore_348x196.png)
