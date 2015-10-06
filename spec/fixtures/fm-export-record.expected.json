@@ -25,5 +25,6 @@
   "series": "NOVA",
   "tape_number": "1234",
   "time_in": "00:00:00;00",
-  "type": "Beta SP"
+  "type": "Beta SP",
+  "thumb_src": "http://example.com/fake-thumb"
 }

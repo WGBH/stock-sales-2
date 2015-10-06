@@ -1,4 +1,5 @@
 require_relative '../../scripts/lib/ingester'
+require_relative '../../scripts/lib/converter'
 
 describe Ingester do
   
@@ -6,6 +7,8 @@ describe Ingester do
     @solr = Solr.instance.connect
     @solr.delete_by_query('*:*')
     @solr.commit
+    
+    File.write(Converter::THUMB_SRC_CACHE_PATH, '{"ci-98786543210": "http://example.com/fake-thumb"}')
   end
   
   it 'ingests assets' do
