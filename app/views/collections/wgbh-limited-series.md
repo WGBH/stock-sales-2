@@ -2,7 +2,7 @@
 
 11
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/SJ_Logo_10_Flat+(1)_348x196.jpg)
 
 ![splash](http://placehold.it/770x433)
 
@@ -38,6 +38,6 @@ and coverage of their particular subject.
 
 ## Grid
 
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Building Big | optional subtitle](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/BUILDING+BIG++Home+Page-095049+copy_348x196.png6)
+- [A Science Odyssey](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/A+Science+Odyssey_348x196.png)
+- [Rx for Survival](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/RX+for+survival_348x196.png)
