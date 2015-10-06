@@ -42,7 +42,7 @@ class Collection < Cmless
           title: title, 
           short_html: short_html, 
           thumb_src: li.xpath('img/@src'),
-          url: li.xpath('a/@href').text
+          url: li.xpath('a/@href')
         )
       end
     end
