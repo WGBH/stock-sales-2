@@ -17,9 +17,9 @@ TODO: Medium-length blurb for banner goes here.
 
 ## Long
 
-Julia Child got her start in television at WGBH in 1963, with Season One of the 
-French Chef, which was shot in black in white and aired nationally on PBS.  The 
-French Chef Season 2 aired in 1970 and was shot in color on location in Provence.
+Julia Child got her start in television at WGBH Boston with Season One of the 
+French Chef, which was shot in black in white and aired nationally on PBS in 1963.  The 
+French Chef series ran until 1973 and included over 300 episodes.
 Other Julia Child series produced by WGBH included “Julia Child and Company (1978), 
 “ Julia Child and More Company” (1979)  and “Dinner at Julia’s” (1983-84).
   
