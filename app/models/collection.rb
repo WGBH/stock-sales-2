@@ -33,6 +33,10 @@ class Collection < Cmless
     @logo_src ||= img_src('logo')
   end
   
+  def url
+    @url ||= '/collections/' + path
+  end
+  
   
   def grid_items
     @grid_items ||= begin
