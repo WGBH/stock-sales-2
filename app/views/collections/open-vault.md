@@ -42,7 +42,7 @@ the “Browse: Series” button on the Open Vault site.
 - [Henry Kissinger](War and Peace in the Nuclear Age) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Kissinger_348x196.jpg)
 - [Mme. Nhu](Vietnam: A Television History) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Madame+Nhu_348x196.jpg)
 - [Steve Jobs](The Machine that Changed the World) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Steve+Jobs_348x196.jpg)
-- [Bobby Seale](Say Brother)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Bobby+Seale_348x196.jpg
+- [Bobby Seale](Say Brother)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Bobby+Seale_348x196.jpg)
 6)
 - [John Updike](At Home) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/John+Updike+-+Version+2_348x196.jpg)
 - [March on Washington](1963) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/March+on+Washington_348x196.jpg)
