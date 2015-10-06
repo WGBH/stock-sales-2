@@ -17,3 +17,5 @@
 /nbproject
 /jetty
 /coverage
+
+/config/ci.yml

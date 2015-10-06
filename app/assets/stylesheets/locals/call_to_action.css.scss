@@ -27,3 +27,15 @@
         padding-bottom: $grid-gutter-width/4; // Last well was flush to bottom.
     }
 }
+
+.blacklight-collections-show, .blacklight-catalog-show {
+    .call_to_action {
+        .well {
+            display: inline;
+            width: 30%; // TODO: At 33% it wraps: maybe margins aren't being counted?
+            float: left;
+            position: relative;
+            height: 7em;
+        }
+    }
+}

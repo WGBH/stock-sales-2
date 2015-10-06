@@ -1,0 +1,25 @@
+.blacklight-catalog-show {
+    #content {
+        background: #FFF;
+        padding: $grid-gutter-width;
+    }
+    
+    dt,dd {
+        padding: 0.2em 1em;
+    }
+    dt {
+        text-transform: uppercase;
+        background: $light-grey;
+    }
+    
+    dd {
+        padding-bottom: 1em;
+    }
+    
+    .big-fields {
+        dt {
+            width: 12em;
+        }
+    }
+    
+}

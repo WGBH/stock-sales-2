@@ -1,0 +1,6 @@
+<% Asset.new(JSON.parse(document.instance_variable_get('@_source')['json'])).tap do |asset| %>
+  <div>
+    TODO: img<br/>
+    <a href="/catalog/<%= asset.id %>"><%= asset.id %></a>
+  </div>
+<% end %>
