@@ -2,9 +2,9 @@
 
 1
 
-![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-thumb_348x196.png)
+![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-logo.png)
 
-![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-thumb.png)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-thumb_348x196.png)
 
 ![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova_collection_main_770x433.png)
 
