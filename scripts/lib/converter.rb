@@ -9,23 +9,7 @@ class Converter
   
   def initialize(xml)
     @doc = Nokogiri::XML(xml).remove_namespaces!
-    
-    @thumbs = {}
-    ci = SonyCiAdmin.new(credentials_path: 'config/ci.yml')
-    ci_ids = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID').map(&:text).reject(&:empty?)
-    while !ci_ids.empty?
-      group = ci_ids.shift(500)
-      puts "#{ci_ids.count} Ci IDs still need details"
-      details = ci.multi_details(group, ['thumbnails'])
-      @thumbs.merge(Hash[
-        details['items'].map { |item| [
-          item['id'], 
-          item['thumbnails'].select { |thumbnail| 
-            thumbnail['type'] == 'small' 
-          }.first['location']
-        ] } 
-      ] )
-    end
+    refresh_thumb_src_cache()
   end
   
   def each(&block)
@@ -37,6 +21,8 @@ class Converter
     end
   end
   
+  private
+  
   def to_asset(xml)
     doc = Nokogiri::XML(xml)
     Asset.new(
@@ -44,9 +30,37 @@ class Converter
         hash = Hash[ doc.xpath('/ROW/*').map { |el| 
           [el.name.downcase, el.text]
         } ]
-        hash.merge({'thumb_src' => @thumbs[hash['ci_id']]})
+        hash.merge({'thumb_src' => @ci_id_to_thumb_src[hash['ci_id']]})
       end
     )
+  end
+  
+  THUMB_SRC_CACHE_PATH = '/tmp/thumb-src-cache.json'
+  
+  def refresh_thumb_src_cache()
+    @ci_id_to_thumb_src = JSON.parse(File.read(THUMB_SRC_CACHE_PATH)) rescue {}
+    puts "Thumb cache starting with #{@ci_id_to_thumb_src.count} entries"
+    
+    ci_ids_todo = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID')
+                 .map(&:text).reject(&:empty?) - @ci_id_to_thumb_src.keys
+    
+    if !ci_ids_todo.empty?
+      ci = SonyCiAdmin.new(credentials_path: 'config/ci.yml')
+      while !ci_ids_todo.empty?
+        group = ci_ids_todo.shift(500) # Max dictated by the Sony API
+        puts "#{ci_ids_todo.count} Ci IDs still need details"
+        details = ci.multi_details(group, ['thumbnails'])
+        @ci_id_to_thumb_src.merge!(Hash[
+          details['items'].map { |item| [
+            item['id'], 
+            item['thumbnails'].select { |thumbnail| 
+              thumbnail['type'] == 'small' 
+            }.first['location']
+          ] } 
+        ] )
+      end
+      File.write(THUMB_SRC_CACHE_PATH, JSON.generate(@ci_id_to_thumb_src))
+    end
   end
   
 end
