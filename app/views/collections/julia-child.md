@@ -4,7 +4,7 @@
 
 ![thumb](http://placehold.it/348x196)
 
-![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/JuliaWithShellfish_348x196.png)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/julia_child/julia_collection_main_770x433.png)
 
 ## Short
 
