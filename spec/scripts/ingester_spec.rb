@@ -7,18 +7,11 @@ describe Ingester do
     @solr = Solr.instance.connect
     @solr.delete_by_query('*:*')
     @solr.commit
-    
-    @orig_cache = File.read(Converter::THUMB_SRC_CACHE_PATH) rescue nil
-    File.write(Converter::THUMB_SRC_CACHE_PATH, '{"ci-98786543210": "http://example.com/fake-thumb"}')
-  end
-  
-  after(:all) do
-    File.write(Converter::THUMB_SRC_CACHE_PATH, @orig_cache) if @orig_cache
   end
   
   it 'ingests assets' do
     expect_to_find('*', 0)
-    Ingester.instance.ingest('spec/fixtures/fm-export-results.xml')
+    Ingester.instance.ingest('spec/fixtures/fm-export-results.xml', 'spec/fixtures/thumb-src-cache.json')
     expect_to_find('nova', 1)
   end
   

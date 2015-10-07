@@ -7,8 +7,9 @@ require_relative '../../app/models/asset'
 class Converter
   include Enumerable
   
-  def initialize(xml)
+  def initialize(xml, cache_path = '/tmp/thumb-src-cache.json')
     @doc = Nokogiri::XML(xml).remove_namespaces!
+    @cache_path = cache_path
     refresh_thumb_src_cache()
   end
   
@@ -35,10 +36,8 @@ class Converter
     )
   end
   
-  THUMB_SRC_CACHE_PATH = '/tmp/thumb-src-cache.json'
-  
   def refresh_thumb_src_cache()
-    @ci_id_to_thumb_src = JSON.parse(File.read(THUMB_SRC_CACHE_PATH)) rescue {}
+    @ci_id_to_thumb_src = JSON.parse(File.read(@cache_path)) rescue {}
     puts "Thumb cache starting with #{@ci_id_to_thumb_src.count} entries"
     
     ci_ids_todo = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID')
@@ -59,7 +58,7 @@ class Converter
           ] } 
         ] )
       end
-      File.write(THUMB_SRC_CACHE_PATH, JSON.generate(@ci_id_to_thumb_src))
+      File.write(@cache_path, JSON.generate(@ci_id_to_thumb_src))
     end
   end
   

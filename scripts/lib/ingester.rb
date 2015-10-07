@@ -11,9 +11,13 @@ class Ingester
     @solr = Solr.instance.connect
   end
 
-  def ingest(filename)
+  def ingest(filename, cache_path = nil)
     errors = []
-    Converter.new(File.read(filename)).each do |asset|
+    if cache_path
+      Converter.new(File.read(filename), cache_path)
+    else
+      Converter.new(File.read(filename))
+    end.each do |asset|
       begin
         @solr.add(asset.to_solr)
         puts "Added #{asset.id}"
