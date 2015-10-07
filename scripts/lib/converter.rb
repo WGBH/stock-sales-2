@@ -58,7 +58,7 @@ class Converter
           ] } 
         ] )
       end
-      File.write(@cache_path, JSON.generate(@ci_id_to_thumb_src))
+      File.write(@cache_path, JSON.pretty_generate(@ci_id_to_thumb_src))
     end
   end
   
