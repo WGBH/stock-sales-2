@@ -29,6 +29,8 @@ watermarked clips.
 
 ## Grid
 
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Mars Rover | Animation] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Rover.png)
+- [Ebola Hut | Kenya] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/hut.png)
+- [Bird Flu Lab | China ] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/medical.png)
+- [Karnak Temple | Egypt ] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Karnak.png)
+ 
