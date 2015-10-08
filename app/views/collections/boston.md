@@ -2,9 +2,9 @@
 
 7
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Aerial_348x196.png)
 
-![splash](http://placehold.it/770x433)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Boston_collection_main770x433.png)
 
 ## Short
 
@@ -39,7 +39,10 @@ Contact us for more information.
 - [WGBH 10:00 News](http://bostonlocaltv.org/wgbh)
 
 ## Grid
-
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Digital clip | The Big Dig](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/GBH00000060001010_348x196.png)
+- [Boston News | President Obama at Harvard Law](http://bostonlocaltv.org/catalog/V_UDAMVZGA4JEY06N) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Obama_348x196.png)
+- [Boston News | Nelson Mandela visits Madison Park High School](http://bostonlocaltv.org/catalog/V_L5N55ATB6GXSBK6) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Mandela_348x196.png)
+-  [Boston News | The Blizzard of '78](http://bostonlocaltv.org/catalog/V_OUS1BQH8VP7MVMQ) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/blizzard_348x196.png)
+- [Digital clip | Oldest transit system in America](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/GBH000020551000034-2_348x196.png)
+- [Boston News | Phase II of school desegregation](http://bostonlocaltv.org/catalog/V_OUS1BQH8VP7MVMQ) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/charlestownfirstday_348x196.jpg)
+ 
