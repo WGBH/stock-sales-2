@@ -1,4 +1,5 @@
 require_relative '../../scripts/lib/ingester'
+require_relative '../../scripts/lib/converter'
 
 describe Ingester do
   
@@ -10,7 +11,7 @@ describe Ingester do
   
   it 'ingests assets' do
     expect_to_find('*', 0)
-    Ingester.instance.ingest('spec/fixtures/fm-export-results.xml')
+    Ingester.instance.ingest('spec/fixtures/fm-export-results.xml', 'spec/fixtures/thumb-src-cache.json')
     expect_to_find('nova', 1)
   end
   

@@ -95,6 +95,9 @@ class Asset
   def tape_number
     @tape_number ||= @hash["tape_number"]
   end
+  def thumb_src
+    @thumb_src ||= @hash["thumb_src"]
+  end
   def time_in
     @time_in ||= @hash["time_in"]
   end

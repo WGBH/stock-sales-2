@@ -3,7 +3,7 @@
   "aspect_ratio": "4:3",
   "barcode": "Barcode1234",
   "category": "Locations",
-  "ci_id": "ci-98786543210",
+  "ci_id": "5cf8d001d37241a59d07d594010bdab9",
   "clip_description": "La Habana Vieja",
   "clip_keywords": "gothic architecture",
   "clip_title": "gothic building",
@@ -25,5 +25,6 @@
   "series": "NOVA",
   "tape_number": "1234",
   "time_in": "00:00:00;00",
-  "type": "Beta SP"
+  "type": "Beta SP",
+  "thumb_src": "https://d14nxlyhj878kl.cloudfront.net/cifiles/5cf8d001d37241a59d07d594010bdab9/thumbnail.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2QxNG54bHloajg3OGtsLmNsb3VkZnJvbnQubmV0L2NpZmlsZXMvNWNmOGQwMDFkMzcyNDFhNTlkMDdkNTk0MDEwYmRhYjkvdGh1bWJuYWlsLmpwZyIsIkNvbmRpdGlvbiI6eyJJcEFkZHJlc3MiOnsiQVdTOlNvdXJjZUlwIjoiMC4wLjAuMC8wIn0sIkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTA3MzEwNjg2fX19XX0_&Signature=GaVW48IHtUXmf8l6zJIy-KIh4sWHU3pWVBWU~If3Z8XnXnfKjfbleJRwvygXfOOgpp4CK6Fch5-RNTLEBSxqWhRV1DUv2jHqQ3aslWuT9E0dQBTy9WVLYOGoi2BEh8cRDRWaMgFYmQDhbRdU35R3IqNZAgxiHvpsqGbA3ymPFXA_&Key-Pair-Id=APKAJNUSFH4IKQRZ44WA"
 }
