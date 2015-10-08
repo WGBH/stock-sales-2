@@ -2,9 +2,9 @@
 
 7
 
-![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Aerial_348x196.png)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Boston_collection_348x196.png)
 
-![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Boston_collection_main770x433.png)
+![splash]()
 
 ## Short
 
