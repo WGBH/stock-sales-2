@@ -2,7 +2,7 @@
 
 6
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Chained+man+resized.png)
 
 ![splash](http://placehold.it/770x433)
 
