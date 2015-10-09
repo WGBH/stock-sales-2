@@ -28,8 +28,13 @@
 <div class="container">
   <div class="row"> 
     <div class="col-md-8">
-      <% if @collection.logo_src %>
-        <p><img src="<%= @collection.splash_src %>" alt="splash"/></p>
+      <% if @collection.splash_src %>
+        <div class="splash">
+          <img src="<%= @collection.splash_src %>" alt="splash"/>
+          <% if @collection.splash_url %>
+            <a href="<%= @collection.splash_url %>" target="_blank" class="head">Visit Website</a>
+          <% end %>
+        </div>
       <% end %>
       <%= @collection.long_html.html_safe %>
     </div>

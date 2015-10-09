@@ -8,4 +8,17 @@
         font-size: 23px;
         color: #FFF;
     }
+    
+    .splash {
+        position: relative;
+        padding-top: $grid-gutter-width/2;
+        a {
+            color: #FFF;
+            padding: 1em;
+            position: absolute; 
+            bottom: $grid-gutter-width; 
+            right: $grid-gutter-width*2; 
+            background: $orange
+        }
+    }
 }
