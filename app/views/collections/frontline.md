@@ -6,7 +6,7 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-thumb_348x196.png)
 
-![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)
+[![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline_collection_main_770x433.png)](http://www.pbs.org/wgbh/pages/frontline/)
 
 ## Short
 
@@ -29,9 +29,11 @@ programs on its site, organized by broadcast year.
 
 ## Links
 
-- [Frontline programs by year](http://www.pbs.org/wgbh/pages/frontline/programs/)
-- [Frontline Youtube Channel](https://www.youtube.com/user/PBSfrontline)
-- [Frontline/World episode guide](http://www.pbs.org/frontlineworld/about/episodeguide.html)
+[Frontline programs by year](http://www.pbs.org/wgbh/pages/frontline/programs/)
+
+[Frontline Youtube Channel](https://www.youtube.com/user/PBSfrontline)
+
+[Frontline/World episode guide](http://www.pbs.org/frontlineworld/about/episodeguide.html)
 
 ## Grid
 
