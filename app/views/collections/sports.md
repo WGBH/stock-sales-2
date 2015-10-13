@@ -2,7 +2,7 @@
 
 10
 
-![thumb](http://placehold.it/348x196)
+![thumb]((https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/BostonMarathon_01_348x196.png)
 
 ![splash](http://placehold.it/770x433)
 
@@ -34,6 +34,6 @@ Tom “Satch” Sanders, Jim Brown, Luis Tiant, Phil Esposito and Bobby Orr.
 
 ## Grid
 
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title | optional subtitle](/TODO) ![])
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
