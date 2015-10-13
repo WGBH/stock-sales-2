@@ -18,6 +18,21 @@
         }
     }
     
+    .page_links {
+        .arrow {
+            display: none;
+        }
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+            .arrow {
+                display: inline;
+                color: #000;
+            }
+        }
+    }
+    
     #appliedParams,#sortAndPerPage  {
         background: #FFF;
         padding: 0 $grid-gutter-width;
