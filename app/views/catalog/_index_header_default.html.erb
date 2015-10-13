@@ -1,6 +1,10 @@
 <% Asset.new(JSON.parse(document.instance_variable_get('@_source')['json'])).tap do |asset| %>
   <div>
-    <img src="<%= asset.thumb_src %>"/>
-    <a href="/catalog/<%= asset.id %>"><%= asset.id %></a>
+    <video src="<%= asset.video_small_src %>" poster="<%= asset.thumb_src %>" 
+           loop style="width: 100%;" onclick="this.paused ? this.play() : this.pause();" 
+           oncontextmenu="return false;" preload="none">
+    </video>
+    <a href="/catalog/<%= asset.id %>"><%= asset.clip_title %></a>
+    <a href="<%= asset.watermarked_src %>" target="_blank" class="pull-right"><span class="glyphicon glyphicon-download-alt"></span></a>
   </div>
 <% end %>
