@@ -54,12 +54,14 @@ class Collection < Cmless
   def grid_items
     @grid_items ||= begin
       Nokogiri::HTML(grid_html).xpath('//li').map do |li|
-        title, short_html = li.text.split(/\s*\|\s*/).map(&:strip)
+        texts = li.text.split(/\s*\|\s*/).map(&:strip)
+        title = texts.shift
+        short_html = texts.join(' | ')
         OpenStruct.new(
           title: title, 
           short_html: short_html, 
-          thumb_src: li.xpath('img/@src'),
-          url: li.xpath('a/@href')
+          thumb_src: li.xpath('.//img/@src').text,
+          url: li.xpath('.//a/@href').text
         )
       end
     end
