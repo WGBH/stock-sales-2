@@ -37,4 +37,14 @@
         }
     }
     
+    .video-container {
+        width: 100%;
+        overflow: hidden;
+        video {
+            // Crop out the narrow black bars on many clips.
+            width: 102%;
+            margin-left: -1%;
+        }
+    }
+    
 }
