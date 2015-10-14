@@ -1,0 +1,20 @@
+<%# TODO: Move this up when we know it works. %>
+<link href="/video-js/video-js.css" rel="stylesheet" type="text/css">
+<!-- video.js must be in the <head> for older IEs to work. -->
+<script src="/video-js/video.js"></script>
+
+<script>
+  videojs.options.flash.swf = "/video-js/video-js.swf";
+</script>
+        
+<%= content_tag('video', 'class' => 'video-js vjs-default-skin', 
+          controls: true,
+          oncontextmenu: 'return false;', 
+          preload: 'none', width: 400, height: 300,
+          poster: asset.thumb_src, 'data-setup' => '{}') do %>
+  <source src="/media/<%= asset.id %>" type="video/mp4" />
+  <p class="vjs-no-js">
+    To play this video please enable JavaScript, and consider upgrading to a web browser that 
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>.
+  </p>
+<% end %>  
