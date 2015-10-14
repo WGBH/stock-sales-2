@@ -21,56 +21,15 @@
       </div>
       <div class="col-md-3 small-fields">
         <dl>
-          <dt>Aspect Ratio</dt>
-          <dd><%= asset.aspect_ratio %></dd>
-          
-          <dt>Codec</dt>
-          <dd><%= asset.codec %></dd>
-          
-          <dt>Digital Wrapper</dt>
-          <dd><%= asset.digital_wrapper %></dd>
-          
-          <dt>Dimensions</dt>
-          <dd><%= asset.dimensions %></dd>
-          
-          <dt>Date</dt>
-          <dd><%= asset.event_date %></dd>
-          
-          <dt>Event Location</dt>
-          <dd><%= asset.event_date %></dd>
-          
-          <dt>Format</dt>
-          <dd><%= asset.format %></dd>
-          
-          <dt>FPS</dt>
-          <dd><%= asset.frames_per_second %></dd>
-  
-          <dt>Episode Number</dt>
-          <dd><%= asset.episode_number %></dd>
-          
-          <dt>Event Date</dt>
-          <dd><%= asset.event_date %></dd>
-          
-          <dt>Event Location</dt>
-          <dd><%= asset.event_location %></dd>
-          
-          <dt>Length</dt>
-          <dd><%= asset.format %></dd>
-  
-          <dt>Length</dt>
-          <dd><%= asset.frames_per_second %></dd>
-          
-          <dt>Origin</dt>
-          <dd><%= asset.origin %></dd>
-          
-          <dt>Program</dt>
-          <dd><%= asset.program %></dd>
-          
-          <dt>Series</dt>
-          <dd><%= asset.series %></dd>
-  
-          <dt>Type</dt>
-          <dd><%= asset.type %></dd>
+          <% 
+          %w(aspect_ratio codec digital_wrapper dimensions event_date event_location format length program series type).each do |method| 
+            asset.send(method).tap do |value| 
+              if !value.empty? %>
+                <dt><%= method.gsub('_',' ') %></dt>
+                <dd><%= value %></dd><% 
+              end
+            end
+          end %>
         </dl>
       </div>
     </div>
