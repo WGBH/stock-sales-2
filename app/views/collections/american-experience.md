@@ -6,7 +6,7 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/amex-thumb_348x196.png)
 
-![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/AmexCollectionMain_770x433.png)
+[![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/AmexCollectionMain_770x433.png)](http://www.pbs.org/wgbh/americanexperience/)
 
 ## Short
 

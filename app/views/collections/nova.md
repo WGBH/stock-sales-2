@@ -6,7 +6,7 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-thumb_348x196.png)
 
-![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova_collection_main_770x433.png)
+[![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova_collection_main_770x433.png)](http://www.pbs.org/wgbh/nova/)
 
 ## Short
 

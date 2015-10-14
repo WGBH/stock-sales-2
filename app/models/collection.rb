@@ -19,6 +19,16 @@ class Collection < Cmless
     end
   end
   
+  def url_around_img(alt)
+    Nokogiri::HTML(head_html).xpath("//img[@alt='#{alt}']/../@href").first.tap do |optional|
+      if optional
+        return optional.text
+      else
+        return nil
+      end
+    end
+  end
+  
   public
   
   def thumb_src
@@ -37,6 +47,9 @@ class Collection < Cmless
     @url ||= '/collections/' + path
   end
   
+  def splash_url
+    @splash_url ||= url_around_img('splash')
+  end
   
   def grid_items
     @grid_items ||= begin
