@@ -6,11 +6,14 @@
         // In md and lg, expands to fill space, though 400 px are not actually available.
         // In sm and xs, prevents the image from exanding to fill the entire column.
     }
-    a {
+    .title {
         display: block;
         font-weight: 600;
-        margin-top: 0.5em;
+        padding-top: 0.5em;
         color: $dark-blue; // This might apply to <a>s more generally
+    }
+    a {
+        text-decoration: none;
     }
     margin-bottom: $grid-gutter-width;
 }

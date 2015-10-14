@@ -1,11 +1,9 @@
 <div class="col-md-4 thumb">
-  <img src="<%= item.thumb_src %>">
   <a href="<%= item.url %>">
-    <%= item.title.html_safe %>
-  </a>
-  <p>
+    <img src="<%= item.thumb_src %>">
+    <div class="title"><%= item.title.html_safe %></div>
     <% if item.short_html %>
       <%= item.short_html.html_safe %>
     <% end %>
-  </p>
+  </a>
 </div>
