@@ -1,7 +1,7 @@
 <% Asset.new(JSON.parse(document.instance_variable_get('@_source')['json'])).tap do |asset| %>
   <div>
     <div class="video-container">
-      <video src="<%= asset.video_small_src %>" poster="<%= asset.thumb_src %>" 
+      <video src="<%= asset.proxy_src %>" poster="<%= asset.thumb_src %>" 
              loop oncontextmenu="return false;" preload="none"
              onmouseover="this.play();" onmouseout="this.pause();" <%# For browsers %>
              onclick="this.paused ? this.play() : this.pause();" <%# For touch devices %>

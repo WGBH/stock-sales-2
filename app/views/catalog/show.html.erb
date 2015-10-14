@@ -7,7 +7,12 @@
     </div>
     <div class="row">
       <div class="col-md-9 big-fields">
-        TODO: Video Player<br/>
+        <video controls="true"
+          oncontextmenu="return false;" 
+          width="100%"
+          poster="<%= asset.thumb_src %>"
+          src="<%= asset.proxy_src %>">
+        </video>
         <dl>
           <dt>Description</dt>
           <dd><%= asset.clip_description %></dd>
