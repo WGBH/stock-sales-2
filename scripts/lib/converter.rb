@@ -41,7 +41,7 @@ class Converter
     puts "Thumb cache starting with #{@ci_id_to_thumb_src.count} entries"
     
     ci_ids_todo = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID')
-                 .map(&:text).reject(&:empty?) - @ci_id_to_thumb_src.keys
+                 .map(&:text).map(&:strip).reject(&:empty?) - @ci_id_to_thumb_src.keys
     
     if !ci_ids_todo.empty?
       ci = SonyCiAdmin.new(credentials_path: 'config/ci.yml')
