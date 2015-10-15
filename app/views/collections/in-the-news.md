@@ -2,7 +2,7 @@
 
 12
 
-![thumb](http://placehold.it/348x196)
+![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/News+of+the+World_348x196.png)
 
 ![splash](http://placehold.it/770x433)
 
