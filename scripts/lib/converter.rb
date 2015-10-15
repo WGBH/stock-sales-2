@@ -50,7 +50,7 @@ class Converter
   
   def refresh_cache()
     @cache = JSON.parse(File.read(@cache_path)) rescue {}
-    $LOG.info("Cache starting with #{@cache.count} entries")
+    log.info("Cache starting with #{@cache.count} entries")
     
     ci_ids_todo = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID')
                  .map(&:text).map(&:strip).reject(&:empty?) - @cache.keys
@@ -59,7 +59,7 @@ class Converter
       ci = SonyCiAdmin.new(credentials_path: 'config/ci.yml')
       while !ci_ids_todo.empty?
         group = ci_ids_todo.shift(500) # Max dictated by the Sony API
-        $LOG.info("#{ci_ids_todo.count} Ci IDs still need details")
+        log.info("#{ci_ids_todo.count} Ci IDs still need details")
         details = ci.multi_details(group, [THUMBNAILS, PROXIES])
         @cache.merge!(Hash[
           details['items'].map { |item| [
