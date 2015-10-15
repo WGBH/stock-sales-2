@@ -23,15 +23,15 @@ class Ingester
     end.each do |asset|
       begin
         @solr.add(asset.to_solr)
-        $LOG.info("Added #{asset.id}")
+        log.info("Added #{asset.id}")
       rescue => e
         errors.push(asset.id)
-        $LOG.warn("Error on #{asset.id}: #{e}")
+        log.warn("Error on #{asset.id}: #{e}")
       end
     end
     @solr.commit
-    $LOG.info("Commit")
-    $LOG.info("#{errors.count} errors")
+    log.info("Commit")
+    log.info("#{errors.count} errors")
   end
 
 end
