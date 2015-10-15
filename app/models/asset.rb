@@ -89,6 +89,9 @@ class Asset
   def program
     @program ||= @hash["program"]
   end
+  def proxy_src
+    @proxy_src ||= @hash["proxy_src"]
+  end
   def series
     @series ||= @hash["series"]
   end
@@ -104,15 +107,7 @@ class Asset
   def type
     @type ||= @hash["type"]
   end
-  
-  def video_small_src
-    # TODO
-    'https://s3.amazonaws.com/wgbhstocksales.org/content/Sales_homepage_reel_10072015_1200Kbps_480p.mp4'
-  end
-  def video_large_src
-    # TODO
-    'https://s3.amazonaws.com/wgbhstocksales.org/content/Sales_homepage_reel_10072015_1200Kbps_480p.mp4'
-  end
+
   def watermarked_src
     @watermarked_src = "https://s3.amazonaws.com/wgbhstocksales.org/content/watermarked_clips/#{id}.mov"
   end
