@@ -3,9 +3,11 @@ require 'nokogiri'
 require 'json'
 require 'sony-ci-api'
 require_relative '../../app/models/asset'
+require_relative 'log_roller'
 
 class Converter
   include Enumerable
+  include LogRoller
   
   def initialize(xml, cache_path = '/tmp/thumb-src-cache.json')
     @doc = Nokogiri::XML(xml).remove_namespaces!
@@ -38,7 +40,7 @@ class Converter
   
   def refresh_thumb_src_cache()
     @ci_id_to_thumb_src = JSON.parse(File.read(@cache_path)) rescue {}
-    puts "Thumb cache starting with #{@ci_id_to_thumb_src.count} entries"
+    $LOG.info("Thumb cache starting with #{@ci_id_to_thumb_src.count} entries")
     
     ci_ids_todo = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID')
                  .map(&:text).map(&:strip).reject(&:empty?) - @ci_id_to_thumb_src.keys
@@ -47,7 +49,7 @@ class Converter
       ci = SonyCiAdmin.new(credentials_path: 'config/ci.yml')
       while !ci_ids_todo.empty?
         group = ci_ids_todo.shift(500) # Max dictated by the Sony API
-        puts "#{ci_ids_todo.count} Ci IDs still need details"
+        $LOG.info("#{ci_ids_todo.count} Ci IDs still need details")
         details = ci.multi_details(group, ['thumbnails'])
         @ci_id_to_thumb_src.merge!(Hash[
           details['items'].map { |item| [
