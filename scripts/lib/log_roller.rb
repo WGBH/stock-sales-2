@@ -1,8 +1,8 @@
 require 'logger'
-require_relative '../../lib/rails_stub'
+require_relative '../../lib/app_constants'
 
 module LogRoller
-  log_file_name = Rails.root + "log/ingest-#{Time.now.strftime('%Y-%m-%d_%H-%M-%S')}.log"
+  log_file_name = APP_ROOT + "log/ingest-#{Time.now.strftime('%Y-%m-%d_%H-%M-%S')}.log"
   $LOG = Logger.new(log_file_name)
   $LOG.formatter = proc do |severity, datetime, _progname, msg|
     "#{severity} [#{datetime.strftime('%Y-%m-%d %H:%M:%S')}]: #{msg}\n"
