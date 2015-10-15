@@ -1,5 +1,5 @@
 <div class="col-md-4 thumb">
-  <a href="<%= item.url %>">
+  <a href="<%= item.url %>" <%= 'target="_blank"' if item.url =~ /^https?:/ %> >
     <img src="<%= item.thumb_src %>">
     <div class="title"><%= item.title.html_safe %></div>
     <% if item.short_html %>
