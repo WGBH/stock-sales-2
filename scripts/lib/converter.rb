@@ -50,7 +50,7 @@ class Converter
   
   def refresh_cache()
     @cache = JSON.parse(File.read(@cache_path)) rescue {}
-    $LOG.info("Cache starting with #{@ci_id_to_thumb_src.count} entries")
+    $LOG.info("Cache starting with #{@cache.count} entries")
     
     ci_ids_todo = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID')
                  .map(&:text).map(&:strip).reject(&:empty?) - @cache.keys
