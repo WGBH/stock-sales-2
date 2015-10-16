@@ -40,6 +40,7 @@
     </div>
     <div class="col-md-4">
       <%= render partial: 'collections/collection_select' %>
+      <%= render partial: 'shared/search' if @collection.path == 'digital-clips' %>
       <div>
         <h4>Helpful Links</h4>
         <%= @collection.links_html.html_safe %>

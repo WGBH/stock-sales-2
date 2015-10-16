@@ -1,0 +1,15 @@
+input {
+  background-color: $almost-white;
+  color: #000;
+  width: 85%;
+  &[type="submit"] {
+    background-image: url(/icon-search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: inherit;
+    border: none;
+    float: right;
+    height: 2em;
+    width: 2em;
+  }
+}
