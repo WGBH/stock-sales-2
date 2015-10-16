@@ -1,11 +1,36 @@
 .blacklight-collections-show {
+    .description {
+        font-size: 20px;
+        line-height: 28px;   
+        color: #000;
+    }
+    
     .head {
         text-transform: uppercase;
+    }
+    
+    #wgbh-collection {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    h1 {
+        font-size: 72px; // TODO: This is as specified, but seems too big to me?
+        font-weight: 500;
+        // Spec has "text-transform: uppercase;" but that can't be right
+    }
+    
+    h3 { // ie, "Helpful Links"
+        font-size: 21px;
+        color: #000;
+        font-weight: 500;
     }
 
     .tagline p {
         font-family: 'Crimson Text', serif;
-        font-size: 23px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
         color: #FFF;
     }
     
@@ -20,5 +45,11 @@
             right: $grid-gutter-width*2; 
             background: $orange
         }
+    }
+    
+    select {
+        // At some point might replace with something facier, but good enough for now.
+        font-size: 13px;
+        font-weight: 500;
     }
 }
