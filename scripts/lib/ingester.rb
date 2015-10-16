@@ -15,7 +15,6 @@ class Ingester
   end
 
   def ingest(filename, cache_path = nil)
-    errors = []
     if cache_path
       Converter.new(File.read(filename), cache_path)
     else
@@ -25,13 +24,11 @@ class Ingester
         @solr.add(asset.to_solr)
         log.info("Added #{asset.id}")
       rescue => e
-        errors.push(asset.id)
-        log.warn("Error on #{asset.id}: #{e}")
+        log.error("Error on #{asset.id}: #{e}")
       end
     end
     @solr.commit
     log.info("Commit")
-    log.info("#{errors.count} errors")
   end
 
 end

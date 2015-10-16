@@ -20,7 +20,11 @@ class Converter
       # Reparsing every subelement isn't efficient, 
       # but it lets methods operate on strings, which
       # makes testing easier.
-      block.call(to_asset(record.to_xml))
+      begin
+        block.call(to_asset(record.to_xml))
+      rescue => e
+        log.error("#{e} on:\n #{record.to_xml}")
+      end
     end
   end
   
@@ -29,18 +33,27 @@ class Converter
   THUMBNAILS = 'thumbnails'
   PROXIES = 'proxies'
   
-  def to_asset(xml)
-    doc = Nokogiri::XML(xml)
+  def to_asset(fm_record_xml)
+    fm_record_doc = Nokogiri::XML(fm_record_xml)
     Asset.new(
       begin
-        hash = Hash[ doc.xpath('/ROW/*').map { |el| 
-          [el.name.downcase, el.text]
+        fm_record_hash = Hash[ fm_record_doc.xpath('/ROW/*').map { |el| 
+          [el.name.downcase, el.text.strip]
         } ]
-        hash.merge({
-          'thumb_src' => @cache[hash['ci_id']][THUMBNAILS].select { |thumbnail| 
+        unless fm_record_hash['id']
+          fail("No id in #{fm_record_xml}") 
+        end
+        unless fm_record_hash['ci_id']
+          fail("No ci_id for FM <#{fm_record_hash['id']}>") 
+        end
+        unless @cache[fm_record_hash['ci_id']]
+          fail("No cache for Ci <#{fm_record_hash['ci_id']}> / FM <#{fm_record_hash['id']}>") 
+        end
+        fm_record_hash.merge({
+          'thumb_src' => @cache[fm_record_hash['ci_id']][THUMBNAILS].select { |thumbnail| 
                 thumbnail['type'] == 'small' 
               }.first['location'],
-          'proxy_src' => @cache[hash['ci_id']][PROXIES].select { |proxy| 
+          'proxy_src' => @cache[fm_record_hash['ci_id']][PROXIES].select { |proxy| 
                 proxy['type'] == 'video-sd' 
               }.first['location']
           })
