@@ -8,13 +8,14 @@ input {
         width: 260px;
     }
     &[type="submit"] {
-        background-image: url(/icon-search.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-color: inherit;
-        border: none;
-        float: right;
-        height: 2em;
-        width: 2em;
+        // !important to make sure it applies on search results page.
+        background-image: url(/icon-search.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        background-color: inherit !important;
+        border: none !important;
+        float: right !important;
+        height: 2em !important;
+        width: 2em !important;
     }
 }
