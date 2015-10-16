@@ -8,9 +8,13 @@
     }
     .container {
         background: #FFF;
-    }
-    .container .pull-right {
-        background: $light-blue;
-        margin: $grid-gutter-width;
+        .pull-right {
+            background: $light-blue;
+            margin: $grid-gutter-width;
+        }
+        .body {
+            margin-left: $grid-gutter-width/2;
+            margin-top: $grid-gutter-width/2;
+        }
     }
 }
