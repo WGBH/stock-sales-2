@@ -1,11 +1,14 @@
 require 'rsolr'
 require 'date' # NameError deep in Solrizer without this.
 require 'singleton'
+require 'logger'
 require_relative 'converter'
 require_relative '../../lib/solr'
+require_relative 'log_roller'
 
 class Ingester
   include Singleton
+  include LogRoller
 
   def initialize
     @solr = Solr.instance.connect
@@ -20,15 +23,15 @@ class Ingester
     end.each do |asset|
       begin
         @solr.add(asset.to_solr)
-        puts "Added #{asset.id}"
+        log.info("Added #{asset.id}")
       rescue => e
         errors.push(asset.id)
-        puts "Error on #{asset.id}: #{e}"
+        log.warn("Error on #{asset.id}: #{e}")
       end
     end
     @solr.commit
-    puts "Commit"
-    puts "#{errors.count} errors"
+    log.info("Commit")
+    log.info("#{errors.count} errors")
   end
 
 end
