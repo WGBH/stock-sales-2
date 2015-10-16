@@ -1,4 +1,11 @@
 .blacklight-collections-show {
+    .container {
+        .body {
+            margin: $grid-gutter-width/2 0;
+        }
+    }
+    
+    
     .description {
         font-size: 20px;
         line-height: 28px;   

@@ -26,7 +26,7 @@
 <br/>
 
 <div class="container">
-  <div class="row"> 
+  <div class="row body"> 
     <div class="col-md-8">
       <% if @collection.splash_src %>
         <div class="splash">
@@ -50,7 +50,7 @@
     </div>
   </div>
   
-  <div class="row">
+  <div class="row body">
     <% @collection.grid_items.each do |item| %>
       <%= render partial: 'shared/thumb_3', locals: { item: item } %>
     <% end %>
