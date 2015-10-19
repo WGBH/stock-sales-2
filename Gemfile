@@ -47,6 +47,8 @@ gem 'cmless', '0.0.9'
 gem 'sony-ci-api', '0.1.1'
 gem 'curb'
 
+gem 'aws-sdk', '~> 2'
+
 gem 'rspec', :group => :test
 gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
