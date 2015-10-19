@@ -8,8 +8,8 @@
 
 ## Short
 
-James Brown at the Boston Garden. Jazz, Classical,
-Blues, Funk, Soul, Latin and Pop music.
+James Brown at the Boston Garden. Rock & Roll,
+Jazz, Classical, Blues, Funk, Soul, Latin and Pop music.
 
 ## Medium
 
