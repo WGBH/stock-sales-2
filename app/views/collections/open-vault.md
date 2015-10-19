@@ -4,7 +4,7 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/ov-thumb_348x196.png)
 
-[![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/THE+WGBH+VAULT.png)](http://openvault.wgbh.org/)
+[![splash]()
 
 ## Short
 
