@@ -83,8 +83,8 @@ class Converter
             }
           ] } 
         ] )
+        File.write(@cache_path, JSON.pretty_generate(@cache))
       end
-      File.write(@cache_path, JSON.pretty_generate(@cache))
     end
   end
   
