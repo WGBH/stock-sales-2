@@ -51,11 +51,7 @@ class Converter
         fm_record_hash.merge({
           'thumb_src' => @cache[fm_record_hash['ci_id']][THUMBNAILS].select { |thumbnail| 
                 thumbnail['type'] == 'small' 
-              }.first['location'],
-          'proxy_src' => @cache[fm_record_hash['ci_id']][PROXIES].select { |proxy| 
-                proxy['type'] == 'video-sd' 
-              }.first['location']
-          })
+              }.first['location']})
       end
     )
   end
