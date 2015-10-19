@@ -20,6 +20,20 @@
         }
         padding-bottom: $grid-gutter-width/4; // Last well was flush to bottom.
     }
+    .well {
+        width: 100%;
+        a,form {
+            // This is to get the content vertically aligned.
+            display: table;
+            span {
+                display: table-cell; 
+                vertical-align: middle;
+                img {
+                    padding-left: 1em;
+                }
+            }
+        }
+    }
 }
 
 
@@ -33,7 +47,8 @@
 
 .blacklight-collections-show, .blacklight-catalog-show {
     .call_to_action .well {
-        width: 100%;
-        height: 7em;
+        a,form {
+            height: 4.5em; // Can accomodate 3 lines of text
+        }
     }
 }
