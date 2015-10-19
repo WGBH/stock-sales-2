@@ -4,6 +4,8 @@
 
 ## Main
 
+<div class="toc"></div>
+
 #### HOW TO SEARCH AND NAVIGATE THE WEBSITE
 Our site has two main search functions.  You can either search our Rights Ready digital clips or search the WGBH Media Library and Archives “sister” site: “Open Vault”.  “Open Vault” features interviews and unique content from selected historical WGBH series which has been digitized.  You can also search and browse the complete WGBH catalog of series and programs from Open Vault.   #### Unfortunately it is not possible to search across our archive in one integrated search. 
 
