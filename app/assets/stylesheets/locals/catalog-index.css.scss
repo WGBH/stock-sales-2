@@ -46,6 +46,11 @@
     #documents {
         .document {
             border: none;
+            @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+                width: 320px;
+                float: left;
+                margin: 10px;
+            }
         }
         .document-counter {
             display: none;
@@ -54,6 +59,17 @@
     
     .video-container {
         width: 100%;
+        // Ideally, these values would be calculated, so we'd get the 
+        // desired aspect ratio, even if the scss variable changes,
+        // but the math just wasn't working for me.
+        // NOTE: For taller videos, the bottom is cut off.
+        
+        @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { 
+            height: 180px; 
+            width: 320px;
+        }
+        @media (min-width: $screen-md-min) { height: 138px; }
+        @media (min-width: $screen-lg-min) { height: 182px; }
         overflow: hidden;
         video {
             // Crop out the narrow black bars on many clips.
