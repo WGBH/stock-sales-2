@@ -1,5 +1,8 @@
 .call_to_action {
     background: $light-blue;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
     .head {
         margin: 0px;
         background: $light-green;
@@ -8,6 +11,7 @@
     .body {
         margin-top: $well-padding; // Override default of $well-padding * 2;
         background: $light-blue;
+        padding-bottom: $grid-gutter-width/4; // Last well was flush to bottom.
         .well {
             border: 1px solid $light-grey;
             img {
@@ -18,7 +22,6 @@
                 color: $dark-blue;
             }
         }
-        padding-bottom: $grid-gutter-width/4; // Last well was flush to bottom.
     }
     .well {
         width: 100%;

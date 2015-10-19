@@ -4,7 +4,7 @@
 
 <div class="container top">
   
-  <p class="head">WGBH Collection</p>
+  <p class="head" id="wgbh-collection">WGBH Collection</p>
   <div class="row">
     <div class="col-md-4">
       <h1 class="col-md-offset-1">
@@ -26,7 +26,7 @@
 <br/>
 
 <div class="container">
-  <div class="row"> 
+  <div class="row body"> 
     <div class="col-md-8">
       <% if @collection.splash_src %>
         <div class="splash">
@@ -36,19 +36,21 @@
           <% end %>
         </div>
       <% end %>
-      <%= @collection.long_html.html_safe %>
+      <div class="description">
+        <%= @collection.long_html.html_safe %>
+      </div>
     </div>
     <div class="col-md-4">
       <%= render partial: 'collections/collection_select' %>
       <%= render partial: 'shared/search' if @collection.path == 'digital-clips' %>
       <div>
-        <h4>Helpful Links</h4>
+        <h3>Helpful Links</h3>
         <%= @collection.links_html.html_safe %>
       </div>
     </div>
   </div>
   
-  <div class="row">
+  <div class="row body">
     <% @collection.grid_items.each do |item| %>
       <%= render partial: 'shared/thumb_3', locals: { item: item } %>
     <% end %>

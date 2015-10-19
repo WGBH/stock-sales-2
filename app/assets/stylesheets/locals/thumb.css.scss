@@ -1,5 +1,5 @@
 .thumb {
-    font-size: 12px;
+    font-size: 20px;
     img {
         display: block;
         width: 400px; 
@@ -8,12 +8,16 @@
     }
     .title {
         display: block;
-        font-weight: 600;
+        font-weight: 500;
         padding-top: 0.5em;
         color: $dark-blue; // This might apply to <a>s more generally
     }
     a {
         text-decoration: none;
+        color: #000;
+        .title:hover {
+            text-decoration: underline;
+        }
     }
     margin-bottom: $grid-gutter-width;
 }

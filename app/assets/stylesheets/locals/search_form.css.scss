@@ -1,15 +1,21 @@
 input {
-  background-color: $almost-white;
-  color: #000;
-  width: 85%;
-  &[type="submit"] {
-    background-image: url(/icon-search.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: inherit;
-    border: none;
-    float: right;
-    height: 2em;
-    width: 2em;
-  }
+    background-color: $almost-white;
+    color: #000;
+    @media (min-width: $screen-md-min) {
+        width: 180px;
+    }
+    @media (min-width: $screen-lg-min) {
+        width: 260px;
+    }
+    &[type="submit"] {
+        // !important to make sure it applies on search results page.
+        background-image: url(/icon-search.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        background-color: inherit !important;
+        border: none !important;
+        float: right !important;
+        height: 2em !important;
+        width: 2em !important;
+    }
 }

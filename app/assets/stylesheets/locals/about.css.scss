@@ -3,12 +3,18 @@
         color: #FFF;
         margin-top: 0;
         margin-bottom: $grid-gutter-width;
+        font-weight: 500;
+        font-size: 60px;
     }
     .container {
         background: #FFF;
-    }
-    .container .pull-right {
-        background: $light-blue;
-        margin: $grid-gutter-width;
+        .pull-right {
+            background: $light-blue;
+            margin: $grid-gutter-width;
+        }
+        .body {
+            margin-left: $grid-gutter-width/2;
+            margin-top: $grid-gutter-width/2;
+        }
     }
 }
