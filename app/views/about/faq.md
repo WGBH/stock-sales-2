@@ -1,4 +1,4 @@
-# Help and FAQ's
+# FAQ
 
 3
 
