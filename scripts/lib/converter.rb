@@ -3,11 +3,10 @@ require 'nokogiri'
 require 'json'
 require 'sony-ci-api'
 require_relative '../../app/models/asset'
-require_relative 'log_roller'
+require_relative 'global_ingest_log'
 
 class Converter
   include Enumerable
-  include LogRoller
   
   def initialize(xml, cache_path = '/tmp/stock-sales-cache.json')
     @doc = Nokogiri::XML(xml).remove_namespaces!
@@ -23,7 +22,7 @@ class Converter
       begin
         block.call(to_asset(record.to_xml))
       rescue => e
-        log.error("#{e} on:\n #{record.to_xml}")
+        $LOG.error("#{e} on:\n #{record.to_xml}")
       end
     end
   end
@@ -63,7 +62,7 @@ class Converter
   
   def refresh_cache()
     @cache = JSON.parse(File.read(@cache_path)) rescue {}
-    log.info("Cache starting with #{@cache.count} entries")
+    $LOG.info("Cache starting with #{@cache.count} entries")
     
     ci_ids_todo = @doc.xpath('/FMPDSORESULT/ROW/Ci_ID')
                  .map(&:text).map(&:strip).reject(&:empty?) - @cache.keys
@@ -72,7 +71,7 @@ class Converter
       ci = SonyCiAdmin.new(credentials_path: 'config/ci.yml')
       while !ci_ids_todo.empty?
         group = ci_ids_todo.shift(500) # Max dictated by the Sony API
-        log.info("#{ci_ids_todo.count} Ci IDs still need details")
+        $LOG.info("#{ci_ids_todo.count} Ci IDs still need details")
         details = ci.multi_details(group, [THUMBNAILS, PROXIES])
         @cache.merge!(Hash[
           details['items'].map { |item| [
