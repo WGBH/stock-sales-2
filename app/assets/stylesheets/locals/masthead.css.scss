@@ -26,6 +26,10 @@
   }
 
   .call_to_action {
-    margin: $grid-gutter-width 0px $grid-gutter-width $grid-gutter-width; // darkblue background around box.
+    margin: $grid-gutter-width 0;
+    @media (min-width: $screen-md-min) {
+        // With md or lg, separation from video.
+        margin-left: $grid-gutter-width;
+    }
   }
 }
