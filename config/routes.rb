@@ -13,6 +13,9 @@ Rails.application.routes.draw do
   
   resources :downloads,
     only: [:show]
+  
+  resources :media,
+    only: [:show]
 
   
 end

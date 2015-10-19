@@ -90,7 +90,7 @@ class Asset
     @program ||= @hash["program"]
   end
   def proxy_src
-    @proxy_src ||= @hash["proxy_src"]
+    @proxy_src ||= "/media/#{id}"
   end
   def series
     @series ||= @hash["series"]
