@@ -4,11 +4,10 @@ require 'singleton'
 require 'logger'
 require_relative 'converter'
 require_relative '../../lib/solr'
-require_relative 'log_roller'
+require_relative 'global_ingest_log'
 
 class Ingester
   include Singleton
-  include LogRoller
 
   def initialize
     @solr = Solr.instance.connect
@@ -22,13 +21,13 @@ class Ingester
     end.each do |asset|
       begin
         @solr.add(asset.to_solr)
-        log.info("Added #{asset.id}")
+        $LOG.info("Added #{asset.id}")
       rescue => e
-        log.error("Error on #{asset.id}: #{e}")
+        $LOG.error("Error on #{asset.id}: #{e}")
       end
     end
     @solr.commit
-    log.info("Commit")
+    $LOG.info("Commit")
   end
 
 end
