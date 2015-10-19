@@ -7,6 +7,10 @@ placeholder ||= "Search over 10,000 WGBH clips online"
 %>
 
 <form action="/catalog">
-  <input type="submit" value="" />
-  <input placeholder="<%= placeholder %>" name="q"/>
+  <span>
+    <input placeholder="<%= placeholder %>" name="q"/>
+  </span>
+  <span>
+    <input type="submit" value=""/>
+  </span>
 </form>
