@@ -41,10 +41,10 @@ the “Browse: Series” button on the Open Vault site.
 - [The Vietnam Collection] (http://openvault.wgbh.org/collections/vietnam-the-vietnam-collection)
 - [The Rock and Roll Collection] (http://openvault.wgbh.org/catalog/44ffa1-rock-and-roll)
 - [The Say Brother Collection] (http://openvault.wgbh.org/collections/say-brother)
-- [The New Television Workshop] (http://openvault.wgbh.org/collections/new-television-workshop)
+- [The New Television Workshop Collection] (http://openvault.wgbh.org/collections/new-television-workshop)
 - [WGBH's 10:00 News Collection] (http://bostonlocaltv.org/catalog?f[collection_s][]=Ten+O%27Clock+News)
-- [The Advocates](http://openvault.wgbh.org/collections/advocates-advocates)
-- [March on Washington - Radio] (http://openvault.wgbh.org/collections/march-march-on-washington)
+- [The Advocates Collection](http://openvault.wgbh.org/collections/advocates-advocates)
+- [The 1963 March on Washington - Complete Radio Coverage] (http://openvault.wgbh.org/collections/march-march-on-washington)
 
 ## Grid
 
