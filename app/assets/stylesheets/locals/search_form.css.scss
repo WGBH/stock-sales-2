@@ -1,11 +1,39 @@
+.call_to_action input {
+    @media (min-width: $screen-md-min) {
+        width: 220px;
+    }
+    @media (min-width: $screen-lg-min) {
+        width: 300px;
+    }
+}
+
+#masthead input {
+    @media (min-width: $screen-md-min) {
+        width: 200px;
+    }
+    @media (min-width: $screen-lg-min) {
+        width: 280px;
+    }
+}
+
+#helpful-links input {
+    width: 85%; // xs and sm.
+    @media (min-width: $screen-md-min) {
+        width: 240px;
+    }
+    @media (min-width: $screen-lg-min) {
+        width: 330px;
+    }
+}
+
 input {
     background-color: $almost-white;
     color: #000;
     @media (min-width: $screen-md-min) {
-        width: 180px;
+        width: 170px;
     }
     @media (min-width: $screen-lg-min) {
-        width: 260px;
+        width: 235px;
     }
     &[type="submit"] {
         // !important to make sure it applies on search results page.
