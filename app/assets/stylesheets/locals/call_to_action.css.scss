@@ -9,9 +9,9 @@
         color: #FFF
     }
     .body {
-        margin-top: $well-padding; // Override default of $well-padding * 2;
+        margin-top: 0px; // Override default of $well-padding * 2;
+        padding: $grid-gutter-width/2 0;
         background: $light-blue;
-        padding-bottom: $grid-gutter-width/4; // Last well was flush to bottom.
         .well {
             border: 1px solid $light-grey;
             img {
