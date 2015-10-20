@@ -4,8 +4,7 @@
 
 ## Main
 WGBH is a program based archive which means that all our content has been specifically shot or created for our programs. 
-You know you want THAT shot from a particular WGBH program and it is NOT in the Digital Clips. 
-How do you order it?
+You know you want THAT shot from a particular WGBH program and it is NOT in the Digital Clips Collection and you cannot find it online. How do you order it?
 
 1. ## Send us an email and identify the shot  
 We need you to identify the series, program and actual shot and where it appears in the program.
