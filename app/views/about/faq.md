@@ -33,7 +33,7 @@ No.  We do not release our program log but we can provide information to you on 
 ### HOW TO LICENSE:
 
 #### How to License or Order Rights Ready Clips:
-Copy the clips 14 digit reference number which begins with GBH and include the clip description and send us an email with your order.  Once payment has been made and you have agreed to our on line license/ (or a license agreement has been signed), 
+Copy the clips 14 digit reference number which begins with GBH and include the clip description and send us an email with your order.  Once payment has been made and you have agreed to our on line license/or a license agreement has been signed, 
 we will deliver a high resolution version of the clip to you via a secure online link. 
 
 #### What format and codec is the digital master file for your rights ready clips?
