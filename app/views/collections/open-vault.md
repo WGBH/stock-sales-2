@@ -36,13 +36,13 @@ You can also search the entire catalog of WGBH programs by clicking on
 the “Browse: Series” button on the Open Vault site.   
 
 ## Links
-openvault.wgbh.org
-openvault.wgbh.org/collections/wpna-wpna-war-and-peace-in-the-nuclear-age
-openvault.wgbh.org/collections/vietnam-the-vietnam-collection
-openvault.wgbh.org/catalog/44ffa1-rock-and-roll
-openvault.wgbh.org/collections/say-brother
-openvault.wgbh.org/collections/new-television-workshop
-bostonlocaltv.org/catalog?f[collection_s][]=Ten+O%27Clock+News
+[Open Vault] (openvault.wgbh.org)
+[The Nuclear Age Collection] (http://openvault.wgbh.org/collections/wpna-wpna-war-and-peace-in-the-nuclear-age)
+[The Vietnam Collection] (http://openvault.wgbh.org/collections/vietnam-the-vietnam-collection)
+[The Rock and Roll Collection] (http://openvault.wgbh.org/catalog/44ffa1-rock-and-roll)
+[Say Brother Collection] (http://openvault.wgbh.org/collections/say-brother)
+[The New Television Workshop] (http://openvault.wgbh.org/collections/new-television-workshop)
+[WGBH's 10:00 News Collection] (http://bostonlocaltv.org/catalog?f[collection_s][]=Ten+O%27Clock+News)
 
 ## Grid
 
