@@ -90,7 +90,7 @@ class Asset
     @program ||= @hash["program"]
   end
   def proxy_src
-    @proxy_src ||= @hash["proxy_src"]
+    @proxy_src ||= "/media/#{id}"
   end
   def series
     @series ||= @hash["series"]
@@ -107,9 +107,8 @@ class Asset
   def type
     @type ||= @hash["type"]
   end
-
   def watermarked_src
-    @watermarked_src = "https://s3.amazonaws.com/wgbhstocksales.org/content/watermarked_clips/#{id}.mov"
+    @watermarked_src = "/downloads/#{id}"
   end
   
 end
