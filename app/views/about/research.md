@@ -1,4 +1,4 @@
-# Research Request
+# How to License
 
 4
 
