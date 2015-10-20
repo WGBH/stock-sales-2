@@ -32,7 +32,8 @@
                 display: table-cell; 
                 vertical-align: middle;
                 img {
-                    padding-left: 1em;
+                    padding-left: 0.2em;
+                    min-width: 1.4em; // Squeezed in Chrome w/o this. No idea why.
                 }
             }
         }
