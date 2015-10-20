@@ -7,7 +7,7 @@ WGBH is a program based archive which means that all our content has been specif
 You know you want THAT shot from a particular WGBH program and it is NOT in the Digital Clips. 
 How do you order it?
 
-1. ## Identify the shot  
+1. ## Send us an email and identify the shot  
 We need you to identify the series, program and actual shot and where it appears in the program.
 
 2. ## Give us time codes in and out 
@@ -21,6 +21,7 @@ Many of our documentaries contain third party materials, so we have to make sure
 Tell us what you are producing your project for:  the market, distribution, term and we will quote you a rate.
 
 5. ## Sign our license agreement
+Once we receive a signed license agreement we can release master material to you. 
 
 6. ## Make your payment  
 We prefer credit card payment whenever possible
