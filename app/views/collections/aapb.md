@@ -25,6 +25,7 @@ local and regional programming.  A collaboration between the Library of Congress
 American Archive of Public Broadcasting was funded by the Corporation of Public Broadcasting. 
 The goal of the AAPB is to preserve the cultural heritage of public television 
 and make this invaluable resource available to the public. 
+Browse and Discover the WGBH collection in the American Archive!
 
 
 
