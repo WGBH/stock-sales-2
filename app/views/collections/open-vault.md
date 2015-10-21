@@ -13,7 +13,7 @@ Interviews and in depth program content
 
 ## Medium
 
-INTERVIEWS, ground-breaking WGBH television series
+From the WGBH Archives: INTERVIEWS and archival content from historic WGBH television series 
 
 ## Long
 
