@@ -4,11 +4,10 @@ placeholder ||= "Search 10,000+ Clips"
 
 %>
 
-<form action="/catalog">
-  <span>
-    <input placeholder="<%= placeholder %>" name="q"/>
-  </span>
-  <span>
-    <input type="submit" value=""/>
-  </span>
-</form>
+<div class="search_form">
+  <form action="/catalog">
+      <input placeholder="<%= placeholder %>" name="q"/>
+      <input type="submit" value=""/>
+      <div style="clear:both;"></div>
+  </form>
+</div>

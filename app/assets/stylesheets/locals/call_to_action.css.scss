@@ -25,6 +25,8 @@
     }
     .well {
         width: 100%;
+        min-height: 120px;
+        
         a,form {
             // This is to get the content vertically aligned.
             display: table;
@@ -51,8 +53,11 @@
 
 .blacklight-collections-show, .blacklight-catalog-show {
     .call_to_action .well {
-        a,form {
-            height: 4.5em; // Can accomodate 3 lines of text
-        }
+
+        // min-height: 120px;
+
+        // a,form {
+        //     height: 4.5em; // Can accomodate 3 lines of text
+        // }
     }
 }
