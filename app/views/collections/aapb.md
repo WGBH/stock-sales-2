@@ -35,6 +35,6 @@ Browse and Discover the WGBH collection in the American Archive!
 
 ## Grid
 
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Climate change] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Climate+change.png6)
+- [Joan Baez](/TODO) ![](http://placehold.it/348x196)
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
