@@ -20,14 +20,14 @@
           TODO: Allison, put your message here.
         </p>
       </div>
-      <% [['col-md-6', %w(clip_description clip_keywords)],
-          ['col-md-3', %w(event_date event_location program series category)],
-          ['col-md-3', %w(length aspect_ratio codec digital_wrapper dimensions format type)]].each do |pair| %>
-        <div class="<%= pair[0] %>">
+      <% [{ class: 'col-md-6', fields: %w(clip_description clip_keywords)},
+          { class: 'col-md-3', fields: %w(event_date event_location program series category)},
+          { class: 'col-md-3', fields: %w(length aspect_ratio codec digital_wrapper dimensions format type)}].each do |col| %>
+        <div class="<%= col[:class] %>">
           <%= render partial: 'catalog/field_list', 
                      locals: {
                         asset: asset, 
-                        fields: pair[1]
+                        fields: col[:fields]
                       } %>
         </div>
       <% end %>
