@@ -20,9 +20,14 @@
 
   .tagline {
     font-family: 'Crimson Text', serif;
-    font-size: 23px;
     font-style: italic;
     color: #FFF;
+    @media (min-width: $screen-lg-min) {
+      font-size: 23px;
+    }
+    @media (max-width: $screen-md-max) {
+      font-size: 20px;
+    }
   }
 
   .call_to_action {
