@@ -1,5 +1,4 @@
 .thumb {
-    font-size: 20px;
     img {
         display: block;
         width: 400px; 
@@ -7,8 +6,9 @@
         // In sm and xs, prevents the image from exanding to fill the entire column.
     }
     .title {
+        font-size: 20px;
         display: block;
-        font-weight: 500;
+        font-weight: 600;
         padding-top: 0.5em;
         color: $dark-blue; // This might apply to <a>s more generally
     }
