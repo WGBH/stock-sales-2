@@ -13,7 +13,7 @@ The Big Dig, Whitey Bulger and more
 
 ## Medium
 
-The home of WGBH television and radio for over 60 years
+The home of WGBH Television and Radio for over 60 years
 
 ## Long
 
