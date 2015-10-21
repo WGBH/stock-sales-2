@@ -36,5 +36,5 @@ Browse and Discover the WGBH collection in the American Archive!
 ## Grid
 
 - [Climate change] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Climate+change.png6)
-- [Joan Baez](/TODO) ![](http://placehold.it/348x196)
+- [Edward R. Murrow](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Edward+R.+Murrow_348x196.png)
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
