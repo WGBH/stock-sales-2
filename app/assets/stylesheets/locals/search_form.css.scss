@@ -32,21 +32,6 @@
 }
 
 
-// Override search_form width in .call_to_action .well
-.call_to_action {
-  .well {
-    .search_form {
-
-      @media (min-width: $screen-md-min) {
-          width: 220px;
-      }
-      @media (min-width: $screen-lg-min) {
-          width: 300px;
-      }
-    }
-  }
-}
-
 // Override search_form width in #masthead
 #masthead .search_form {
     @media (min-width: $screen-md-min) {
