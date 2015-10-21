@@ -15,7 +15,7 @@ Biographies, Maps
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+Television's most watched history series featuring in-depth documentaries on American History
 
 ## Long
 
