@@ -15,11 +15,11 @@ Biographies, Maps
 
 ## Medium
 
-Television's most watched history series featuring in-depth documentaries on American History
+Television's most watched history series featuring in-depth documentaries on American History and related content
 
 ## Long
 
-American Experience is television’s most watched history series which has been 
+American Experience is the authoritative source for American History programming and has been 
 producing films since 1988.   Like our other series, it offers a wealth of additional 
 features on its website which debuted in 1995.  To date, American Experience Online 
 has produced over 175 feature sites, enabling viewers to watch films online and 
