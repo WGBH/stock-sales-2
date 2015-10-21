@@ -13,7 +13,7 @@ The Big Dig, Whitey Bulger and more
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+The home of WGBH television and radio for over 60 years
 
 ## Long
 
