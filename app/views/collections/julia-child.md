@@ -13,7 +13,7 @@ The French Chef and Dinner with Julia series
 
 ## Medium
 
-Featuring the WGBH television series, "The French Chef", "Dinner with Julia" and more
+The Doyenne of French Cooking - her first program "The French Chef" debuted on WGBH Boston 
 
 ## Long
 
