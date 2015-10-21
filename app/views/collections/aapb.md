@@ -4,7 +4,7 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/aapb-thumb_348x196.png)
 
-![splash](http://placehold.it/770x433)
+![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/AAPB+home+page.png)
 
 ## Short
 
