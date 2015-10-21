@@ -13,7 +13,7 @@ Africans in America, Age of Columbus, and more
 
 ## Medium
 
-WGBH produced multi-part series focusing on science, history, religion, health, current affairs, and more
+WGBH produced, multi-part series focusing on science, history, religion, health, current affairs, and more
 
 ## Long
 
