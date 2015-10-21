@@ -15,8 +15,10 @@
       <p>
         <%= render partial: 'collections/collection_select' %>
       </p>
-      <h4>Helpful Links</h4>
-      <%= @about.links_html.html_safe %>    
+      <div id="helpful-links">
+        <h3>Helpful Links</h3>
+        <%= @about.links_html.html_safe %>
+      </div>
     </div>
   </div>
 </div>
