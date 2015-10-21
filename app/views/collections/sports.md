@@ -13,7 +13,7 @@ Golf and Ice Skating
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+WGBH's archival sports collection including tennis, skating, running, golf, sailing and more
 
 ## Long
 
