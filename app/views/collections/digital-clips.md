@@ -12,7 +12,7 @@ Rights ready clips
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+Our Rights Ready Digital Clip Collection
 
 ## Long
 
