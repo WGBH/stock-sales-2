@@ -13,7 +13,7 @@ The French Chef and Dinner with Julia series
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+Featuring the WGBH television series, "The French Chef", "Dinner with Julia" and more
 
 ## Long
 
