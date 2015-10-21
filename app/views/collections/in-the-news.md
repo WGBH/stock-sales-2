@@ -12,7 +12,7 @@ Recently added content
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+Selected WGBH content relating to news of the day.  
 
 ## Long
 
