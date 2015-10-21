@@ -13,7 +13,7 @@ programs, including The WGBH Collection
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+Browse and search almost 9000 hours of audio and visual content in the WGBH collection of the American Archive. 
 
 ## Long
 
@@ -26,8 +26,7 @@ American Archive of Public Broadcasting was funded by the Corporation of Public 
 The goal of the AAPB is to preserve the cultural heritage of public television 
 and make this invaluable resource available to the public. 
 
-The WGBH Collection includes approximately 8500-9000 hours of content; 
-Search, Browse and Discover!
+
 
 ## Links
 
