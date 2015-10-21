@@ -6,7 +6,7 @@
   
   <p class="head" id="wgbh-collection">WGBH Collection</p>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-5">
       <h1 class="col-md-offset-1">
         <% if @collection.logo_src %>
           <img src="<%= @collection.logo_src %>" alt="logo"/>
@@ -15,7 +15,7 @@
         <% end %>
       </h1>
     </div>
-    <div class="col-md-8 pull-right">
+    <div class="col-md-7 pull-right">
       <div class="tagline">
         <%= @collection.medium_html.html_safe %>
       </div>
