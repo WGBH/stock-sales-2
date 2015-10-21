@@ -1,0 +1,10 @@
+<dl>
+  <% fields.each do |method| 
+    asset.send(method).tap do |value| 
+      if !value.empty? %>
+        <dt><%= method.gsub('_',' ').gsub(/clip /i, '') %></dt>
+        <dd><%= value %></dd><% 
+      end
+    end
+  end %>
+</dl>
