@@ -58,4 +58,5 @@ gem 'simplecov', :require => false, :group => :test
 group :development, :test do
   gem 'pry'
   gem 'faraday'
+  gem 'byebug'
 end
