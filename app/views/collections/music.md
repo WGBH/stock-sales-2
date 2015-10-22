@@ -33,6 +33,6 @@ for licensing.
 
 ## Grid
 
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Peggy Lee | The Boston Pops](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/EAP_PeggyLee1_348x196.png)
+- [Big Mama Thornton](/TODO) ![]()
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
