@@ -24,7 +24,7 @@ and 1970s (when WGBH had a sports unit) with a smattering of content thereafter
 until current day.  Sports represented include U. S Professional Tennis (John McEnroe, 
 Arthur Ashe and Martina Navratilova), Championship Skating (Nancy Kerrigan, Brian 
 Boitano and Paul Wylie), Boston Marathon coverage (Bill Rodgers, Johnny Kelley), 
-sailing, golf, and more.  Interviews with sports legends include Muhammad Ali, 
+basketball, sailing, golf, and more.  Interviews with sports legends include Muhammad Ali, 
 Tom “Satch” Sanders, Jim Brown, Luis Tiant, Phil Esposito and Bobby Orr.
 
 ## Links
