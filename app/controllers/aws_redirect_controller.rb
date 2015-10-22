@@ -11,10 +11,13 @@ class AwsRedirectController < ApplicationController
   end
   
   def show
-    params = {
+    redirect_to SIGNER.presigned_url(:get_object, s3_params)
+  end
+
+  def s3_params
+    {
       bucket: 'wgbhstocksales.org', 
       key: "content/watermarked_clips/#{params[:id]}.mov"
     }.merge(extra_params)
-    redirect_to SIGNER.presigned_url(:get_object, params)
   end
 end
