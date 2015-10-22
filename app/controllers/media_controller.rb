@@ -3,7 +3,7 @@ class MediaController < ApplicationController
   
   def show
     @response, @document = fetch(params['id'])
-    ci_id = Asset.new(JSON.parse(@document.instance_variable_get('@_source')['json'])).ci_id
+    ci_id = @document.ci_id
     # TODO: Move multi_details to SonyCiBasic?
     # TODO: ... or add a method just for this?
     ci = SonyCiAdmin.new(credentials_path: Rails.root + 'config/ci.yml')
