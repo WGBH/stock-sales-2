@@ -30,10 +30,10 @@ describe SolrDocument do
 
   subject { SolrDocument.new(hash_from_rsolr) }
 
-  describe '#label_for' do
+  describe '.label_for' do
     it 'returns a string for every field' do
       all_fields.each do |field|
-        expect(subject.label_for(field)).to be_a String
+        expect(SolrDocument.label_for(field)).to be_a String
       end
     end
   end
@@ -41,7 +41,7 @@ describe SolrDocument do
   describe '#labels_and_values' do
     it 'returns a array of hashes of the form {label: "asset field", value: "asset field value"}' do
       labels_and_values = subject.labels_and_values(*all_fields)
-      expect(labels_and_values.map{|pair| pair[:label] }).to eq (all_fields - fields_with_empty_vals).map{ |field| subject.label_for(field) }
+      expect(labels_and_values.map{|pair| pair[:label] }).to eq (all_fields - fields_with_empty_vals).map{ |field| SolrDocument.label_for(field) }
       expect(labels_and_values.map{|pair| pair[:value] }).to eq (all_fields - fields_with_empty_vals).map{ |field| subject.send(field) }
     end
   end

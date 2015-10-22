@@ -8,14 +8,8 @@ class SolrDocument
     @json ||= (JSON.parse(@_source[:json]) rescue {}).with_indifferent_access
   end
 
-  def label_for(field)
-    # Assume labels are the same as field names, sans underscores and
-    # "clip_" prefix if it has one.
-    field.to_s.gsub('_',' ').gsub(/clip /i, '')
-  end
-
   def labels_and_values(*fields)
-    fields.map{ |field| { label: label_for(field), value: send(field) } }.select{ |pair| !pair[:value].nil? && !pair[:value].empty? }
+    fields.map{ |field| { label: SolrDocument.label_for(field), value: send(field) } }.select{ |pair| !pair[:value].nil? && !pair[:value].empty? }
   end
 
   def artesia_id
@@ -108,5 +102,13 @@ class SolrDocument
 
   def watermarked_src
     "/downloads/#{id}"
+  end
+
+  # CLASS METHODS
+
+  def self.label_for(field)
+    # Assume labels are the same as field names, sans underscores and
+    # "clip_" prefix if it has one.
+    field.to_s.gsub('_',' ').gsub(/clip /i, '')
   end
 end
