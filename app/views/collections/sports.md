@@ -34,5 +34,5 @@ Tom “Satch” Sanders, Jim Brown, Luis Tiant, Phil Esposito and Bobby Orr.
 ## Grid
 
 - [Arthur Ashe | Longwood Tennis 1968](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/Arthur_02_348x196.png)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Boston Celtics | 1984](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/CelticsPride84_01_348x196.png)
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
