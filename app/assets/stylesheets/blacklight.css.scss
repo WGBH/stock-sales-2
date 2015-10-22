@@ -112,8 +112,10 @@ p {
 }
 
 .col-md-12 {
-    // Default gives us gutters at the edges which are
-    // half the gutters in between the cells. We actually
-    // want the edge gutters just as wide.
-    padding: 0 $grid-gutter-width;
+  // Default gives us gutters at the edges which are
+  // half the gutters in between the cells. We actually
+  // want the edge gutters just as wide.
+  // TODO: find a way to do this that doesn't affect *all* grids so we don't
+  //  have to reset it in other places, e.g. field_list.scss
+  padding: 0 $grid-gutter-width;
 }
