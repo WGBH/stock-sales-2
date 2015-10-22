@@ -38,5 +38,5 @@ programs on its site, organized by broadcast year.
 ## Grid
 
 - [TODO Title | optional subtitle](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Troubled+water_348x196.png)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [TODO Title](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/The+case+against+DNA+evidence_348x196.png)
+- [TODO Title](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Obama+%26+Syria-Demsey+Joint+Chiefs+of+Staff_348x196.png)
