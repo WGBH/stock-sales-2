@@ -35,6 +35,10 @@ Browse and Discover the WGBH collection in the American Archive!
 
 ## Grid
 
-- [Climate change] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Climate+change.png6)
+- [Climate change] ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Climate+change_348x196.png)
 - [Edward R. Murrow](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Edward+R.+Murrow_348x196.png)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Joan Baez | At Passim's](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Joan+Baez_348x196.png)
+- [Julia Child | At the White House) (/TODO) ![] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Julia+Child+at+the+White+House_348x196.png)
+- [Malcolm X | The Negro and the American Promise] (/TODO) ![] (	
+https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Malcolm+X_348x196.png)
+- [Dancing Disco] (/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Dancing+Disco_348x196.png)
