@@ -12,7 +12,7 @@ Golf and Ice Skating
 
 ## Medium
 
-WGBH's archival sports collection including tennis, skating, running, golf, sailing and more
+WGBH's archival sports collection including tennis, skating, running, basketball, golf, and more
 
 ## Long
 
