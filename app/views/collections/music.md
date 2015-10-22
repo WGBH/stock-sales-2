@@ -4,7 +4,6 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/RockandRoll_01_348x196.png)
 
-![splash](http://placehold.it/770x433)
 
 ## Short
 
@@ -34,5 +33,5 @@ for licensing.
 ## Grid
 
 - [Peggy Lee | The Boston Pops](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/EAP_PeggyLee1_348x196.png)
-- [Big Mama Thornton](/TODO) ![]()
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Big Mama Thornton](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/BigMama2_348x196.png)
+- [David Ruffin | The Temptations](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/SpringSpecial_Ruffin_348x196.png)
