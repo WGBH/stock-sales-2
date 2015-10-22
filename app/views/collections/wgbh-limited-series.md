@@ -12,7 +12,7 @@ Africans in America, Age of Columbus, and more
 
 ## Medium
 
-Multi-part, in-depth series focusing on science, history, religion, health, current affairs, and more
+Multi-episode series focusing on science, history, religion, health, current affairs, and more
 
 ## Long
 
