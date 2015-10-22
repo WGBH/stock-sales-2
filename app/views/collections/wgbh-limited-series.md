@@ -20,7 +20,7 @@ For many years WGBH produced a large number of critically acclaimed “limited�
 or “stand-alone” multi-episode documentary series.  Most of these series were 
 produced between 1983-2000;  their subjects were history, science, current affairs, 
 culture, health, music, architecture and more.  For example, “The AIDS Quarterly”
-was produced XX and was followed by “The Health Quarterly” which ran from XXXX-XXXX.
+was produced in 1989-1990 and was followed by “The Health Quarterly” which ran from 1992-.
 “The Machine that Changed the World” focused on the history of the computer,  “Africans in America” 
 on slavery, etc.  Click on the link below to download a PDF list of these series.  
 Many still remain relevant and are excellent resources in terms of footage, research 
