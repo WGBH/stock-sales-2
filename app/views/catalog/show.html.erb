@@ -1,7 +1,7 @@
 <% Asset.new(JSON.parse(@document.instance_variable_get('@_source')['json'])).tap do |asset| %>
   <div id="content" class="container">
     <div class="row">
-      <div class="pull-left col-md-6">
+      <div class="pull-left col-md-9">
         <h1><%= asset.clip_title %></h1>
       </div>
       <div class="pull-right col-md-3">
@@ -9,37 +9,28 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-6">
         <video controls="true"
           oncontextmenu="return false;" 
           width="100%"
           poster="<%= asset.thumb_src %>"
           src="<%= asset.proxy_src %>">
         </video>
-        <dl>
-          <dt>Description</dt>
-          <dd><%= asset.clip_description %></dd>
-          
-          <dt>Keywords</dt>
-          <dd><%= asset.clip_keywords %></dd>
-          
-          <dt>Category</dt>
-          <dd><%= asset.category %></dd>
-        </dl>
+        <p>
+          TODO: Allison, put your message here.
+        </p>
       </div>
-      <div class="col-md-3">
-        <dl>
-          <% 
-          %w(aspect_ratio codec digital_wrapper dimensions event_date event_location format length program series type).each do |method| 
-            asset.send(method).tap do |value| 
-              if !value.empty? %>
-                <dt><%= method.gsub('_',' ') %></dt>
-                <dd><%= value %></dd><% 
-              end
-            end
-          end %>
-        </dl>
-      </div>
+      <% [{ class: 'col-md-6', fields: %w(clip_description clip_keywords)},
+          { class: 'col-md-3', fields: %w(event_date event_location program series category)},
+          { class: 'col-md-3', fields: %w(length aspect_ratio codec digital_wrapper dimensions format type)}].each do |col| %>
+        <div class="<%= col[:class] %>">
+          <%= render partial: 'catalog/field_list', 
+                     locals: {
+                        asset: asset, 
+                        fields: col[:fields]
+                      } %>
+        </div>
+      <% end %>
     </div>
   </div>
 <% end %>
