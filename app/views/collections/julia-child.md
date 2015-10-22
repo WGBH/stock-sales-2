@@ -13,7 +13,7 @@ The French Chef and Dinner with Julia series
 
 ## Medium
 
-The Doyenne of French Cooking - her first program "The French Chef" debuted on WGBH Boston 
+The Doyenne of French Cooking - her first program "The French Chef" debuted on WGBH Boston in 1963
 
 ## Long
 
@@ -36,6 +36,6 @@ from the set, and/or screen grabs from the programs.
 
 ## Grid
 
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
-- [TODO Title](/TODO) ![](http://placehold.it/348x196)
+- [Julia Child | At the Marseille Fish Market](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/julia_child/Julia+Child+at+the+fish+market_348x196.png)
+- [Julia Child | Baking baguettes](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/julia_child/Julia+with+baguettes_348x196.png)
+- [Julia Child | The French Chef](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/julia_child/Julia+B%26W_348x196.png)
