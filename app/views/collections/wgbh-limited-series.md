@@ -4,7 +4,6 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/SJ_Logo_10_Flat+(1)_348x196.jpg)
 
-![splash](http://placehold.it/770x433)
 
 ## Short
 
