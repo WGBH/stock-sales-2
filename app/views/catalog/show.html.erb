@@ -20,17 +20,27 @@
           TODO: Allison, put your message here.
         </p>
       </div>
-      <% [{ class: 'col-md-6', fields: %w(clip_description clip_keywords)},
-          { class: 'col-md-3', fields: %w(event_date event_location program series category)},
-          { class: 'col-md-3', fields: %w(length aspect_ratio codec digital_wrapper dimensions format type)}].each do |col| %>
-        <div class="<%= col[:class] %>">
-          <%= render partial: 'catalog/field_list', 
-                     locals: {
-                        asset: asset, 
-                        fields: col[:fields]
-                      } %>
-        </div>
-      <% end %>
+
+      <div class="col-md-6">
+      <%= render partial: 'catalog/field_list',
+                 locals: { columns: 1,
+                           field_list: @document.labels_and_values( :clip_description,
+                                                                    :clip_keywords) } %>
+      <%= render partial: 'catalog/field_list',
+                 locals: { columns: 2,
+                           field_list: @document.labels_and_values( :event_date,
+                                                                    :event_location,
+                                                                    :program,
+                                                                    :series,
+                                                                    :category,
+                                                                    :length,
+                                                                    :aspect_ratio,
+                                                                    :codec,
+                                                                    :digital_wrapper,
+                                                                    :dimensions,
+                                                                    :format,
+                                                                    :type) } %>
+      </div>
     </div>
   </div>
 <% end %>

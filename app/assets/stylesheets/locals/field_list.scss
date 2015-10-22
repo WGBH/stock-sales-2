@@ -1,0 +1,6 @@
+.field-list {
+  .col-md-12 {
+    // Wresting control of column padding from blacklight.css.scss
+    padding: 0 ($grid-gutter-width / 2);
+  }
+}
