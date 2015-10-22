@@ -19,7 +19,7 @@ WGBH's archival sports collection including tennis, skating, running, basketball
 Did you know that WGBH was the first television channel to broadcast professional 
 tennis in the US in 1968?  
 
-Our sports collection is mainly archival and features footage from to the 1960s 
+Our sports collection is mainly archival and features footage from the 1960s 
 and 1970s (when WGBH had a sports unit) with a smattering of content thereafter 
 until current day.  Sports represented include U. S Professional Tennis (John McEnroe, 
 Arthur Ashe and Martina Navratilova), Championship Skating (Nancy Kerrigan, Brian 
