@@ -1,14 +1,6 @@
 // Default style for search forms
 .search_form {
 
-  // Default width for anything less than large screen
-  width: 220px;
-  
-  // Wider on wider screens 
-  @media (min-width: $screen-lg-min) {
-      width: 300px;
-  }
-
   form {
     width: 100%;
     height: auto !important;
