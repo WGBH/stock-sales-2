@@ -6,10 +6,6 @@ class AwsRedirectController < ApplicationController
   # TODO: Should be able to set region in constructor, but didn't work for me.
   # .new(region: 'us-east-1')
   
-  def extra_params
-    {}
-  end
-  
   def show
     redirect_to SIGNER.presigned_url(:get_object, s3_params)
   end
@@ -18,6 +14,6 @@ class AwsRedirectController < ApplicationController
     {
       bucket: 'wgbhstocksales.org', 
       key: "content/watermarked_clips/#{params[:id]}.mov"
-    }.merge(extra_params)
+    }
   end
 end
