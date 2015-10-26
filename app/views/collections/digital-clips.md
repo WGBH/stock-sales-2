@@ -32,9 +32,9 @@ watermarked clips.
 - Bird Flu Lab | China  ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/medical.png)
 - Karnak Temple | Egypt  ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Karnak.png)
 - Skull |Australopithecus afarensis or "Lucy" ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/skull_348x196.png)
-- African Girl |    ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/African+girl_348x196.png)
-- Muslim prayer |![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Muslims+praying_348x196.png)
-- Testtubes   |![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Needles+%26+testtube_348x196.png
+- African Girl |   ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/African+girl_348x196.png)
+- Muslim prayer |  ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Muslims+praying_348x196.png)
+- Testtubes   |    ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Needles+%26+testtube_348x196.png
 - Knights  |       ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Knights_348x196.png
 
  
