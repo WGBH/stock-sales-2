@@ -35,6 +35,4 @@ watermarked clips.
 - African Girl |   ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/African+girl_348x196.png)
 - Muslim prayer |  ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Muslims+praying_348x196.png)
 - Testtubes   |![] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Needles+and+testtube_348x196.png)
-- Knights  |       ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Knights_348x196.png)
-
- 
+- Coral  |  ![] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Coral348x196.png)
