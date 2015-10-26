@@ -16,7 +16,9 @@
         src="<%= @document.proxy_src %>">
       </video>
       <p>
-       ## To order this clip, please send us an email and include the clip #ID number and clip title 
+        <strong>
+          To order this clip, please <a href="/about/contact_us">contact us</a> and reference the clip #ID number and clip title.
+        </strong> 
       </p>
     </div>
 
@@ -27,7 +29,8 @@
                                                                   :clip_keywords) } %>
     <%= render partial: 'catalog/field_list',
                locals: { columns: 2,
-                         field_list: @document.labels_and_values( :event_date,
+                         field_list: @document.labels_and_values( :id,
+                                                                  :event_date,
                                                                   :event_location,
                                                                   :program,
                                                                   :series,
