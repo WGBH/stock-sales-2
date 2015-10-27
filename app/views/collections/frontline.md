@@ -42,4 +42,4 @@ programs on its site, organized by broadcast year.
 - [General Martin Dempsey | Chairman, Joint Chiefs of Staff](http://www.pbs.org/wgbh/pages/frontline/foreign-affairs-defense/obama-at-war/watch-pentagon-had-no-plan-for-when-isis-took-mosul-dempsey-says/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Obama+%26+Syria-Demsey+Joint+Chiefs+of+Staff_348x196.png)
 - [Pro-Assad Militia Commander | Syria]
 (https://www.youtube.com/watch?v=uL9EbC-4QF0)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Inside+Assad%27s+Syria_348x196.png)
-- 
+- [Exxon and Climate Change] (https://www.youtube.com/watch?v=ppfpFZ92JAY) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Exxon+and+Climate+Change_348x196.png)
