@@ -31,7 +31,7 @@
   }
 
   .call_to_action {
-    margin: $grid-gutter-width 0;
+    margin-top: $grid-gutter-width;
     @media (min-width: $screen-md-min) {
         // With md or lg, separation from video.
         margin-left: $grid-gutter-width;
