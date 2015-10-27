@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'support/link_check_matchers'
 
 describe "Validating collections:" do
 
@@ -12,11 +11,11 @@ describe "Validating collections:" do
         expect(page.status_code).to eq(200)
       end
       
-      describe 'thumbnail_url' do
-        # To run :check_links tests, set ENV['RSPEC_CHECK_LINKS']=true when
+      describe 'thumb_src' do
+        # To run :link_check tests, set ENV['RSPEC_CHECK_LINKS']=true when
         # running rspec.
-        it 'is a valid image url', :check_links do
-          expect(collection.thumbnail_url).to be_a_valid_image_url
+        it 'is a valid image url', :link_check do
+          expect(collection.thumb_src).to be_a_valid_image_url
         end
       end
 
