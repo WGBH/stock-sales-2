@@ -31,7 +31,7 @@ Browse and Discover the WGBH collection in the American Archive!
 
 ## Links
 
-- [LINK to WGBH Collection](http://americanarchive.org/catalog?f[organization][]=WGBH+%28MA%29)
+[WGBH Collection](http://americanarchive.org/catalog?f[organization][]=WGBH+%28MA%29)
 
 ## Grid
 

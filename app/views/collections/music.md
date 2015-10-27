@@ -28,8 +28,6 @@ for licensing.
 
 ## Links
 
-[WGBH Music Collection – downloadable PDF](/TODO)
-
 ## Grid
 
 - [Peggy Lee | Evening at Pops](http://openvault.wgbh.org/catalog/openvault:19405) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/EAP_PeggyLee1_348x196.png)
