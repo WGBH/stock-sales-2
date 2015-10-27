@@ -29,10 +29,13 @@ from the set, and/or screen grabs from the programs.
 
 ## Links
 
-- [Julia Child programs (downloadable PDF)]
-- [Julia Child Foundation](http://www.juliachildfoundation.org)
-- A la Carte Productions (Produced later Julia Child Productions post 1984)
-- [Schlesinger library – Paul Child stills](http://tinyurl.com/9lv329u)
+[Julia Child programs (downloadable PDF)](/TODO)
+
+[Julia Child Foundation](http://www.juliachildfoundation.org)
+
+[A la Carte Productions (Produced later Julia Child Productions post 1984)](/TODO)
+
+[Schlesinger library – Paul Child stills](http://tinyurl.com/9lv329u)
 
 ## Grid
 
