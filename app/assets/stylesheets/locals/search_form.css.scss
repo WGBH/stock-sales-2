@@ -1,17 +1,8 @@
 // Default style for search forms
 .search_form {
 
-  @include flexbox();
-  @include flexbox-center-vert();
-
-
   // Default width for anything less than large screen
   width: 320px;
-  
-  // Wider on wider screens 
-  // @media (min-width: $screen-lg-min) {
-  //     width: 300px;
-  // }
 
   form {
 
@@ -19,12 +10,10 @@
     @include flexbox-center-vert();
 
     width: 100%;
-    // height: auto !important;
     input {
       background-color: $almost-white;
       color: #000;
       width: 90% !important;
-      // float: left;
       &[type="submit"] {
           // !important to make sure it applies on search results page.
           background-image: url(/icon-search.png) !important;
