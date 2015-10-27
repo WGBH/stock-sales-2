@@ -28,13 +28,19 @@ and coverage of their particular subject.
 
 ## Links
 
-- [Africans in America](http://www.pbs.org/wgbh/aia/home.html)
-- [Latin Music](http://www.pbs.org/wgbh/latinmusicusa/)
-- [Rx for Survival (Global Health)](http://www.pbs.org/wgbh/rxforsurvival/)
-- [They Made America](http://www.pbs.org/wgbh/theymadeamerica/)
-- [Building Big (Architecture & Engineering)](http://www.pbs.org/wgbh/buildingbig/)
-- [Science Odyssey](http://www.pbs.org/wgbh/aso/tvseries/promo/program.html)
-- [Sacred Journeys](http://www.pbs.org/wgbh/sacredjourneys/content/home/)
+[Africans in America](http://www.pbs.org/wgbh/aia/home.html)
+
+[Latin Music](http://www.pbs.org/wgbh/latinmusicusa/)
+
+[Rx for Survival (Global Health)](http://www.pbs.org/wgbh/rxforsurvival/)
+
+[They Made America](http://www.pbs.org/wgbh/theymadeamerica/)
+
+[Building Big (Architecture & Engineering)](http://www.pbs.org/wgbh/buildingbig/)
+
+[Science Odyssey](http://www.pbs.org/wgbh/aso/tvseries/promo/program.html)
+
+[Sacred Journeys](http://www.pbs.org/wgbh/sacredjourneys/content/home/)
 
 ## Grid
 
