@@ -3,6 +3,13 @@ require 'nokogiri'
 
 module CmlessTestingGoodies
 
+
+  # Provide a module method for mixing this module into a class.
+  # def self.add_to(klass)
+  #   klass.send(:include, self)
+  # end
+
+  # Accessor to the namespaced location for all the testing goodies methods.
   attr_reader :__test
 
   def initialize(file_path)
@@ -23,6 +30,10 @@ module CmlessTestingGoodies
 
     def links
       @links ||= (hrefs - mailtos - anchors)
+    end
+
+    def external_links
+      @external_links ||= links.grep(/^https?\:\/\//)
     end
 
     def anchors

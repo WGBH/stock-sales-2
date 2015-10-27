@@ -15,7 +15,9 @@ describe 'Cmless' do
     context "class #{klass}" do
 
       # Add the special methods used for testing Cmless classes.
-      klass.include CmlessTestingGoodies
+      # klass.include CmlessTestingGoodies
+      # CmlessTestingGoodies.add_to(klass)
+      klass.send(:include, CmlessTestingGoodies)
 
       # For each pages for the given Cmless class...
       klass.all.each do |cmless_page|
@@ -24,10 +26,10 @@ describe 'Cmless' do
         context "page \"#{cmless_page.title}\"" do
 
           # For each link within a given Cmless page instance...
-          cmless_page.__test.links.each do |link|
+          cmless_page.__test.external_links.each do |link|
 
             # In the context of a link within a Cmless page instance...
-            context "with link \"#{link}\"" do
+            context "with external link \"#{link}\"" do
               
               it "is a working link" do
                 expect(link).to be_a_working_link    
