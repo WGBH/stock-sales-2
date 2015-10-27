@@ -28,15 +28,20 @@ and coverage of their particular subject.
 
 ## Links
 
-- [Africans in America (slavery)](http://www.pbs.org/wgbh/aia/home.html)
+- [Africans in America](http://www.pbs.org/wgbh/aia/home.html)
 - [Latin Music](http://www.pbs.org/wgbh/latinmusicusa/)
-- [Rx for Survival (Global health)](http://www.pbs.org/wgbh/rxforsurvival/)
-- [They Made America  (s)](http://www.pbs.org/wgbh/theymadeamerica/)
+- [Rx for Survival (Global Health)](http://www.pbs.org/wgbh/rxforsurvival/)
+- [They Made America](http://www.pbs.org/wgbh/theymadeamerica/)
 - [Building Big (Architecture & Engineering)](http://www.pbs.org/wgbh/buildingbig/)
-- [Science Odyssey (s)](http://www.pbs.org/wgbh/aso/tvseries/promo/program.html)
+- [Science Odyssey](http://www.pbs.org/wgbh/aso/tvseries/promo/program.html)
+- [Sacred Journeys](http://www.pbs.org/wgbh/sacredjourneys/content/home/)
 
 ## Grid
 
-- [Building Big | optional subtitle](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/BUILDING+BIG++Home+Page-095049+copy_348x196.png)
-- [A Science Odyssey](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/A+Science+Odyssey_348x196.png)
-- [Rx for Survival](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/RX+for+survival_348x196.png)
+- [Building Big ]() ![http://www.pbs.org/wgbh/buildingbig/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/BUILDING+BIG++Home+Page-095049+copy_348x196.png)
+- [A Science Odyssey](http://www.pbs.org/wgbh/aso/) ![http://www.pbs.org/wgbh/aso/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/A+Science+Odyssey_348x196.png)
+- [Rx for Survival](http://www.pbs.org/wgbh/rxforsurvival/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/RX+for+survival_348x196.png)
+ - [Africans in America]() ![http://www.pbs.org/wgbh/aia/home.html](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/AIA_348x196.png)
+- [They Made America](http://www.pbs.org/wgbh/theymadeamerica/) ![http://www.pbs.org/wgbh/aso/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/madeamerica_348x196.png)
+- [God in America](http://www.pbs.org/godinamerica/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/GIA_348x196.png)
+
