@@ -4,12 +4,12 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/aapb-thumb_348x196.png)
 
-![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/AAPB+home+page.png)
+[![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/AAPB+home+page.png)](http://americanarchive.org/)
 
 ## Short
 
 40,000 hours of public television and radio
-programs, including The WGBH Collection
+programs, including *The WGBH Collection*
 
 ## Medium
 
@@ -24,7 +24,8 @@ Dating from the 1950s to the 21st century, the AAPB collection includes national
 local and regional programming.  A collaboration between the Library of Congress and WGBH, the 
 American Archive of Public Broadcasting was funded by the Corporation of Public Broadcasting. 
 The goal of the AAPB is to preserve the cultural heritage of public television 
-and make this invaluable resource available to the public. 
+and make this invaluable resource available to the public.
+
 Browse and Discover the WGBH collection in the American Archive!
 
 
