@@ -7,8 +7,8 @@
 
 ## Short
 
-The Machine that Changed the World, Rx For Survival,
-Africans in America, Age of Columbus, and more
+*The Machine that Changed the World*, *Rx For Survival*,
+*Africans in America*, *Age of Columbus*, and more
 
 ## Medium
 
@@ -16,14 +16,13 @@ Multi-episode series focusing on science, history, religion, health, current aff
 
 ## Long
 
-"Sacred Journeys" is our most recent limited series. WGBH has produced many other multi-part
+[*Sacred Journeys*](http://www.pbs.org/wgbh/sacredjourneys) is our most recent limited series. WGBH has produced many other multi-part
 documentary series over the years, which have been critically acclaimed and regarded as the authoritative 
 work on that particular subject.  Many of these series were produced between 1983-2000:  their subjects were 
-history, science, current affairs, culture, health, music, architecture and more.  For example, “The AIDS Quarterly”
-was produced in 1989-1990 and was followed by “The Health Quarterly” which ran from 1991-1994. “The Machine that 
-Changed the World” focused on the history of the computer,  “Africans in America” 
-on slavery, etc.  Click on the link below to download a PDF list of these series.  
-Many still remain relevant and are excellent resources in terms of footage, research 
+history, science, current affairs, culture, health, music, architecture and more.  For example, *The AIDS Quarterly*
+was produced in 1989-1990 and was followed by *The Health Quarterly* which ran from 1991-1994. *The Machine that 
+Changed the World* focused on the history of the computer,  *Africans in America* 
+on slavery, etc.  Many still remain relevant and are excellent resources in terms of footage, research 
 and coverage of their particular subject. 
 
 ## Links
