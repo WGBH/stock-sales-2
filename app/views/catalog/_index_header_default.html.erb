@@ -1,7 +1,7 @@
 <div>
   <div class="video-container">
     <video src="<%= document.proxy_src %>" poster="<%= document.thumb_src %>" 
-           loop oncontextmenu="return false;" preload="none"
+           loop muted oncontextmenu="return false;" preload="none"
            onmouseover="this.play();" onmouseout="this.pause();" <%# For browsers %>
            onclick="this.paused ? this.play() : this.pause();" <%# For touch devices %>
            >
