@@ -19,7 +19,7 @@ WGBH is public television’s single largest producer for television, the Web, a
 
 [History of WGBH Timeline](http://www.wgbh.org/wgbhtimeline/index.cfm)
  
-[Buy DVD's of WGBH Programs](http://www.shoppbs.org)
+[Buy DVDs of WGBH Programs](http://www.shoppbs.org)
 
 [Licensing Full Programs](http://www.pbsdistribution.org)
 
