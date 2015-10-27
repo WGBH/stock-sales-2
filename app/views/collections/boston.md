@@ -4,8 +4,6 @@
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Boston_collection_348x196.png)
 
-![splash]()
-
 ## Short
 
 Boston footage, WGBH 10:00 News, the Blizzard of 1978,
@@ -19,20 +17,19 @@ The home of WGBH Television and Radio for over 60 years
 
 WGBH’s local programming is rich and varied and includes many excellent series 
 which have focused on life in and around Boston dating back to the 1950’s. One 
-of the longest running local series has been the “Ten O’Clock News” which debuted 
-on January 15, 1976 and aired until 1991.  The 10:00 News collection is now part 
-of the “Boston Local TV News website (see link below).  Many important Boston 
-stories were covered on this program including:
+of the longest running local series has been the *Ten O’Clock News* which debuted 
+on January 15, 1976 and aired until 1991, and is now featured at [bostonlocaltv.org](http://bostonlocaltv.org/wgbh).
+Many important Boston stories were covered on this program including:
 
-- Boston Busing and Desegregation
-- The Big Dig
-- Whitey Bulger
-- President Obama as a Harvard Law Student
-- The Blizzard of 1978
+- [Boston Busing and Desegregation](http://bostonlocaltv.org/catalog?q=school+busing&f[collection_s][]=Ten+O%27Clock+News)
+- [The Big Dig](http://bostonlocaltv.org/catalog?q=central+artery&f[collection_s][]=Ten+O%27Clock+News)
+- [President Obama as a Harvard Law Student](http://bostonlocaltv.org/catalog?q=obama&f[collection_s][]=Ten+O%27Clock+News)
+- [The Blizzard of 1978](http://bostonlocaltv.org/catalog?q=blizzard+1978&f[collection_s][]=Ten+O%27Clock+News)
 
 WGBH also has a collection of Boston footage from various decades including Boston 
-history, Boston personalities, Boston neighborhoods as well as HD aerials.  
-Contact us for more information. 
+history, Boston personalities, Boston neighborhoods as well as HD aerials: 
+
+[Contact us](/about/contact_us) for more information. 
 
 ## Links
 
