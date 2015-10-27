@@ -27,12 +27,12 @@ watermarked clips.
 
 ## Grid
 
-- Mars Rover | Animation ![http://54.161.5.56/catalog/GBH00275480000007](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Rover.png)
-- Ebola Hut | Kenya ![http://54.161.5.56/catalog/GBH80000019003_21401_21805](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/hut.png)
-- Bird Flu Lab | China  ![http://54.161.5.56/catalog/GBH00301699000005](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/medical.png)
-- Karnak Temple | Egypt  ![http://54.161.5.56/catalog/GBH00263356001001](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Karnak.png)
-- Skull |Australopithecus afarensis or "Lucy" ![http://54.161.5.56/catalog/GBH00002106002002](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/skull_348x196.png)
-- African School Girl | Kenya ![http://54.161.5.56/catalog/GBH80000018005_8195_8754](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/African+girl_348x196.png)
-- Muslims reading the Koran |Pakistan ![http://54.161.5.56/catalog/GBH00108859000013](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Muslims+praying_348x196.png)
-- Flu Virus research   |![http://54.161.5.56/catalog/GBH80000236003_39600_40520] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Needles+and+testtube_348x196.png)
-- Meandrina Coral | Caribbean  ![http://54.161.5.56/catalog/GBH00000061001030] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Coral348x196.png)
+- Mars Rover | Animation ![/catalog/GBH00275480000007](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Rover.png)
+- Ebola Hut | Kenya ![/catalog/GBH80000019003_21401_21805](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/hut.png)
+- Bird Flu Lab | China  ![/catalog/GBH00301699000005](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/medical.png)
+- Karnak Temple | Egypt  ![catalog/GBH00263356001001](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Karnak.png)
+- Skull |Australopithecus afarensis or "Lucy" ![/catalog/GBH00002106002002](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/skull_348x196.png)
+- African School Girl | Kenya ![/catalog/GBH80000018005_8195_8754](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/African+girl_348x196.png)
+- Muslims reading the Koran |Pakistan ![/catalog/GBH00108859000013](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Muslims+praying_348x196.png)
+- Flu Virus research   |![/catalog/GBH80000236003_39600_40520] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Needles+and+testtube_348x196.png)
+- Meandrina Coral | Caribbean  ![/catalog/GBH00000061001030] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/digital_clips/Coral348x196.png)
