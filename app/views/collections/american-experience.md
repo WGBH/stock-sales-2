@@ -10,23 +10,22 @@
 
 ## Short
 
-American History, Timelines, Articles,
-Biographies, Maps
+American history: timelines, articles, biographies, maps
 
 ## Medium
 
-Television's most watched history series featuring in-depth documentaries on American History and related content
+Television's most watched history series featuring in-depth documentaries on American history and related content
 
 ## Long
 
-American Experience is the authoritative source for American History programming and has been 
+*American Experience* is the authoritative source for American history programming and has been 
 producing films since 1988.   Like our other series, it offers a wealth of additional 
-features on its website which debuted in 1995.  To date, American Experience Online 
+features on its website which debuted in 1995.  To date, [*American Experience Online*](http://www.pbs.org/wgbh/americanexperience) 
 has produced over 175 feature sites, enabling viewers to watch films online and 
 encouraging in-depth exploration of each film beyond the television screen. 
 
-American Experience’s original footage is available for licensing. However, note 
-that more than any of our other series, American Experience contains a great deal 
+*American Experience*’s original footage is available for licensing. However, note 
+that more than any of our other series, *American Experience* contains a great deal 
 of third party material, which has been licensed from other sources. 
 
 ## Links
