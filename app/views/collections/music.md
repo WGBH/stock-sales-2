@@ -12,7 +12,7 @@ Jazz, Latin, Classical,  and Pop music.
 
 ## Medium
 
-TODO: Medium-length blurb for banner goes here.
+Interviews and Musical Performances 
 
 ## Long
 
@@ -32,6 +32,6 @@ for licensing.
 
 ## Grid
 
-- [Peggy Lee | Evening at Pops](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/EAP_PeggyLee1_348x196.png)
-- [Big Mama Thornton](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/BigMama2_348x196.png)
-- [David Ruffin | The Temptations](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/SpringSpecial_Ruffin_348x196.png)
+- [Peggy Lee | Evening at Pops](http://openvault.wgbh.org/catalog/openvault:19405) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/EAP_PeggyLee1_348x196.png)
+- [Big Mama Thornton](http://openvault.wgbh.org/catalog/openvault:8190) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/BigMama2_348x196.png)
+- [David Ruffin | The Temptations](http://openvault.wgbh.org/catalog/openvault:13825) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/SpringSpecial_Ruffin_348x196.png)
