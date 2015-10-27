@@ -84,7 +84,7 @@ RSpec.configure do |config|
 #   # as the one that triggered the failure.
 #   Kernel.srand config.seed
 
-  if !!ENV['RSPEC_SKIP_LINK_CHECK']
+  if ENV['RSPEC_SKIP_LINK_CHECK']
     config.filter_run_excluding :link_check  
   else
     require 'support/link_check_matchers'
