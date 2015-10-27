@@ -11,19 +11,21 @@
 ## Short
 
 Science & Technology:
-Video shorts, Interactives, Web Content, podcasts
+Video shorts, interactives, web content, podcasts
 
 ## Medium
 
-The longest running SCIENCE documentary series on television
+The longest running **science** documentary series on television
 
 ## Long
 
 
-An amazing amount of content is available on the NOVA website to search and discover:
+An amazing amount of content is available on the *NOVA* website to search and discover:
 Find programs, short videos, activities, interviews with scientists, episode transcripts, and more.
-NOVA also produces the magazine series, NOVA Science Now, and the web-only series the Secret Life
-of Scientists, Gross Science and more.  You can also visit the NOVA YouTube channel.
+NOVA also produces the magazine series, [*NOVA ScienceNow*](http://www.pbs.org/wgbh/nova/sciencenow/),
+and the web-only series the [*Secret Life of Scientists*](http://www.pbs.org/wgbh/nova/blogs/secretlife),
+[*Gross Science*](https://www.youtube.com/user/grossscienceshow) and more.  You can also visit the 
+[*NOVA* YouTube channel](https://www.youtube.com/user/NOVAonline).
 
 ## Links
 
