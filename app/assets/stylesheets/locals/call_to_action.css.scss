@@ -24,8 +24,16 @@
         }
     }
     .well {
-        width: 100%;
-        min-height: 120px;
+        // In sm and xs, table-cell display causes problems.
+        @media (min-width: $screen-md-min) {
+          height: 120px; // When narrower, need more vertical space.
+          display: table-cell;
+          vertical-align: middle;
+        }
+        @media (min-width: $screen-lg-min) {
+          height: 90px;
+          // Also gets table-cell and middle from other media.
+        }
         
         a,form {
             // This is to get the content vertically aligned.
@@ -48,5 +56,11 @@
         display: block;
         width: 100%;
         float: none;
+        .well {
+            height: auto; 
+            // As sidebar, don't use any more space than necessary.
+            // This is a more specific rule which overrides settings above.
+            display: block;
+        }
     }
 }
