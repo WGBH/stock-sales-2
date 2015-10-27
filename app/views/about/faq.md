@@ -33,11 +33,11 @@ No.  We do not release our program log but we can provide information to you on 
 ### HOW TO LICENSE:
 
 #### How to License or Order Rights Ready Clips:
-Copy the clips 14 digit reference number which begins with GBH and include the clip description and send us an email with your order.  Once payment has been made and you have agreed to our on line license/or a license agreement has been signed, 
+Copy the clip's 14 digit reference number which begins with GBH and include the clip description and send us an email with your order.  Once payment has been made and you have agreed to our on line license/or a license agreement has been signed, 
 we will deliver a high resolution version of the clip to you via a secure online link. 
 
 #### What format and codec is the digital master file for your rights ready clips?
-All of our rights ready clips are in XX codec at XX. 
+All of our rights ready clips are in TODO codec at TODO. 
 
 #### How do I check out? Why is there no shopping cart function?
 We do not have a shopping cart function at this time to “check out” or a Pay Pal or other online credit card payment system.  Please send us an email to order material.  We will process your credit card here at WGBH. 
@@ -47,6 +47,8 @@ Once it has been determined that material is licensable we will send you a licen
 
 #### What formats can you deliver non-clipped footage in?
 We can deliver broadcast quality high resolution digital files in the following formats:
+
+TODO
 
 #### Is everything in your programs and on your websites available for licensing?
 No. Because we are a program-based archive, WGBH does not necessarily own copyright to all the footage within any given program. While we can’t license footage that we don’t own, we can sometimes provide access to the footage for a fee and with permission from the copyright holder. We can also source this footage for you, also for a fee.  
