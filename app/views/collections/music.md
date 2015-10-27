@@ -12,7 +12,7 @@ Jazz, Latin, Classical,  and Pop music.
 
 ## Medium
 
-Interviews and Musical Performances 
+WGBH Interviews and Musical Performances, ranging from Classical to Rock and Roll 
 
 ## Long
 
