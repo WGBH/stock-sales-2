@@ -1,6 +1,6 @@
 <p>
   <select onchange="window.location.href = this.value;" class="form-control">
-    <option value="/">FIND MORE CONTENT IN THE WGBH COLLECTIONS</option>
+    <option value="/">Browse WGBH collections</option>
     <% Collection.each do |collection|  %>
       <option value="/collections/<%= collection.path %>">
         <%= collection.title %>
