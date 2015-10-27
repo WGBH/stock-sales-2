@@ -29,7 +29,7 @@ Tom “Satch” Sanders, Jim Brown, Luis Tiant, Phil Esposito and Bobby Orr.
 
 ## Links
 
-- Download PDF of WGBH Sports collection
+[Download PDF of WGBH Sports collection](/TODO)
 
 ## Grid
 
