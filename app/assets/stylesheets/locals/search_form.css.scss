@@ -2,21 +2,18 @@
 .search_form {
 
   // Default width for anything less than large screen
-  width: 220px;
-  
-  // Wider on wider screens 
-  @media (min-width: $screen-lg-min) {
-      width: 300px;
-  }
+  width: 320px;
 
   form {
+
+    @include flexbox();
+    @include flexbox-center-vert();
+
     width: 100%;
-    height: auto !important;
     input {
       background-color: $almost-white;
       color: #000;
-      width: 80% !important;
-      float: left;
+      width: 90% !important;
       &[type="submit"] {
           // !important to make sure it applies on search results page.
           background-image: url(/icon-search.png) !important;
@@ -24,7 +21,7 @@
           background-size: contain !important;
           background-color: inherit !important;
           border: none !important;
-          width: 15% !important;
+          width: 30px !important;
           margin-left: 5px;
       }
     }  
@@ -32,15 +29,15 @@
 }
 
 
-// Override search_form width in #masthead
-#masthead .search_form {
-    @media (min-width: $screen-md-min) {
-        width: 200px;
-    }
-    @media (min-width: $screen-lg-min) {
-        width: 280px;
-    }
-}
+// // Override search_form width in #masthead
+// #masthead .search_form {
+//     @media (min-width: $screen-md-min) {
+//         width: 200px;
+//     }
+//     @media (min-width: $screen-lg-min) {
+//         width: 280px;
+//     }
+// }
 
 // Override search_form width in #helpful-links
 #helpful-links .search_form {

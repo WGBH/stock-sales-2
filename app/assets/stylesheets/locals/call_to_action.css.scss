@@ -1,6 +1,6 @@
 .call_to_action {
     background: $light-blue;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     .head {
@@ -14,32 +14,25 @@
         background: $light-blue;
         .well {
             border: 1px solid $light-grey;
-            img {
-                float: right;
-                height: 2em;
-            }
-            a {
-                color: $dark-blue;
-            }
+            width: 100%;
+            min-height: 100px;
+
+            // keep everything within this element vertically centered
+            @include flexbox();
+            @include flexbox-center-vert();
         }
     }
-    .well {
-        width: 100%;
-        min-height: 120px;
-        
-        a,form {
-            // This is to get the content vertically aligned.
-            display: table;
-            span {
-                display: table-cell; 
-                vertical-align: middle;
-                img {
-                    padding-left: 0.2em;
-                    min-width: 1.4em; // Squeezed in Chrome w/o this. No idea why.
-                }
-            }
-        }
-    }
+}
+
+
+a.cta-link {
+  background: url(/arrow.png) no-repeat right center;
+  min-height: 50px;     // accomodates background image
+  padding-right: 30px;  // accomodates background image
+
+  // keep everything within this element vertically centered
+  @include flexbox();
+  @include flexbox-center-vert();
 }
 
 
