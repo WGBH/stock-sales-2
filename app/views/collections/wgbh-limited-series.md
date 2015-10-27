@@ -47,7 +47,6 @@ and coverage of their particular subject.
 - [Building Big ]() ![http://www.pbs.org/wgbh/buildingbig/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/BUILDING+BIG++Home+Page-095049+copy_348x196.png)
 - [A Science Odyssey]() ![http://www.pbs.org/wgbh/aso/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/A+Science+Odyssey_348x196.png)
 - [Rx for Survival]() ![http://www.pbs.org/wgbh/rxforsurvival/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/RX+for+survival_348x196.png)
- - [Africans in America]() ![http://www.pbs.org/wgbh/aia/home.html](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/AIA_348x196.png)
-- [They Made America]() [http://www.pbs.org/wgbh/theymadeamerica/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/madeamerica_348x196.png)
+- [Africans in America]() ![http://www.pbs.org/wgbh/aia/home.html](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/AIA_348x196.png)
+- [They Made America]() ![http://www.pbs.org/wgbh/theymadeamerica/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/madeamerica_348x196.png)
 - [God in America]() ![http://www.pbs.org/godinamerica/](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/wgbh_limited/GIA_348x196.png)
-
