@@ -19,7 +19,7 @@ INTERVIEWS and unique content from historic WGBH television series curated by th
 
 **Open Vault** is the official website of the WGBH Media Library and Archives.  
 Screen and browse annotated **INTERVIEWS** from seminal WGBH miniseries from the 
-1980’s and 1990’s including: 
+1980s and 1990s including: 
 **Vietnam: A Television History** (1983), 
 **War and Peace in the Nuclear Age** (1989) and 
 **Rock and Roll** (1995).
