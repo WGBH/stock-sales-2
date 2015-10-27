@@ -27,7 +27,7 @@ Many important Boston stories were covered on this program including:
 - [The Blizzard of 1978](http://bostonlocaltv.org/catalog?q=blizzard+1978&f[collection_s][]=Ten+O%27Clock+News)
 
 WGBH also has a collection of Boston footage from various decades including Boston 
-history, Boston personalities, Boston neighborhoods as well as HD aerials: 
+history, Boston personalities, Boston neighborhoods as well as HD aerials. 
 
 [Contact us](/about/contact_us) for more information. 
 
