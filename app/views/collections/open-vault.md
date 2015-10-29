@@ -2,7 +2,7 @@
 
 4
 
-![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/ov_logo.png?X-Amz-Date=20151029T202612Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=5f02189b86b81fcc783d8772d8aba9a7ff4d61e3fcb071edda86cacee9d6d400&X-Amz-Credential=ASIAI2YGKCAKX67A3Q6A/20151029/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEJT//////////wEagANxQz026eVmhJIpd2wfqUvWzffPycaMJOP9CZR1wUcsYvOfsX5bLOtFuACTFxl3TpNYGXzRDpo5eZdI2ZuuivZvYQ3TBAjBOv5gdAabPXpxlRYti1ucZ3TxBuWj6q1Tzkt%2B6l5WGLcEUXw/QKJU8JMHJrxYmS4MzQvq0eP6TtQhDAhHYCC9Gpvn9lqZUHBrqoDEM6YVZVgg5YcND6AZO1hslM9rc6hzawceqTSewXG/2gp9/YgH5JFdevntziTTXbxmFujUa2Ay4dahTieP8qdZB7ntZFbyk8q4eCt1Ep6OHnsa/%2B%2BD%2Bdvytbh18IlkjoO%2BwmRvMsPFzRU/t08AXPKnNTbXKOxwUMG47q2uGfAkmOgpjPrnGkdahBsj2OruyQW%2BNdClLnjsHe4pIqx3p5GtNfFAF5nryjmPiq4OxWdQBPox%2BpljcfS1o%2BHjA6lroid4zdadM0BDdUsdeG6YPzYIgtkvj1LeRIIbiTjFpOY0zoTrkvo1zjFYLYkKb3g3V4EgrtXJsQU%3D)
+![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/ov_logo.png)
 
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/ov-thumb_348x196.png)
 
