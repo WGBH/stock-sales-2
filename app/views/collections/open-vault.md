@@ -2,6 +2,8 @@
 
 4
 
+![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/ov_logo.png)
+
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/ov-thumb_348x196.png)
 
 [![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Open+Vault+postcard_04_770x433.jpg)](http://openvault.wgbh.org/)
