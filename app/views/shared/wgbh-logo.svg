@@ -8,6 +8,7 @@
       g:hover * { fill: #DEE5F0; }
   </style>
   <g transform="translate(-125.69624,-415.13311)">
+    <rect x="100" y="400" width="1100" height="300" opacity="0"/><!-- So the whole thing is clickable. -->
     <text transform="translate(290,620)" font-size="72">
       Stock Sales &amp; Licensing
     </text>
