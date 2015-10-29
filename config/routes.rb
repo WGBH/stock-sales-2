@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   
   resources :media,
     only: [:show]
-
+  
+  resources :warm_cache,
+    only: [:index]
   
 end

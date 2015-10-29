@@ -1,6 +1,6 @@
 <div>
   <div class="video-container">
-    <video src="<%= document.proxy_src %>" poster="<%= document.thumb_src %>" 
+    <video src="<%= @ids_to_cached_proxy[document.id] %>" poster="<%= document.thumb_src %>" 
            loop muted oncontextmenu="return false;" preload="none"
            onmouseover="this.play();" onmouseout="this.pause();" <%# For browsers %>
            onclick="this.paused ? this.play() : this.pause();" <%# For touch devices %>
