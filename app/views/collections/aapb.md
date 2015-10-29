@@ -2,6 +2,8 @@
 
 5
 
+![logo](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/aapb-white-logo.png)
+
 ![thumb](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/aapb-thumb_348x196.png)
 
 [![splash](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/AAPB+home+page.png)](http://americanarchive.org/)
