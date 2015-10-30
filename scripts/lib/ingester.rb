@@ -20,10 +20,10 @@ class Ingester
       Converter.new(File.read(filename))
     end.each do |solr_record|
       begin
-        @solr.add(solr_record)
+        @solr.add(solr_record.to_solr)
         $LOG.info("Added #{solr_record.id}")
       rescue => e
-        $LOG.error("Error on #{solr_record.id}: #{e}")
+        $LOG.error("Error on #{solr_record.id}: #{e}\n#{e.backtrace.join("\n")}")
       end
     end
     @solr.commit
