@@ -18,12 +18,12 @@ class Ingester
       Converter.new(File.read(filename), cache_path)
     else
       Converter.new(File.read(filename))
-    end.each do |asset|
+    end.each do |solr_record|
       begin
-        @solr.add(asset.to_solr)
-        $LOG.info("Added #{asset.id}")
+        @solr.add(solr_record)
+        $LOG.info("Added #{solr_record.id}")
       rescue => e
-        $LOG.error("Error on #{asset.id}: #{e}")
+        $LOG.error("Error on #{solr_record.id}: #{e}")
       end
     end
     @solr.commit

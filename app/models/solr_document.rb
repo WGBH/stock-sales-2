@@ -1,3 +1,6 @@
+require 'blacklight'
+require 'active_model'
+
 class SolrDocument
 
   include Blacklight::Solr::Document
@@ -9,6 +12,14 @@ class SolrDocument
   end
 
   public
+  
+  def to_solr
+    {
+      'id' => id,
+      'json' => @_source[:json],
+      'text' => json.values
+    }
+  end
   
   def labels_and_values(*fields)
     fields.map do |field| 
