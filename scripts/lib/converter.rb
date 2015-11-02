@@ -2,7 +2,7 @@ require 'singleton'
 require 'nokogiri'
 require 'json'
 require 'sony-ci-api'
-require_relative '../../app/models/asset'
+require_relative '../../app/models/solr_document'
 require_relative 'global_ingest_log'
 
 class Converter
@@ -20,7 +20,7 @@ class Converter
       # but it lets methods operate on strings, which
       # makes testing easier.
       begin
-        block.call(to_asset(record.to_xml))
+        block.call(to_solr_record(record.to_xml))
       rescue => e
         $LOG.error("#{e} on:\n #{record.to_xml}")
       end
@@ -32,28 +32,29 @@ class Converter
   THUMBNAILS = 'thumbnails'
   PROXIES = 'proxies'
   
-  def to_asset(fm_record_xml)
-    fm_record_doc = Nokogiri::XML(fm_record_xml)
-    Asset.new(
-      begin
-        fm_record_hash = Hash[ fm_record_doc.xpath('/ROW/*').map { |el| 
-          [el.name.downcase, el.text.strip]
-        } ]
-        unless fm_record_hash['id']
-          fail("No id in #{fm_record_xml}") 
-        end
-        unless fm_record_hash['ci_id']
-          fail("No ci_id for FM <#{fm_record_hash['id']}>") 
-        end
-        unless @cache[fm_record_hash['ci_id']]
-          fail("No cache for Ci <#{fm_record_hash['ci_id']}> / FM <#{fm_record_hash['id']}>") 
-        end
-        fm_record_hash.merge({
-          'thumb_src' => @cache[fm_record_hash['ci_id']][THUMBNAILS].select { |thumbnail| 
-                thumbnail['type'] == 'small' 
-              }.first['location']})
-      end
-    )
+  def to_solr_record(fm_record_xml)
+    SolrDocument.new({
+      json:
+        begin
+          fm_record_doc = Nokogiri::XML(fm_record_xml)
+          fm_record_hash = Hash[ fm_record_doc.xpath('/ROW/*').map { |el| 
+            [el.name.downcase, el.text.strip]
+          } ]
+          unless fm_record_hash['id']
+            fail("No id in #{fm_record_xml}") 
+          end
+          unless fm_record_hash['ci_id']
+            fail("No ci_id for FM <#{fm_record_hash['id']}>") 
+          end
+          unless @cache[fm_record_hash['ci_id']]
+            fail("No cache for Ci <#{fm_record_hash['ci_id']}> / FM <#{fm_record_hash['id']}>") 
+          end
+          fm_record_hash.merge({
+            'thumb_src' => @cache[fm_record_hash['ci_id']][THUMBNAILS].select { |thumbnail| 
+                  thumbnail['type'] == 'small' 
+                }.first['location']})
+        end.to_json
+    })
   end
   
   def refresh_cache()

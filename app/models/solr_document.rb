@@ -1,15 +1,32 @@
+require 'blacklight'
+require 'active_model'
+
 class SolrDocument
 
   include Blacklight::Solr::Document
 
-  attr_accessor :json
-
+  private
+  
   def json
     @json ||= (JSON.parse(@_source[:json]) rescue {}).with_indifferent_access
   end
 
+  public
+  
+  def to_solr
+    {
+      'id' => id,
+      'json' => @_source[:json],
+      'text' => json.values
+    }
+  end
+  
   def labels_and_values(*fields)
-    fields.map{ |field| { label: SolrDocument.label_for(field), value: send(field) } }.select{ |pair| !pair[:value].nil? && !pair[:value].empty? }
+    fields.map do |field| 
+      { label: SolrDocument.label_for(field), value: send(field) } 
+    end.select do |pair| 
+      !pair[:value].nil? && !pair[:value].empty?
+    end
   end
 
   def artesia_id

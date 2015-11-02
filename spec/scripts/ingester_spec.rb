@@ -9,9 +9,10 @@ describe Ingester do
     @solr.commit
   end
   
-  it 'ingests assets' do
+  it 'ingests solr_records' do
     expect_to_find('*', 0)
     Ingester.instance.ingest('spec/fixtures/fm-export-results.xml', 'spec/fixtures/stock-sales-cache.json')
+    expect_to_find('*', 1)
     expect_to_find('nova', 1)
   end
   
