@@ -34,6 +34,8 @@ history, Boston personalities, Boston neighborhoods as well as HD aerials.
 ## Links
 
 [WGBH 10:00 News](http://bostonlocaltv.org/wgbh)
+[Greater Boston](http://video.wgbh.org/program/greater-boston/)
+
 
 ## Grid
 - [Digital clip | The Big Dig](/catalog/GBH00000060001010) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/GBH00000060001010_348x196.png)
