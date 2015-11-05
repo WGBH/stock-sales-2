@@ -26,7 +26,7 @@ for over 40 years.  WGBH co-produced the series *Rock & Roll* (1994) and
 *Latin Music* (2009): many of the WGBH interviews from these series are available 
 for licensing. 
 
-Click on the links below to see some examples of our music collection: 
+Click on the links below to learn more about these selects from our music collection: 
 
 ## Links
 
