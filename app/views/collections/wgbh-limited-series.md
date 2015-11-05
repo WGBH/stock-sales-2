@@ -25,6 +25,8 @@ Changed the World* focused on the history of the computer,  *Africans in America
 on slavery, etc.  Many still remain relevant and are excellent resources in terms of footage, research 
 and coverage of their particular subject. 
 
+Click on the links below to visit each series site. 
+
 ## Links
 
 [Africans in America](http://www.pbs.org/wgbh/aia/home.html)
