@@ -27,6 +27,8 @@ Boitano and Paul Wylie), Boston Marathon coverage (Bill Rodgers, Johnny Kelley),
 basketball, sailing, golf, and more.  Interviews with sports legends include Muhammad Ali, 
 Tom “Satch” Sanders, Jim Brown, Luis Tiant, Phil Esposito and Bobby Orr.
 
+Click on the links below to see examples of our sports collection: 
+
 ## Links
 
 [Download PDF of WGBH Sports collection](/TODO)
