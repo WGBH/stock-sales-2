@@ -29,7 +29,7 @@ Many important Boston stories were covered on this program including:
 WGBH also has a collection of Boston footage from various decades including Boston 
 history, Boston personalities, Boston neighborhoods as well as HD aerials. 
 
-Click on the clips below to screen examples of our collection: 
+Click on the thumbnails below to screen examples from our collection: 
 
 [Contact us](/about/contact_us) for more information. 
 
