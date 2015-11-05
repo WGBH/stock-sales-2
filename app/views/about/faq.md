@@ -9,10 +9,10 @@
 <div class="toc"></div>
 
 #### How do I search and navigate the site?
-Our site has two main search functions.  You can either search our Rights Ready digital clips or search the WGBH Media Library and Archives “sister” site: “Open Vault”.  “Open Vault” features interviews and unique content from selected historical WGBH series which has been digitized.  You can also search and browse the complete WGBH catalog of series and programs from Open Vault.   UNFORTUNATELY IT IS NOT POSSIBLE TO SEARCH ACROSS OUR ARCHIVE IN ONE INTEGRATED SEARCH. 
+Our site has two main search functions.  You can either search our Rights Ready digital clips or search the WGBH Media Library and Archives sister site, Open Vault.  Open Vault features interviews and unique content from selected historical WGBH series which have been digitized.  You can also search and browse the complete WGBH catalog of series and programs from Open Vault.   UNFORTUNATELY IT IS NOT POSSIBLE TO SEARCH ACROSS OUR ARCHIVE IN ONE INTEGRATED SEARCH. 
 
 #### What content can I find in the WGBH Collections? 
-The WGBH Collections highlight the amazing variety of unique educational content that WGBH has in its archives which you may not be aware of.  These include interviews, music, sports, and articles, interactives, timelines, maps, short videos and more. Most of the WGBH Collection sites have helpful links to help you navigate our program websites and find what you are looking for. You are also able to move easily from one collection to another with our drop down menu. 
+The WGBH Collections highlight the variety of unique educational content that WGBH has in its archives which you may not be aware of.  These include interviews, music, sports, articles, interactives, timelines, maps, short videos and more. Most of the WGBH Collection sites have helpful links to help you navigate our program websites and find what you are looking for. You are also able to move easily from one collection to another with our drop down menu. 
 
 ### SCREENERS
 
@@ -21,19 +21,19 @@ Simply select the download button at the far right corner of the clip.  The clip
 a watermark will download to your desktop.
 
 #### How can I order a screener of a program with time code?
-For professional licensing requests ONLY, we can provide a copy of the program with burned in time code as a digital file or DVD for $50.  
+For professional licensing requests ONLY, we can provide a copy of the program with burned-in time code as a digital file or DVD for $50.  
 
 #### Can I obtain copies of source materials (interviews, news footage, b-roll, etc)?
 We can provide screening copies of these materials for a fee for professional licensing requests only.   
 
 #### How can I find out the source of a shot? Can you send me a shot log from one of your programs?
-No.  We do not release our program log but we can provide information to you on the source of the shots you are inquiring about for a fee of $50 per shot. 
+No.  We do not release our program log but we can provide information to you about the source of the shots you are inquiring about for a fee of $50 per shot. 
 
 
 ### HOW TO LICENSE:
 
 #### How to License or Order Rights Ready Clips:
-Copy the clip's 14 digit reference number which begins with GBH and include the clip description and send us an email with your order.  Once payment has been made and you have agreed to our on line license/or a license agreement has been signed, 
+Copy the clip's 14 digit reference number which begins with GBH, include the clip description and send us an email with your order.  Once payment has been made and you have agreed to our on line license/or a license agreement has been signed, 
 we will deliver a high resolution version of the clip to you via a secure online link. 
 
 #### What format and codec is the digital master file for your rights ready clips?
@@ -46,12 +46,10 @@ We do not have a shopping cart function at this time to “check out” or a Pay
 Once it has been determined that material is licensable we will send you a license agreement which you sign and return to us. License and digitizing fees are prepaid before delivery of material.  It can then take up to 48 hours to process your digital files before they can be delivered.  Your broadcast quality master files are delivered via our online service.  We will send you an executed license agreement and credit card receipt as soon as they are available.
 
 #### What formats can you deliver non-clipped footage in?
-We can deliver broadcast quality high resolution digital files in the following formats:
-
-TODO
+We can deliver broadcast quality high resolution digital files in most codecs.
 
 #### Is everything in your programs and on your websites available for licensing?
-No. Because we are a program-based archive, WGBH does not necessarily own copyright to all the footage within any given program. While we can’t license footage that we don’t own, we can sometimes provide access to the footage for a fee and with permission from the copyright holder. We can also source this footage for you, also for a fee.  
+No. Because we are a program-based archive, WGBH does not necessarily own copyright to all the footage within any given program. While we can’t license footage that we don’t own, we can sometimes provide access to the footage for a fee and with permission from the copyright holder. We can also source this footage for you for a fee.  
 
 #### Why can’t I find footage from a certain program on line or in the digital clips?
 We have millions of hours of footage and other materials in the WGBH Archive and we are unable to clip and catalog all of it. Our digital clips are only a sampling of our many hours of programming. Please contact us if you can’t find what you need on our site.
