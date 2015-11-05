@@ -9,7 +9,7 @@ You know you want *that* shot from a particular WGBH program, but it is *not* in
 ### 1. Send us an email and identify the shot  
 We need you to identify the series, program and actual shot and where it appears in the program.
 
-### 2. Give us time codes in and out 
+### 2. Give us in and out timecode
 In order to determine this precisely, you may have to order a digital
 file with burned in time code and give us exact in and out times with a shot description.
 
