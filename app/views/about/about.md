@@ -8,7 +8,7 @@
 WGBH Stock Sales is the clip licensing division of the WGBH Media Library and Archives. We license originally shot WGBH footage and web content to television producers, publishers and professional media organizations.   
 
 ### Navigating our content
-We wish we had all of our programs and content clipped and searchable in an online database.  Unfortunately we don’t!  However, there is a wealth of content on this site and on various WGBH sites including WGBH Archive's Open Vault, and individual WGBH program websites.  We want to help you discover this material if you haven’t already. 
+We wish we had all of our programs and content clipped and searchable in an online database.  Unfortunately we don’t!  However, there is a wealth of content on this site and on various WGBH sites including WGBH Archives' Open Vault, and individual WGBH program websites.  We want to help you discover this material if you haven’t already. 
 
 **WGBH Stock Sales does NOT license full programs: please see helpful links.**
 
