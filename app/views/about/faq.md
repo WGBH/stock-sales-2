@@ -55,10 +55,10 @@ No. Because we are a program-based archive, WGBH does not necessarily own copyri
 We have millions of hours of footage and other materials in the WGBH Archive and we are unable to clip and catalog all of it. Our digital clips are only a sampling of our many hours of programming. Please contact us if you can’t find what you need on our site.
 
 #### Is some of your original footage restricted?
-Certain material is unavailable for licensing due to reasons such as the sensitive nature of the footage or agreements with interview subjects/locations.  “Frontline” footage, for example, cannot be used for advocacy purposes.  Footage from very recent programs may also be unavailable.
+Certain material is unavailable for licensing due to reasons such as the sensitive nature of the footage or agreements with interview subjects/locations.  Frontline footage, for example, cannot be used for advocacy purposes.  Footage from very recent programs may also be unavailable.
 
 #### Can you license footage from all or any PBS station?
-WGBH is only one station in the PBS system and we can only license our own original material.  Please contact other PBS stations directly to license their content.
+WGBH is only one station in the PBS system and we can license only our own original material.  Please contact other PBS stations directly to license their content.
 
 
 ### OTHER: 
