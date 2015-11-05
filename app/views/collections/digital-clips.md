@@ -23,6 +23,8 @@ acclaimed global health series, *Rx for Survival*, shot all over the world, as w
 as climate change and more. Search and browse the collection and download 
 watermarked clips. 
 
+Explore some examples of our digital clips below 
+
 ## Links
 
 [How to license](/about/research)
