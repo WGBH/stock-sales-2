@@ -27,7 +27,7 @@ and the web-only series the [*Secret Life of Scientists*](http://www.pbs.org/wgb
 [*Gross Science*](https://www.youtube.com/user/grossscienceshow) and more.  You can also visit the 
 [*NOVA* YouTube channel](https://www.youtube.com/user/NOVAonline).
 
-Check out some examples of our content below: 
+Check out some examples of our web content below: 
 
 ## Links
 
