@@ -28,7 +28,7 @@ encouraging in-depth exploration of each film beyond the television screen.
 that more than any of our other series, *American Experience* contains a great deal 
 of third party material, which has been licensed from other sources. 
 
-Check out some examples of our educational content below: 
+Check out some examples of our educational web content below: 
 
 ## Links
 
