@@ -8,7 +8,7 @@
 We can provide a digital file or DVD with visible timecode:  Cost is $50 per recorded hour, to be prepaid by credit card.
 
 ### License fees
-DIGITAL CLIPS:  We license by the clip ONLY for the WGBH rights ready digital clips found on this site.  Digital clips may be licensed at a rate of $180 for SD clips and $250 for HD clips.  
+ *DIGITAL CLIPS* :  We license by the clip ONLY for the WGBH rights ready digital clips found on this site.  Digital clips may be licensed at a rate of $180 for SD clips and $250 for HD clips.  
 
 For all other WGBH footage, license fees are quoted on a per second rate and based upon the rights, licensing term, and the territories you need. We require a 30-second minimum on all licenses.  Please contact us for a quote.  Bulk discounts are available.
 
