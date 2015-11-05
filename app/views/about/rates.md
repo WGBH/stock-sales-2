@@ -12,6 +12,8 @@ DIGITAL CLIPS:  We license by the clip ONLY for the WGBH rights ready digital cl
 
 For all other WGBH footage, license fees are quoted on a per second rate and based upon the rights, licensing term, and the territories you need. We require a 30-second minimum on all licenses.  Please contact us for a quote.  Bulk discounts are available.
 
+We also license on-line articles, interactives, timelines and other web content.  Please contact us for a quote. 
+
 ### Research  
 The first 30 minutes are free, then $60 per hour.
 Research fees include searching our databases and staff time required to preview tapes, locate production records and investigate rights.
