@@ -37,7 +37,7 @@ and complete audio coverage from the 1963
 
 [A list of all WGBH programs](http://openvault.wgbh.org/series) is also available on *Open Vault*.   
 
-Check out some examples of our unique interviews and audio below. 
+Check out some examples of our unique interviews and audio below:
 
 ## Links
 
