@@ -9,7 +9,7 @@
 <div class="toc"></div>
 
 #### How do I search and navigate the site?
-Our site has two main search functions.  You can either search our Rights Ready digital clips or search the WGBH Media Library and Archives sister site, Open Vault.  Open Vault features interviews and unique content from selected historical WGBH series which have been digitized.  You can also search and browse the complete WGBH catalog of series and programs from Open Vault.   UNFORTUNATELY IT IS NOT POSSIBLE TO SEARCH ACROSS OUR ARCHIVE IN ONE INTEGRATED SEARCH. 
+Our site has two main search functions.  You can either search our Rights Ready digital clips or search the WGBH Media Library and Archives sister site, Open Vault.  Open Vault features interviews and unique content from selected historical WGBH series which have been digitized.  You can also search and browse the complete WGBH catalog of series and programs from Open Vault.  **UNFORTUNATELY IT IS NOT POSSIBLE TO SEARCH ACROSS OUR ARCHIVE IN ONE INTEGRATED SEARCH**. 
 
 #### What content can I find in the WGBH Collections? 
 The WGBH Collections highlight the variety of unique educational content that WGBH has in its archives which you may not be aware of.  These include interviews, music, sports, articles, interactives, timelines, maps, short videos and more. Most of the WGBH Collection sites have helpful links to help you navigate our program websites and find what you are looking for. You are also able to move easily from one collection to another with our drop down menu. 
