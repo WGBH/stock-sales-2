@@ -15,7 +15,7 @@ Selected WGBH content relating to news of the day, or recently digitized content
 
 ## Long
 
-***Our biggest news is the launch of our new website!***
+**Our biggest news is the launch of our new website!**
 We hope the new WGBH Stock Sales site will give you the tools to navigate our archive and our 
 content rich websites to find footage and other unique content.  Let us know what you think
 and/or how we can improve your user experience!
