@@ -34,6 +34,6 @@ Every month we will showcase another story from our library.
 
 ## Grid
 
-- [TODO Title | optional subtitle](/TODO) ![](http://placehold.it/348x196)
+- [Dr. Ahmad Chalabi| Frontline Interview](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Chalabi_348x196.png)
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
