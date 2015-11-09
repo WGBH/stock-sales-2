@@ -23,6 +23,10 @@ acclaimed global health series, *Rx for Survival*, shot all over the world, as w
 as climate change and more. Search and browse the collection and download 
 watermarked clips. 
 
+**RATES FOR DIGITAL CLIPS**:  
+SD clips: **$180 per clip**       
+HD clips:  **$250 per clip**
+
 Explore some examples of our digital clips below:
 
 ## Links
