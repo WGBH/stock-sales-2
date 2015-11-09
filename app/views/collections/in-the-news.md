@@ -15,15 +15,20 @@ Selected WGBH content relating to news of the day, or recently digitized content
 
 ## Long
 
-Visit this part of our site to see what’s been recently added to our collection
-and/or to see what’s trending in the news.  Our biggest news is the launch of our new website!
+Our biggest news is the launch of our new website!
 We hope the new WGBH Stock Sales site will give you the tools to navigate our archive and our 
 content rich websites to find footage and other unique content.  Let us know what you think
 and/or how we can improve your user experience!
 
-Every month we will showcase another story from our library.  This month we focus on the 
+Visit this part of our site to see what’s been recently added to our collection
+and/or to see what’s trending in the news.  This month we focus on the 
 recently deceased Dr. Ahman Chalabi, who helped persuade the United States to invade Iraq and then 
 unsuccessfully tried to attain power.
+
+
+
+
+Every month we will showcase another story from our library.  
 
 ## Links
 
