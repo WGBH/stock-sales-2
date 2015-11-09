@@ -17,8 +17,8 @@ Selected WGBH content relating to news of the day.
 
 Visit this part of our site to see what’s been recently added to our collection
 and/or to see what’s trending in the News.  Our biggest news is the launch of our new website!
-We hope the WGBH Stock Sales site will give you the tools to navigate the world of WGBH, and  
-find our content, most of which is not online.
+We hope the WGBH Stock Sales site will give you the tools to navigate the world of WGBH, 
+and find our content, most of which is not online.
 
 Every month we will showcase another story from our library.  This month we focus on President 
 Jimmy Carter, XXXX,  and XXXX.
