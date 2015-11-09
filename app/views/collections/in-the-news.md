@@ -16,7 +16,7 @@ Selected WGBH content relating to news of the day.
 ## Long
 
 Visit this part of our site to see what’s been recently added to our collection
-and/or to see what’s trending in the News.  Our biggest news is the launch of our new website!
+and/or to see what’s trending in the news.  Our biggest news is the launch of our new website!
 We hope the WGBH Stock Sales site will give you the tools to navigate the world of WGBH, 
 and find our content, most of which is not online.
 
