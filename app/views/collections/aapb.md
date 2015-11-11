@@ -42,7 +42,7 @@ Click on the thumbnails below to screen examples:
 - [Al Pacino | Elliot Norton Reviews] (/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Al+Pacino+from+Elliot+Norton_348x196.png)
 - [ Edward R. Murrow | The Responsibilites of Television ](http://americanarchive.org/catalog/cpb-aacip_15-32r4xv5n)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Edward+R.+Murrow_348x196_really.png)
 - [Joan Baez | At Club Passim's](http://americanarchive.org/catalog/cpb-aacip_15-bg2h70854b) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Joan+Baez_348x196.png)
-- [Eleanor Roosevelt | Prospects of Mankind](![]	
+- [Eleanor Roosevelt | Prospects of Mankind] (/TODO) ![]	
 (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Eleanor+Roosevelt_348x196.png)
 - [Malcolm X | The Negro and the American Promise] (http://americanarchive.org/catalog/cpb-aacip_15-6t0gt5fj99) ![](	
 https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Malcolm+X_348x196.png)
