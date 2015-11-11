@@ -39,7 +39,7 @@ Click on the thumbnails below to screen examples:
 
 ## Grid
 
-- [Climate Change] (/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Climate+change_348x196.png)
+- [Al Pacino | Elliot Norton Reviews] (/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Al+Pacino+from+Elliot+Norton_348x196.png)
 - [ Edward R. Murrow | The Responsibilites of Television ](http://americanarchive.org/catalog/cpb-aacip_15-32r4xv5n)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Edward+R.+Murrow_348x196_really.png)
 - [Joan Baez | At Club Passim's](http://americanarchive.org/catalog/cpb-aacip_15-bg2h70854b) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Joan+Baez_348x196.png)
 - [Julia Child | At the White House](http://americanarchive.org/catalog/cpb-aacip_15-44bp03nd)![] (https://s3.amazonaws.com/wgbhstocksales.org/content/collections/aapb/Julia+Child+at+the+White+House_348x196.png)
