@@ -25,7 +25,7 @@ Changed the World* focused on the history of the computer,  *Africans in America
 on slavery, etc.  Many still remain relevant and are excellent resources in terms of footage, research 
 and content. 
 
-Click on the links below to visit each series site. 
+Below are examples of some of our limited series. Click on the links to visit each series site. 
 
 ## Links
 
