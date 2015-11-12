@@ -36,5 +36,5 @@ Every month we will showcase another story from our library.
 ## Grid
 
 - [Dr. Ahmad Chalabi| Frontline Interview](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Chalabi_348x196.png)
-- [TODO Title](https://workspace.cimediacloud.com/ci/#/workspaces/217b96a01e85481aa909ce40e3d3ccf4/folders/02cece45200b4a5581a7c8bf4790574c?assets=97a1e64941da477d8c1e9c3250b10eea) ![](http://placehold.it/348x196)
+- [TODO Title](https://workspace.cimediacloud.com/ci/#/workspaces/217b96a01e85481aa909ce40e3d3ccf4/folders/02cece45200b4a5581a7c8bf4790574c?assets=97a1e64941da477d8c1e9c3250b10eea) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Iraq+gun_348x196.png)
 - [TODO Title](/TODO) ![](http://placehold.it/348x196)
