@@ -11,7 +11,7 @@ Recently added content
 
 ## Medium
 
-Selected WGBH content relating to news of the day, or recently digitized content.  
+Selected WGBH content relating to current events, or recently digitized footage.  
 
 ## Long
 
