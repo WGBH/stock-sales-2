@@ -23,7 +23,8 @@ and/or how we can improve your user experience!
 Visit this part of our site to see what’s been recently added to our collection
 and/or to see what’s trending in the news.  This month we focus on the 
 recently deceased Dr. Ahmad Chalabi, who helped persuade the United States to invade Iraq and then 
-unsuccessfully tried to attain power.
+unsuccessfully tried to attain power.  In addition, we are highlighting a number of new clips that we
+have added to our site, including footage from Haditha, Iraq.
 
 
 
