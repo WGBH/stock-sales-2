@@ -23,7 +23,7 @@ history, science, current affairs, culture, health, music, architecture and more
 was produced in 1989-1990 and was followed by *The Health Quarterly* which ran from 1991-1994. *The Machine that 
 Changed the World* focused on the history of the computer,  *Africans in America* 
 on slavery, etc.  Many still remain relevant and are excellent resources in terms of footage, research 
-and coverage of their particular subject. 
+and content. 
 
 Click on the links below to visit each series site. 
 
