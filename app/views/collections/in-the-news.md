@@ -36,5 +36,5 @@ Every month we will showcase another story from our library.
 ## Grid
 
 - [Dr. Ahmad Chalabi| Frontline Interview](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Chalabi_348x196.png)
-- [AK47 in convoy | Haditha, Iraq](http://demo.wgbhstocksales.org/catalog/GET89760292) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Iraq+gun_348x196.png)
+- [Iraqi soldier with AK47 | Haditha, Iraq](http://demo.wgbhstocksales.org/catalog/GET89760292) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Iraq+gun_348x196.png)
 - [Armed Iraqi officer | Haditha, Iraq](http://demo.wgbhstocksales.org/catalog/GET89760287) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Soldier+in+side+mirror+2_348x196.png)
