@@ -1,0 +1,15 @@
+<% content_for(:page_title) do %>
+  <%= "#{@legal.title} | #{t('blacklight.application_name')}" %>
+<% end %>
+
+<h1>
+  <%= @legal.title %>
+</h1>
+
+<div class="container">
+  <div class="row">  
+    <div class="col-md-12 body">
+      <%= @legal.main_html.html_safe %>
+    </div>
+  </div>
+</div>

@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   resources :about,
     only: [:show]
   
+  resources :legal,
+    only: [:show]
+  
   resources :downloads,
     only: [:show]
   
