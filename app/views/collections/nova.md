@@ -20,7 +20,7 @@ The longest running **science** documentary series on television
 ## Long
 
 
-In addition to footage, an amazing amount of content is available on the *NOVA* website to search and discover:
+In addition to NOVA footage, an amazing amount of content is available on the *NOVA* website to search and discover:
 Find programs, short videos, activities, interviews with scientists, episode transcripts, and more.
 NOVA also produces the magazine series, [*NOVA ScienceNow*](http://www.pbs.org/wgbh/nova/sciencenow/),
 and the web-only series the [*Secret Life of Scientists*](http://www.pbs.org/wgbh/nova/blogs/secretlife),
