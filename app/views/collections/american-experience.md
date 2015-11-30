@@ -31,6 +31,9 @@ of third party material, which has been licensed from other sources.
 Check out some examples of our educational web content below: 
 
 ## Links
+[American Experience programs] (http://www.pbs.org/wgbh/americanexperience/films/)
+
+[Special Features] (http://www.pbs.org/wgbh/americanexperience/features/)
 
 ## Grid
 
