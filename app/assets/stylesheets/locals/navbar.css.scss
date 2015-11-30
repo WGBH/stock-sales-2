@@ -1,8 +1,9 @@
 .navbar {
-    li a:hover { 
-        // Long match needed to make as specific as builtin.
-        color: #DEE5F0;
-        background-color: $dark-blue;
+    a:hover { 
+        // Override more specific (li) blacklight defaults.
+        color: #DEE5F0 !important;
+        background-color: $dark-blue !important;
+        text-decoration: none !important;
     }
 
     .contact {
@@ -11,6 +12,7 @@
 
     li > a { 
         // Long match needed to make as specific as builtin.
+        // Only applies to header; footer has "|" between links.
         padding: $grid-gutter-width/2 0 0 $grid-gutter-width;
     }
     
