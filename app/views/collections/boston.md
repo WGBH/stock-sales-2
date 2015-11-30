@@ -46,5 +46,5 @@ Click on the thumbnails below to screen examples from our collection:
 - [Boston News | Nelson Mandela visits Madison Park High School](http://bostonlocaltv.org/catalog/V_L5N55ATB6GXSBK6) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/Mandela_348x196.png)
 -  [Boston News | The Blizzard of '78](http://bostonlocaltv.org/catalog/V_OUS1BQH8VP7MVMQ) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/blizzard_348x196.png)
 - [Digital clip | Oldest transit system in America](/catalog/GBH00020551000034) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/GBH000020551000034-2_348x196.png)
-- [Boston News | Phase II of school desegregation](http://bostonlocaltv.org/catalog/V_OUS1BQH8VP7MVMQ) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/charlestownfirstday_348x196.jpg)
+- [Boston News | Phase II of school desegregation](http://bostonlocaltv.org/catalog/V_XUBWXVYL2ZS2NVX) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/boston/charlestownfirstday_348x196.jpg)
  
