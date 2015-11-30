@@ -1,7 +1,12 @@
 .blacklight-collections-show {
     .container {
         .body {
-            margin: $grid-gutter-width/2 0;
+            margin: $grid-gutter-width/2;
+        }
+        .sidebar {
+            background: #FFF;
+            margin-top: $grid-gutter-width;
+            margin-left: $grid-gutter-width/2;
         }
     }
     
