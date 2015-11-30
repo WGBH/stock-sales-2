@@ -11,7 +11,7 @@
     <div class="col-md-7 body">
       <%= @about.main_html.gsub('<div class="toc"></div>', @about.toc_html).html_safe %>
     </div>
-    <div class="col-md-4 pull-right">
+    <div class="col-md-4 sidebar">
       <p>
         <%= render partial: 'collections/collection_select' %>
       </p>

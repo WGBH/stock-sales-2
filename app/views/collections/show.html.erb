@@ -26,8 +26,8 @@
 <br/>
 
 <div class="container">
-  <div class="row body"> 
-    <div class="col-md-8">
+  <div class="row"> 
+    <div class="col-md-7 body">
       <% if @collection.splash_src %>
         <div class="splash">
           <img src="<%= @collection.splash_src %>" alt="splash"/>
@@ -40,7 +40,7 @@
         <%= @collection.long_html.html_safe %>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 sidebar">
       <%= render partial: 'collections/collection_select' %>
       <div id="helpful-links">
         <%= render partial: 'shared/search' if @collection.path == 'digital-clips' %>    
@@ -50,7 +50,7 @@
     </div>
   </div>
   
-  <div class="row body">
+  <div>
     <% @collection.grid_items.each do |item| %>
       <%= render partial: 'shared/thumb_3', locals: { item: item } %>
     <% end %>
