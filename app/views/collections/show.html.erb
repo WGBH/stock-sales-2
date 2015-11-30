@@ -50,11 +50,14 @@
     </div>
   </div>
   
-  <div class="row body">
-    <% @collection.grid_items.each do |item| %>
-      <%= render partial: 'shared/thumb_3', locals: { item: item } %>
-    <% end %>
-  </div>
+  <% @collection.grid_items.each_slice(3) do |triple| %>
+    <div class="row body">
+      <% triple.each do |item| %>
+        <%= render partial: 'shared/thumb_3', locals: { item: item } %>
+      <% end %>
+    </div>
+  <% end %>
+  
 </div>
 
 <br/>
