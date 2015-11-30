@@ -1,4 +1,4 @@
-# In the News/What's New?
+# What's New?
 
 12
 
@@ -11,7 +11,7 @@ Recently added content
 
 ## Medium
 
-Selected WGBH content relating to current events, or recently digitized footage.  
+WGBH content relating to current events, or recently digitized footage.  
 
 ## Long
 
