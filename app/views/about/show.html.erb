@@ -11,14 +11,6 @@
     <div class="col-md-7 body">
       <%= @about.main_html.gsub('<div class="toc"></div>', @about.toc_html).html_safe %>
     </div>
-    <div class="col-md-4 pull-right">
-      <p>
-        <%= render partial: 'collections/collection_select' %>
-      </p>
-      <div id="helpful-links">
-        <h3>Helpful Links</h3>
-        <%= @about.links_html.html_safe %>
-      </div>
-    </div>
+    <%= render partial: 'shared/sidebar', locals: { group: @about } %>
   </div>
 </div>

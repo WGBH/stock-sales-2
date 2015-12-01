@@ -1,0 +1,10 @@
+<div class="col-md-4 pull-right">
+  <%= render partial: 'collections/collection_select' %>
+  <% if !group.links_html.empty? %>
+    <div id="helpful-links">
+      <%= render partial: 'shared/search' if group.path == 'digital-clips' %>    
+      <h3>Helpful Links</h3>
+      <%= group.links_html.html_safe %>
+    </div>
+  <% end %>
+</div>
