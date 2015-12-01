@@ -31,10 +31,18 @@
   }
 
   .call_to_action {
-    margin-top: $grid-gutter-width;
     @media (min-width: $screen-md-min) {
-        // With md or lg, separation from video.
-        margin-left: $grid-gutter-width;
+        height: 364px;
+        .body { padding-bottom: 0px; } 
+        // We get the padding we want by specifying height.
+    }
+    @media (min-width: $screen-lg-min) {
+        height: 462px;
+    }
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+        .body .well {
+            min-height: auto; // Save vertical space inside.
+        } 
     }
   }
 }
