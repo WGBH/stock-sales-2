@@ -76,6 +76,9 @@ nav, nav a {
 
 a {
     color: $dark-blue;
+    &.thumb {
+        color: #000;
+    }
 }
 
 .top {
@@ -94,10 +97,6 @@ a {
 img {
     // Shrinks proportionally as div shrinks
     max-width: 100%;
-}
-
-a.thumb {
-    color: #000;
 }
 
 input {
