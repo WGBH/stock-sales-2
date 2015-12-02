@@ -19,7 +19,7 @@ Interviews with musicians and musical performances
 The WGBH music collection consists of interviews with musicians, archival 
 performances and specials (e.g. BB King, James Taylor) and musical acts recorded 
 in our studios here at WGBH (e.g. Gladys Knight and the Pips, the Delfonics, 
-Parliament, Ruben Blades). WGBH also famously recorded the 1968 James Brown 
+The Parliaments, Ruben Blades). WGBH also famously recorded the 1968 James Brown 
 concert at the Boston Garden in the wake of the assassination of Martin Luther 
 King.  In addition, WGBH has broadcast the *Evening at Pops*, featuring guest performers,
 for over 40 years.  WGBH co-produced the series *Rock & Roll* (1994) and 
