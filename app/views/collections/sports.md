@@ -17,7 +17,7 @@ WGBH's archival sports collection including tennis, skating, running, basketball
 ## Long
 
 Did you know that WGBH was the first television station to broadcast professional 
-tennis in the US in 1960s?  
+tennis in the US in the 1960s?  
 
 Our sports collection is mainly archival and features footage from the 1960s 
 and 1970s (when WGBH had a sports unit) with a smattering of content thereafter 
