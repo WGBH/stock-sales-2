@@ -78,15 +78,17 @@ a {
     color: $dark-blue;
 }
 
-.container.top {
-    background: $med-blue;
-}
-
-.top h1 {
-    color: #fff;
-}
-.top p {
-    color: $body-bg;
+.top {
+    &.container {
+        background: $med-blue;
+        padding: $grid-gutter-width/2 $grid-gutter-width;
+    }
+    h1 {
+        color: #fff;
+    }
+    p {
+        color: $body-bg;
+    }
 }
 
 img {
