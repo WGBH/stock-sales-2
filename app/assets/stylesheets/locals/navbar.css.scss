@@ -16,22 +16,27 @@
         //margin: $grid-gutter-width/2 $grid-gutter-width/2 0 $grid-gutter-width/2;
     }
     
+    &#footer {
+        margin: 0 $grid-gutter-width;
+    }
+    
 
     /* 
       These come from bootstrap/_grid.scss,
       but we don't want want everything else 
       that comes with being a container.
+    
+      Add back gutter width so we're flush to margin.
     */
     @media (min-width: $screen-sm-min) {
-        width: $container-sm;
+        width: $container-sm + $grid-gutter-width;
     }
     @media (min-width: $screen-md-min) {
-        width: $container-md;
+        width: $container-md + $grid-gutter-width;
     }
     @media (min-width: $screen-lg-min) {
-        width: $container-lg;
+        width: $container-lg + $grid-gutter-width;
     }
-    // Centering:
-    margin-right: auto;
-    margin-left: auto;
+    
+    margin: 0px auto;
 }
