@@ -16,8 +16,8 @@ WGBH's archival sports collection including tennis, skating, running, basketball
 
 ## Long
 
-Did you know that WGBH was the first television channel to broadcast professional 
-tennis in the US in 1968?  
+Did you know that WGBH was the first television station to broadcast professional 
+tennis in the US in 1960s?  
 
 Our sports collection is mainly archival and features footage from the 1960s 
 and 1970s (when WGBH had a sports unit) with a smattering of content thereafter 
@@ -36,5 +36,5 @@ View examples of our sports collection below:
 ## Grid
 
 - [Arthur Ashe | Longwood Tennis 1968](http://openvault.wgbh.org/catalog/openvault:21221) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/Arthur_02_348x196.png)
-- [Boston Celtics | 1984](/TODO) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/CelticsPride84_01_348x196.png)
+- [Boston Celtics | 1984](http://bostonlocaltv.org/catalog/V_NDG5U7DXICB6Q8H) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/CelticsPride84_01_348x196.png)
 - [Larry Bird | ](http://bostonlocaltv.org/catalog/V_LL4A6T3RKW47TPS) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/LarryBird_03_348x192.png)
