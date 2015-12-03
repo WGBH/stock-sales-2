@@ -6,36 +6,37 @@
   </ul>
 <% end %>
 
-<nav class="navbar hidden-xs">
+<nav id="header" class="navbar hidden-xs">
   <div class="container-fluid">
+    
     <div class="collapse navbar-collapse pull-left">
       <% unless controller_name == 'home' %>
         <ul class="nav navbar-nav head">
-          <li><a href="/" style="padding-left: 0px;">
+          <li><a href="/">
             <%= render file: "#{Rails.root}/app/views/shared/wgbh-logo.svg" %>  
           </a></li>
         </ul>
-     <% end %>
+      <% end %>
       <%= content_for(:about_links) if controller_name == 'home'%>
     </div>
-    <div class="pull-right">
-      <div class="collapse navbar-collapse pull-right">
-        <ul class="nav navbar-nav">
-          <li class="contact"><a href="tel:+1+617+300+3939">
-            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-            <% # or: glyphicon glyphicon-phone-alt %>
-            (617) 300-3939
-           </a></li>
-          <li class="contact"><a href="mailto:stock_sales@wgbh.org">
-            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-            stock_sales@wgbh.org
-          </a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-      <br/>
-      <div class="collapse navbar-collapse pull-right">
-        <%= content_for(:about_links) unless controller_name == 'home' %>
-      </div>
+    
+    <div class="collapse navbar-collapse pull-right">
+      <ul class="nav navbar-nav">
+        <li class="contact"><a href="tel:+1+617+300+3939">
+          <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+          <% # or: glyphicon glyphicon-phone-alt %>
+          (617) 300-3939
+         </a></li>
+        <li class="contact"><a href="mailto:stock_sales@wgbh.org">
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+          stock_sales@wgbh.org
+        </a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    
+    <div class="collapse navbar-collapse pull-right">
+      <%= content_for(:about_links) unless controller_name == 'home' %>
     </div>
+    
   </div><!-- /.container-fluid -->
 </nav>
