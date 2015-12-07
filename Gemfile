@@ -43,7 +43,7 @@ gem 'blacklight'
 gem "rsolr", "~> 1.0.6"
 gem 'jettywrapper', '~> 1.7'
 
-gem 'cmless', '0.0.9'
+gem 'cmless', '0.1.0'
 gem 'sony-ci-api', '0.1.1'
 gem 'curb'
 
