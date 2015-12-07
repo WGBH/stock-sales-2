@@ -2,7 +2,11 @@
   <%= render partial: 'collections/collection_select' %>
   <% if !group.links_html.empty? %>
     <div id="helpful-links">
-      <%= render partial: 'shared/search' if group.path == 'digital-clips' %>    
+      <% if group.path == 'digital-clips' %>
+        <div class="well">
+          <%= render partial: 'shared/search' %>
+        </div>
+      <% end %>
       <h3>Helpful Links</h3>
       <%= group.links_html.html_safe %>
     </div>
