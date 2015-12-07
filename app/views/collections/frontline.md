@@ -46,5 +46,5 @@ Check out some examples of our content below:
 - [Pro-Assad Militia Commander | Syria]
 (https://www.youtube.com/watch?v=uL9EbC-4QF0)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Inside+Assad%27s+Syria_348x196.png)
 - [Exxon and Climate Change] (https://www.youtube.com/watch?v=ppfpFZ92JAY) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Exxon+and+Climate+Change_348x196.png)
-- [League of Denial] (http://www.pbs.org/wgbh/pages/frontline/league-of-denial/) ![](	
+- [League of Denial| The NFL's concussion crisis] (http://www.pbs.org/wgbh/pages/frontline/league-of-denial/) ![](	
 https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Footballs_348x196.png)
