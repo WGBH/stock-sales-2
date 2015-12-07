@@ -9,7 +9,7 @@
 <nav id="header" class="navbar hidden-xs">
   <div class="container-fluid">
     
-    <div class="collapse navbar-collapse pull-left">
+    <div class="pull-left">
       <% unless controller_name == 'home' %>
         <ul class="nav navbar-nav head">
           <li><a href="/">
@@ -20,7 +20,7 @@
       <%= content_for(:about_links) if controller_name == 'home'%>
     </div>
     
-    <div class="collapse navbar-collapse pull-right">
+    <div class="pull-right">
       <ul class="nav navbar-nav">
         <li class="contact"><a href="tel:+1+617+300+3939">
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
@@ -32,9 +32,9 @@
           stock_sales@wgbh.org
         </a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
+    </div>
     
-    <div class="collapse navbar-collapse pull-right">
+    <div class="pull-right">
       <%= content_for(:about_links) unless controller_name == 'home' %>
     </div>
     
