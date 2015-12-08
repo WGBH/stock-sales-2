@@ -19,7 +19,8 @@ Television’s top rated **news** and **investigative** documentary series
 
 ## Long
 Featuring in-depth investigative journalism, *Frontline*'s coverage of issues has earned it multiple 
-Emmys since it was first broadcast on WGBH in 1983.  The companion website
+Emmys since it was first broadcast on WGBH in 1983.  Frontline has shot footage all over
+the world, much of which is available for licensing.  In addition, the companion website
 contains extensive interviews, teacher resources, video and additional material
 related to the broadcast subjects.  *Frontline* also recently launched an extensive 
 Youtube Channel with short form videos. From 2002-2010, *Frontline* produced
