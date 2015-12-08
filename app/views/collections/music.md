@@ -30,8 +30,10 @@ Click on the links below to learn more about these selects from our music collec
 
 ## Links
 
+[ Download PDF of WGBH Music collection ]
+
 ## Grid
 
 - [Peggy Lee performs with the Boston Pops | Evening at Pops 1974](http://openvault.wgbh.org/catalog/openvault:19405) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/EAP_PeggyLee1_348x196.png)
-- [Big Mama Thornton performs with the Buddy Guy Band 1970](http://openvault.wgbh.org/catalog/openvault:8190) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/BigMama2_348x196.png)
+- [Big Mama Thornton performs with the Buddy Guy Band | 1970](http://openvault.wgbh.org/catalog/openvault:8190) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/BigMama2_348x196.png)
 - [David Ruffin on Say Brothers Spring Special | 1969](http://openvault.wgbh.org/catalog/openvault:13825) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/SpringSpecial_Ruffin_348x196.png)
