@@ -29,7 +29,7 @@ from the set, and/or screen grabs from the programs.
 
 ## Links
 
-[Julia Child Foundation for for Gastronomy and the Culinary Arts](http://www.juliachildfoundation.org)
+[Julia Child Foundation for Gastronomy and the Culinary Arts](http://www.juliachildfoundation.org)
 
 [A la Carte Productions (Julia Child programs after 1984)](http://www.alacartetv.com/html/jnj/jnj.htm)
 
