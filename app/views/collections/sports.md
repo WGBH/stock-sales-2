@@ -31,7 +31,7 @@ View examples of our sports collection below:
 
 ## Links
 
-[Download PDF of WGBH Sports collection](/TODO)
+[Download PDF of WGBH Sports collection](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/sports.pdf)
 
 ## Grid
 
