@@ -30,7 +30,7 @@ Click on the links below to learn more about these selects from our music collec
 
 ## Links
 
-[Download PDF of WGBH Music collection]
+[Download PDF of WGBH Music collection](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/music/music.pdf)
 
 ## Grid
 
