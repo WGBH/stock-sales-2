@@ -33,6 +33,49 @@ The backing database for the clips is a WGBH-hosted Filemaker database. It provi
 
 The Filemaker database also has a script for redeploys. It does not actually depend on any information from the database: It's just a convenient place to put the script.
 
+### Video Clips
+
+For clips described in the Filemaker database, the essence video file is ingested into the WGBH Stock Sales Sony Ci account.  There, the essence files are hosted and lower-resolution versions are created automatically and used by the website.  Files should be named the same as their id value found in the stock-sales-loose Filemaker database.
+
+### Ingesting Into Sony Ci
+
+We are using [Sony Ci](http://developers.cimediacloud.com) to host the video and audio files.
+In the office we are using the Ci API to upload content, and on the server the API
+is used to generate transient download URLs. On either end, an additional 
+git-ignored configuration file (`config/ci.yml`) is necessary.
+
+```yaml
+username: [your ci username]
+password: [your ci password]
+client_id: [32 character hexadecimal client ID]
+client_secret: [32 character hexadecimal client secret]
+workspace_id: [32 character hexadecimal workspace ID]
+```
+
+Use your personal workspace ID if you are working on the Ci code itself, or the 
+AAPB workspace ID if you want to view media that is stored.
+
+To actually ingest:
+
+Ingest from the command line should be done when you have multiple files you would like to upload.
+If you only have a file or two you would like to ingest, you can also use the [Sony Ci webite] (https://workspace.cimediacloud.com/account/login) directly.
+
+```bash
+$ echo /PATH/TO/FILES/* | xargs -n 10 ruby scripts/ci/ci.rb --log ~/ci_log.csv --up
+$ # A big directory may have more files than ruby can accommodate as arguments, so xargs
+$ tail -f ~/ci_log.csv
+$ # Use tail to monitor the writing of the log file
+```
+After the ingest process is complete, review the ci_log.csv document and check that all the files were sucessfully ingested.  All the files should have a unique Ci-ID value.  If some files failed to upload, place them in their own folder and re-run the command line process.
+You should also check the [Sony Ci webite] (https://workspace.cimediacloud.com/account/login) after ingest to make sure no files have a "Failed" status.  This isn't always obvious in the ci_log.csv file.  If a file is listed as "Failed" delete it from the Ci website and reingest either from the command line or the website interface.
+
+Once all the files have been successfully ingested, open the WGBH hosted Filemaker databse, stock-sales-loose, and create or update the video clip records with their new Sony Ci-ID values.  These are found either in the ci_log.csv file if you used the command line to ingest, or they can be found by using the Sony Ci website.
+
 ### Thumbnails
 
-TODO
+These are created automatically within Sony Ci and available via the API.
+
+### Downloadable Clips
+
+For every video clip available to view on the site, a WGBH watermarked downloadable version is also available.  These files are created outside of the Sony Ci ingest workflow and are hosted on the Stock Sales Amazon S3 instance.  These downloadable clip files should be named the same as the essence files they are created from.  We're currently using Sorenson Squeeze to transcode.
+Watermarked video specs: Motion Jpeg codec, 360x240 resolution, 15 fps, Transparent WGBH watermark
