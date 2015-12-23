@@ -79,3 +79,25 @@ These are created automatically within Sony Ci and available via the API.
 
 For every video clip available to view on the site, a WGBH watermarked downloadable version is also available.  These files are created outside of the Sony Ci ingest workflow and are hosted on the Stock Sales Amazon S3 instance.  These downloadable clip files should be named the same as the essence files they are created from.  We're currently using Sorenson Squeeze to transcode.
 Watermarked video specs: Motion Jpeg codec, 360x240 resolution, 15 fps, Transparent WGBH watermark
+
+## Uploading to Amazon S3
+
+You can use the AWS web interface to upload watermarked files, or collection images to the Stock Sales website but for uploading multiple files you should use the Amazon CLI tool.  The transfer speed is a lot faster and large transfers shouldn't time out.
+
+[Follow the documentation](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) to set up CLI with your Access Key, Secret Access Key, and Default region name.
+
+The buckets are located under **/content/**
+
+- /collections/ is for image thumbnails for all the various collections
+- /watermarked_clips/ is for the .mov watermarked video clips that are available to be downloaded
+
+
+Copy Directory of Files to S3:
+```
+aws s3 cp /local/folder/of/stuff s3://wgbhstocksales.org/bucket-name -- recursive
+```
+
+Double Check Files Were Uploaded:
+```
+aws s3 ls s3://wgbhstocksales.org/bucket-name --recursive >> /Users/logs/s3_proxies.csv
+```
