@@ -21,12 +21,16 @@ content rich websites to find footage and other unique content.  Let us know wha
 and/or how we can improve your user experience!
 
 Visit this part of our site to see what’s been recently added to our collection
-and/or to see what’s trending in the news.  This month we focus on the 
-recently deceased Dr. Ahmad Chalabi, who helped persuade the United States to invade Iraq and then 
-unsuccessfully tried to attain power.  In addition, we are highlighting a number of new clips that we
-have added to our site, including footage from Haditha, Iraq.
+and/or to see what’s trending in the news.  This month we focus on Marvin Minsky, cognitive scientist and founding member of the MIT Media Lab, and has been called the "Father of Artificial Intelligence." His work, including some alongside fellow Media Lab founding member Seymour Papert, has been extremely influential in the study of artificial neural networks, especially building machines with the capacity for commonsense. One of Minksy's most well known works is The Society of Mind, published in 1988, which is also the name of a course he taught at MIT.
 
+Just two years after the publication of The Society of Mind, Minsky was interviewed for the WGBH production The Machine that Changed the World. The interview was over an hour long, and a full, unedited version has been digitized and made available. Minsky discusses much more than his recent publication, answering questions across a range of topics, including:
 
+- the history of research on the workings of the human brain
+- history and development of AI research
+- common sense knowledge in humans and computers
+- religion
+- impact of computer development on AI and cognitive science
+- science fiction
 
 
 Every month we will showcase another story from our library.  
@@ -35,6 +39,5 @@ Every month we will showcase another story from our library.
 
 ## Grid
 
-- [Dr. Ahmad Chalabi| Frontline Interview](http://www.pbs.org/wgbh/frontline/article/america-iraq-and-the-legacy-of-ahmad-chalabi/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Chalabi_348x196.png)
-- [Iraqi soldier with AK47 | Haditha, Iraq](/catalog/GET89760292) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Iraq+gun_348x196.png)
-- [Armed Iraqi officer | Haditha, Iraq](/catalog/GET89760287) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Soldier+in+side+mirror+2_348x196.png)
+- [Marvin Minsky| The Machine That Changed the World Interview](http://www.youtube.com/watch?v=QGE2NZfBq38) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Minsky.png)
+
