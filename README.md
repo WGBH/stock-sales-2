@@ -59,8 +59,10 @@ To actually ingest:
 
 Ingest from the command line should be done when you have multiple files you would like to upload.
 If you only have a file or two you would like to ingest, you can also use the [Sony Ci webite] (https://workspace.cimediacloud.com/account/login) directly.
+Make sure you have Ruby and rvm installed.
 
 ```bash
+$ cd /PATH/TO/stock-sales-2
 $ echo /PATH/TO/FILES/* | xargs -n 10 ruby scripts/ci/ci.rb --log ~/ci_log.csv --up
 $ # A big directory may have more files than ruby can accommodate as arguments, so xargs
 $ tail -f ~/ci_log.csv
