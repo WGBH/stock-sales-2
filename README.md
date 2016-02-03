@@ -78,7 +78,7 @@ These are created automatically within Sony Ci and available via the API.
 ### Downloadable Clips
 
 For every video clip available to view on the site, a WGBH watermarked downloadable version is also available.  These files are created outside of the Sony Ci ingest workflow and are hosted on the Stock Sales Amazon S3 instance.  These downloadable clip files should be named the same as the essence files they are created from.  We're currently using Sorenson Squeeze to transcode.
-Watermarked video specs: Motion Jpeg codec, 360x240 resolution, 15 fps, Transparent WGBH watermark
+Watermarked video specs: H.264 codec, 360x240 resolution, 15 fps, Transparent "WGBH Stock Sales" watermark
 
 ## Uploading to Amazon S3
 
