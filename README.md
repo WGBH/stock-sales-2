@@ -60,6 +60,7 @@ To actually ingest:
 Ingest from the command line should be done when you have multiple files you would like to upload.
 If you only have a file or two you would like to ingest, you can also use the [Sony Ci webite] (https://workspace.cimediacloud.com/account/login) directly.
 Make sure you have Ruby and rvm installed.
+Make sure all the files you wish to upload are in a single directory with no sub-directories inside.
 
 ```bash
 $ cd /PATH/TO/stock-sales-2
