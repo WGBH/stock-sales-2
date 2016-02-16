@@ -35,6 +35,8 @@ Check out some examples of our educational web content below:
 
 [Special Features] (http://www.pbs.org/wgbh/americanexperience/features/)
 
+[The Presidents Collection] (http://www.pbs.org/wgbh/americanexperience/presidents/)
+
 ## Grid
 
 - [Bonus Video | Take a ride through the Panama Canal](http://www.pbs.org/wgbh/americanexperience/features/bonus-video/tr-travel/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/Panama_348x196.png)
