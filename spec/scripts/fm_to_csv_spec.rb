@@ -8,7 +8,8 @@ describe 'fm_to_csv.xsl' do
     xml = Nokogiri::XML(File.read(__dir__ + '/../fixtures/fm-export-results.xml'))
     xsl = Nokogiri::XSLT(File.read(__dir__ + '/../../public/fm_to_csv.xsl'))
     csv = xsl.apply_to(xml)
-    #puts csv
+    puts '(Copy and paste this to update fixture:)'
+    puts csv
     expect(csv).to eq(File.read(__dir__ + '/../fixtures/fm-export.csv'))
   end
 end
