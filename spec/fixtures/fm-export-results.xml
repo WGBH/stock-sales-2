@@ -10,7 +10,8 @@
     <barcode>Barcode1234</barcode>
     <category>Locations</category>
     <Ci_ID>5cf8d001d37241a59d07d594010bdab9</Ci_ID>
-    <clip_description>La Habana Vieja</clip_description>
+    <clip_description>La Habana Vieja,
+"quotes and NL are ok"</clip_description>
     <clip_keywords>gothic architecture</clip_keywords>
     <clip_title>gothic building</clip_title>
     <codec>MP1234</codec>

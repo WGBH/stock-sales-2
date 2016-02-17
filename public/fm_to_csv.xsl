@@ -42,10 +42,14 @@
     <xsl:param name="title"/>
     <xsl:param name="description"/>
     <xsl:variable name="comma" select="','"/>
+    <xsl:variable name="q" select="'&quot;'"/>
+    <xsl:variable name="qnl" select="'&quot;&#xA;'"/>
+    
+    <!-- TODO: figure out how to escape quotes in XPath 1.0, but for now, just strip. -->
     <xsl:value-of select="concat(
                             $id, $comma,
-                            $title, $comma,
-                            $description, $comma,
+                            $q,translate($title,$qnl,'  '),$q, $comma,
+                            $q,translate($description,$qnl,'  '),$q, $comma,
                             'TRUE', $comma,
                             'Format', '&#xA;'
                           )"/>
