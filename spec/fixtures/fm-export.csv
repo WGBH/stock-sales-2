@@ -1,4 +1,4 @@
 Handle,Title,Body (HTML),Published,Option1 Name,Option1 Value,Variant SKU,Variant Price
-art-98786543210,"gothic building","La Habana Vieja,  quotes and NL are ok ",TRUE,Format
-art-98786543210,,,,Format,HD,HD-art-98786543210,$250
-art-98786543210,,,,Format,SD,SD-art-98786543210,$180
+GBH000123,"gothic building","La Habana Vieja,  quotes and NL are ok ",TRUE,Format
+GBH000123,,,,Format,HD,HD-GBH000123,$250
+GBH000123,,,,Format,SD,SD-GBH000123,$180

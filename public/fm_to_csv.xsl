@@ -20,18 +20,19 @@
 
   <xsl:template match="fm:ROW">
     <xsl:variable name="comma" select="','"/>
+    <xsl:variable name="id" select="./fm:id"/>
     <xsl:call-template name="row-main">
-        <xsl:with-param name="id" select="./fm:artesia_id"/>
+        <xsl:with-param name="id" select="$id"/>
         <xsl:with-param name="title" select="./fm:clip_title"/>
         <xsl:with-param name="description" select="./fm:clip_description"/>
     </xsl:call-template>
     <xsl:call-template name="row-var">
-        <xsl:with-param name="id" select="./fm:artesia_id"/>
+        <xsl:with-param name="id" select="$id"/>
         <xsl:with-param name="format" select="'HD'"/>
         <xsl:with-param name="price" select="'$250'"/>
     </xsl:call-template>
     <xsl:call-template name="row-var">
-        <xsl:with-param name="id" select="./fm:artesia_id"/>
+        <xsl:with-param name="id" select="$id"/>
         <xsl:with-param name="format" select="'SD'"/>
         <xsl:with-param name="price" select="'$180'"/>
     </xsl:call-template>
