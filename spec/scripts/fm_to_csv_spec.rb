@@ -7,6 +7,8 @@ describe 'fm_to_csv.xsl' do
   it 'produces expected CSV' do
     xml = Nokogiri::XML(File.read(__dir__ + '/../fixtures/fm-export-results.xml'))
     xsl = Nokogiri::XSLT(File.read(__dir__ + '/../../public/fm_to_csv.xsl'))
-    puts xsl.apply_to(xml)
+    csv = xsl.apply_to(xml)
+    #puts csv
+    expect(csv).to eq(File.read(__dir__ + '/../fixtures/fm-export.csv'))
   end
 end

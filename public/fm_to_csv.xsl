@@ -23,7 +23,26 @@
     <xsl:value-of select="concat(
                             ./fm:artesia_id, $comma,
                             ./fm:clip_title, $comma,
-                            ./fm:clip_description, $comma
+                            ./fm:clip_description, $comma,
+                            'TRUE', $comma,
+                            'Format', $comma,
+                            '', '&#xA;'
+                          )"/>
+    <xsl:value-of select="concat(
+                            ./fm:artesia_id, $comma,
+                            '', $comma,
+                            '', $comma,
+                            '', $comma,
+                            'Format', $comma,
+                            'HD-',./fm:artesia_id, '&#xA;'
+                          )"/>
+    <xsl:value-of select="concat(
+                            ./fm:artesia_id, $comma,
+                            '', $comma,
+                            '', $comma,
+                            '', $comma,
+                            'Format', $comma,
+                            'SD-',./fm:artesia_id, '&#xA;'
                           )"/>
   </xsl:template>
   
