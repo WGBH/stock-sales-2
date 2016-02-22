@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 describe ThumbController do
+  before(:all) do
+    Ingester.instance.ingest('spec/fixtures/fm-export-results.xml', 'spec/fixtures/stock-sales-cache.json')
+  end
   describe 'GET show' do
     it 'redirects to an S3 url' do
       get :show, id: 'GBH000123'
