@@ -72,7 +72,7 @@
                             '', $comma,
                             'Format', $comma,
                             $format, $comma,
-                            $format,'-',$id, $comma,
+                            $id, $comma,
                             $price, '&#xA;'
                           )"/>
   </xsl:template>
