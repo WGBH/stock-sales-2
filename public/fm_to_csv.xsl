@@ -26,16 +26,20 @@
         <xsl:with-param name="title" select="./fm:clip_title"/>
         <xsl:with-param name="description" select="./fm:clip_description"/>
     </xsl:call-template>
-    <xsl:call-template name="row-var">
-        <xsl:with-param name="id" select="$id"/>
-        <xsl:with-param name="format" select="'HD'"/>
-        <xsl:with-param name="price" select="'$250'"/>
-    </xsl:call-template>
-    <xsl:call-template name="row-var">
-        <xsl:with-param name="id" select="$id"/>
-        <xsl:with-param name="format" select="'SD'"/>
-        <xsl:with-param name="price" select="'$180'"/>
-    </xsl:call-template>
+    <xsl:if test="./fm:format='High Def Digital'">
+        <xsl:call-template name="row-var">
+            <xsl:with-param name="id" select="$id"/>
+            <xsl:with-param name="format" select="'HD'"/>
+            <xsl:with-param name="price" select="'$250'"/>
+        </xsl:call-template>
+    </xsl:if>
+    <xsl:if test="./fm:format='standard definition NTSC'">
+        <xsl:call-template name="row-var">
+            <xsl:with-param name="id" select="$id"/>
+            <xsl:with-param name="format" select="'SD'"/>
+            <xsl:with-param name="price" select="'$180'"/>
+        </xsl:call-template>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="row-main">

@@ -23,7 +23,7 @@
     <event_location>Havana, Cuba</event_location>
     <file_name>test.mp4</file_name>
     <folder_name>folder</folder_name>
-    <format>NTSC</format>
+    <format>standard definition NTSC</format>
     <frames_per_second>30</frames_per_second>
     <id>GBH000123</id>
     <length>00:00:30;00</length>
