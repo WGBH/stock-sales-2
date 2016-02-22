@@ -4,7 +4,7 @@ describe DownloadsController do
   describe 'GET show' do
     it 'redirects to a presigned S3 url' do
       get :show, id: 'foo'
-      expect(response.location).to match /^https\:\/\/s3\.amazonaws.com\/wgbhstocksales.org\/content\/watermarked_clips\/foo.mov/
+      expect(response.location).to match /^https\:\/\/s3\.amazonaws\.com\/wgbhstocksales.org\/content\/watermarked_clips\/foo.mov\?.*response-content-disposition=attachment/
     end
   end
 end
