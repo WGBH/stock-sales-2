@@ -30,7 +30,6 @@ class Converter
   private
   
   THUMBNAILS = 'thumbnails'
-  PROXIES = 'proxies'
   
   def to_solr_record(fm_record_xml)
     SolrDocument.new({
@@ -69,13 +68,12 @@ class Converter
       while !ci_ids_todo.empty?
         group = ci_ids_todo.shift(500) # Max dictated by the Sony API
         $LOG.info("#{ci_ids_todo.count} Ci IDs still need details")
-        details = ci.multi_details(group, [THUMBNAILS, PROXIES])
+        details = ci.multi_details(group, [THUMBNAILS])
         @cache.merge!(Hash[
           details['items'].map { |item| [
             item['id'], 
             {
-              THUMBNAILS => item[THUMBNAILS],
-              PROXIES => item[PROXIES],
+              THUMBNAILS => item[THUMBNAILS]
             }
           ] } 
         ] )

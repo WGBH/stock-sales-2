@@ -99,7 +99,10 @@ class SolrDocument
     json[:program]
   end
   def proxy_src
-    "/media/#{id}"
+    sony_ci.proxy_src
+  end
+  def sony_ci
+    @sony_ci ||= SonyCiCache.new(ci_id)
   end
   def series
     json[:series]
@@ -116,7 +119,6 @@ class SolrDocument
   def type
     json[:type]
   end
-
   def watermarked_src
     "/downloads/#{id}"
   end
