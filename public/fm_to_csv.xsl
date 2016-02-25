@@ -14,7 +14,7 @@
       Complete header from template:
       Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Variant Barcode,Image Src,Image Alt Text,Gift Card,Google Shopping / MPN,Google Shopping / Age Group,Google Shopping / Gender,Google Shopping / Google Product Category,SEO Title,SEO Description,Google Shopping / AdWords Grouping,Google Shopping / AdWords Labels,Google Shopping / Condition,Google Shopping / Custom Product,Google Shopping / Custom Label 0,Google Shopping / Custom Label 1,Google Shopping / Custom Label 2,Google Shopping / Custom Label 3,Google Shopping / Custom Label 4,Variant Image,Variant Weight Unit
     -->
-    <xsl:value-of select='"Handle,Title,Body (HTML),Published,Option1 Name,Option1 Value,Variant SKU,Variant Price&#xA;"'/>
+    <xsl:value-of select='"Handle,Title,Body (HTML),Published,Option1 Name,Option1 Value,Variant SKU,Variant Price,Image Src&#xA;"'/>
     <xsl:apply-templates select="fm:FMPDSORESULT/fm:ROW" />
   </xsl:template>
 
@@ -26,16 +26,20 @@
         <xsl:with-param name="title" select="./fm:clip_title"/>
         <xsl:with-param name="description" select="./fm:clip_description"/>
     </xsl:call-template>
-    <xsl:call-template name="row-var">
-        <xsl:with-param name="id" select="$id"/>
-        <xsl:with-param name="format" select="'HD'"/>
-        <xsl:with-param name="price" select="'$250'"/>
-    </xsl:call-template>
-    <xsl:call-template name="row-var">
-        <xsl:with-param name="id" select="$id"/>
-        <xsl:with-param name="format" select="'SD'"/>
-        <xsl:with-param name="price" select="'$180'"/>
-    </xsl:call-template>
+    <xsl:if test="./fm:format='High Def Digital'">
+        <xsl:call-template name="row-var">
+            <xsl:with-param name="id" select="$id"/>
+            <xsl:with-param name="format" select="'HD'"/>
+            <xsl:with-param name="price" select="'$250'"/>
+        </xsl:call-template>
+    </xsl:if>
+    <xsl:if test="./fm:format='standard definition NTSC'">
+        <xsl:call-template name="row-var">
+            <xsl:with-param name="id" select="$id"/>
+            <xsl:with-param name="format" select="'SD'"/>
+            <xsl:with-param name="price" select="'$180'"/>
+        </xsl:call-template>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="row-main">
@@ -68,8 +72,9 @@
                             '', $comma,
                             'Format', $comma,
                             $format, $comma,
-                            $format,'-',$id, $comma,
-                            $price, '&#xA;'
+                            $id, $comma,
+                            $price, $comma,
+                            'http://wgbhstocksales.org/thumb/',$id,'&#xA;'
                           )"/>
   </xsl:template>
   
