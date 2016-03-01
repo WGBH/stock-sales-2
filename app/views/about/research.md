@@ -4,7 +4,7 @@
 
 ## Main
 
-### You know you want *that* shot from a particular WGBH program, 
+### You know you want *that* shot from a particular WGBH program... 
 but it is *not* in the Digital Clips Collection, and you cannot find it online. How do you order it?
 
 ### 1. Send us an email and identify the shot  
