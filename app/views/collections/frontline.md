@@ -28,7 +28,7 @@ Youtube Channel with short form videos. From 2002-2010, *Frontline* produced
 seen on American television.  *Frontline* streams 189 current and archival 
 programs on its site, organized by broadcast year. 
 
-Check out some examples of our content below: 
+Check out some examples of our content below (select your browsers back button or tab to return to our site): 
 
 ## Links
 
