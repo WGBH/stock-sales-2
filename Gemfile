@@ -47,6 +47,9 @@ gem 'cmless', '0.1.0'
 gem 'sony-ci-api', '0.1.1'
 gem 'curb'
 
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
+
 gem 'aws-sdk', '~> 2'
 
 gem 'rspec', :group => :test
