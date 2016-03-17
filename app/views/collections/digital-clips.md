@@ -29,6 +29,21 @@ HD clips:  **$250 per clip**
 
 Explore some examples of our digital clips below:
 
+**Digital Clip Categories** - enter into the
+search bar to see content
+HD Footage
+Adventure/Exploration
+Animation
+Animals
+Culture/Society
+Health/Medicine
+History/Recreations
+Industry/Business
+Locations
+Nature
+Science & Technology
+
+
 ## Links
 
 [How to license](/about/research)
