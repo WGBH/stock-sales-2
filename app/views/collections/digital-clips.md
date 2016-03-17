@@ -29,8 +29,9 @@ HD clips:  **$250 per clip**
 
 Explore some examples of our digital clips below:
 
-**Digital Clip Categories** - enter into the
-search bar to see content
+**Digital Clip Categories** - 
+enter category keyword into the search bar to see content
+
 HD Footage
 Adventure/Exploration
 Animation
