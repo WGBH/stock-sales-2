@@ -66,6 +66,12 @@ Make sure all the files you wish to upload are in a single directory with no sub
 $ cd /PATH/TO/stock-sales-2
 $ echo /PATH/TO/FILES/* | xargs -n 10 ruby scripts/ci/ci.rb --log ~/ci_log.csv --up
 $ # A big directory may have more files than ruby can accommodate as arguments, so xargs
+```
+That process will begin running but you won't have an indication of the upload status.  The best way to do that is to monitor the log file you just created.
+
+
+Open a new Terminal window to monitor your log file.  By using `tail` you can see the last line of a completed upload to Sony Ci
+```
 $ tail -f ~/ci_log.csv
 $ # Use tail to monitor the writing of the log file
 ```
