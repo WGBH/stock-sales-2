@@ -28,6 +28,10 @@ class SolrDocument
       !pair[:value].nil? && !pair[:value].empty?
     end
   end
+  
+  def clip?
+    !ci_id.empty?
+  end
 
   def artesia_id
     json[:artesia_id]

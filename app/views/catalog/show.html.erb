@@ -8,40 +8,60 @@
   </div>
   <div class="row">
     <div class="col-md-6">
-      <video controls="true"
-        oncontextmenu="return false;" 
-        width="100%"
-        poster="<%= @document.thumb_src %>"
-        src="<%= @document.proxy_src %>">
-      </video>
+      <% if @document.clip? %>
+        <video controls="true"
+          oncontextmenu="return false;" 
+          width="100%"
+          poster="<%= @document.thumb_src %>"
+          src="<%= @document.proxy_src %>">
+        </video>
+      <% else %>
+        <img src="<%= @document.proxy_src %>">
+      <% end %>
+      
       <p>
-        
+        <% if @document.clip? %>
           To license this clip, please <a href="/about/contact_us">contact us</a> and reference the clip #ID number and clip title.
-          <strong> Clip rates are:  $180 for Standard Definition (SD) clips;   $250 for HD clips
-        </strong> 
+          <strong>
+            Clip rates are:  $180 for Standard Definition (SD) clips;   $250 for HD clips
+          </strong>
+        <% else %>
+          To license a clip from this program, please <a href="/about/contact_us">contact us</a> and reference the series and program titles.
+          <strong>
+            Clip rates are:  $TODO per second
+          </strong>
+        <% end %>
       </p>
     </div>
 
     <div class="col-md-6">
-    <%= render partial: 'catalog/field_list',
-               locals: { columns: 1,
-                         field_list: @document.labels_and_values( :clip_description,
-                                                                  :clip_keywords) } %>
-    <%= render partial: 'catalog/field_list',
-               locals: { columns: 2,
-                         field_list: @document.labels_and_values( :id,
-                                                                  :event_date,
-                                                                  :event_location,
-                                                                  :program,
-                                                                  :series,
-                                                                  :category,
-                                                                  :length,
-                                                                  :aspect_ratio,
-                                                                  :codec,
-                                                                  :digital_wrapper,
-                                                                  :dimensions,
-                                                                  :format,
-                                                                  :type) } %>
+      <% if @document.clip? %>
+        <%= render partial: 'catalog/field_list',
+                   locals: { columns: 1,
+                             field_list: @document.labels_and_values( :clip_description,
+                                                                      :clip_keywords) } %>
+        <%= render partial: 'catalog/field_list',
+                   locals: { columns: 2,
+                             field_list: @document.labels_and_values( :id,
+                                                                      :event_date,
+                                                                      :event_location,
+                                                                      :program,
+                                                                      :series,
+                                                                      :category,
+                                                                      :length,
+                                                                      :aspect_ratio,
+                                                                      :codec,
+                                                                      :digital_wrapper,
+                                                                      :dimensions,
+                                                                      :format,
+                                                                      :type) } %>        
+      <% else %>
+        <%= render partial: 'catalog/field_list',
+                   locals: { columns: 1,
+                             field_list: @document.labels_and_values( :series,
+                                                                      :program,
+                                                                      :clip_description) } %>
+      <% end %>
     </div>
   </div>
 </div>
