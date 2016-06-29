@@ -8,7 +8,7 @@
     </div>
   </a>
   <div class="video-links">
-    <a href="/catalog/<%= document.id %>"><%= document.clip_title %></a>
+    <a href="/catalog/<%= document.id %>"><%= !document.clip_title.empty? ? document.clip_title : document.series %></a>
     <a href="<%= document.watermarked_src %>" target="_blank" class="pull-right"><span class="glyphicon glyphicon-download-alt"></span></a>
   </div>
 </div>
