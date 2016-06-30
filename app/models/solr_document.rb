@@ -17,7 +17,8 @@ class SolrDocument
     {
       'id' => id,
       'json' => @_source[:json],
-      'text' => json.values
+      'text' => json.values,
+      'is_clip' => clip?
     }
   end
   
