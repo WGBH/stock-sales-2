@@ -47,15 +47,15 @@
     <digital_wrapper></digital_wrapper>
     <dimensions></dimensions>
     <drive_name></drive_name>
-    <episode_number></episode_number>
-    <event_date></event_date>
+    <episode_number>42</episode_number>
+    <event_date>1/1/2001</event_date>
     <event_location></event_location>
     <file_name></file_name>
     <folder_name></folder_name>
     <format></format>
     <frames_per_second></frames_per_second>
     <id>PROGRAM1</id>
-    <length></length>
+    <length>60 minutes</length>
     <origin></origin>
     <program>Secret Weapons of the Dinosaurs</program>
     <series>NOVA</series>

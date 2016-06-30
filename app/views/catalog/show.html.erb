@@ -21,15 +21,15 @@
       
       <p>
         <% if @document.clip? %>
-          To license this clip, please <a href="/about/contact_us">contact us</a> and reference the clip #ID number and clip title.
+          To license this clip, please <a href="/about/contact_us">contact us</a>
+          and reference the clip #ID number and clip title.
           <strong>
             Clip rates are:  $180 for Standard Definition (SD) clips;   $250 for HD clips
           </strong>
         <% else %>
-          To license a clip from this program, please <a href="/about/contact_us">contact us</a> and reference the series and program titles.
-          <strong>
-            Clip rates are:  $TODO per second
-          </strong>
+          This program is not yet clipped and may contain third party material. 
+          To license a clip, please <a href="/about/contact_us">contact us</a>
+          and reference the series and program titles.
         <% end %>
       </p>
     </div>
@@ -57,9 +57,14 @@
                                                                       :type) } %>        
       <% else %>
         <%= render partial: 'catalog/field_list',
-                   locals: { columns: 1,
+                   locals: { columns: 2,
                              field_list: @document.labels_and_values( :series,
-                                                                      :program,
+                                                                      :episode_number,
+                                                                      :event_date,
+                                                                      :length) } %>
+        <%= render partial: 'catalog/field_list',
+                   locals: { columns: 1,
+                             field_list: @document.labels_and_values( :program,
                                                                       :clip_description) } %>
       <% end %>
     </div>
