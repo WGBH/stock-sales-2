@@ -33,9 +33,9 @@ class Converter
   PROXIES = 'proxies'
   
   @@logos = {
-    'NOVA' => 'https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-thumb_348x196.png',
-    'Frontline' => 'https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-thumb_348x196.png',
-    'American Experience' => 'https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/amex-thumb_348x196.png'
+    'NOVA' => 'https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/nova-thumb_290x196.png',
+    'Frontline' => 'https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/frontline-thumb_290x196.png',
+    'American Experience' => 'https://s3.amazonaws.com/wgbhstocksales.org/content/collections/amex/amex-thumb_290x196.png'
   }
   
   def to_solr_record(fm_record_xml)
