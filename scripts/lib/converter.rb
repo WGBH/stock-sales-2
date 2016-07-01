@@ -55,7 +55,7 @@ class Converter
               thumbnail['type'] == 'small' 
             }.first['location']
           else
-            @@logos[fm_record_hash['series']]
+            @@logos[fm_record_hash['series']] || '/placeholder.svg'
           end
           fm_record_hash.merge({
               'thumb_src' => thumb_src
