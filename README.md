@@ -110,3 +110,7 @@ Double Check Files Were Uploaded:
 ```
 aws s3 ls s3://wgbhstocksales.org/bucket-name --recursive >> /Users/logs/s3_proxies.csv
 ```
+
+# Application Config Files
+For some reason the config directory for this Stock Sales instance is found at `/srv/www/stock-sales-2/config` rather than in `var` like the other EC2 instances.
+If you're looking for the ci.yml file, it's located there.
