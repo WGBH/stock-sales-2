@@ -35,6 +35,6 @@ View examples of our sports collection below:
 
 ## Grid
 
-- [Arthur Ashe | Longwood Tennis 1968](http://openvault.wgbh.org/catalog/openvault:21221) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/Arthur_02_348x196.png)
+- [Arthur Ashe | Longwood Tennis 1968](http://openvault.wgbh.org/catalog/V_4AF87FACAB834976B34EDB660D15990F) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/Arthur_02_348x196.png)
 - [Boston Celtics | 1984](http://bostonlocaltv.org/catalog/V_NDG5U7DXICB6Q8H) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/CelticsPride84_01_348x196.png)
 - [Larry Bird | ](http://bostonlocaltv.org/catalog/V_LL4A6T3RKW47TPS) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/sports/LarryBird_03_348x192.png)
