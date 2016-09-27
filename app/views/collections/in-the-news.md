@@ -38,5 +38,5 @@ Every month we will showcase another story from our library.
 
 ## Grid
 
-- [Marvin Minsky| The Machine That Changed the World Interview](http://www.youtube.com/watch?v=QGE2NZfBq38) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Minsky.png)
+- [Marvin Minsky| The Machine That Changed the World Interview](http://openvault.wgbh.org/catalog/V_EC93438EE8A747989743A3987DD21409) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/in_the_news/Minsky.png)
 
