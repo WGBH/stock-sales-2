@@ -65,6 +65,6 @@ Check out some examples of our unique interviews and audio below:
 - [Mme. Nhu | Vietnam: A Television History](http://openvault.wgbh.org/catalog/vietnam-1a3f8e-interview-with-madame-ngo-dinh-nhu-1982) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Madame+Nhu_348x196.jpg)
 - [Steve Jobs | The Machine that Changed the World](http://openvault.wgbh.org/catalog/7b7ae3-steve-jobs-interview) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Steve+Jobs_348x196.jpg)
 
-- [Bobby Seale | Black Panthers| Say Brother!]( http://openvault.wgbh.org/catalog/openvault:43942) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Bobby+Seale_348x196.jpg)
+- [Bobby Seale | Black Panthers| Say Brother!]( http://openvault.wgbh.org/catalog/V_DDC27D8E35BF41CCBF640EDC54727BAB) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/Bobby+Seale_348x196.jpg)
 - [John Updike| At Home] (http://openvault.wgbh.org/catalog/d45fbe-john-updike) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/John+Updike+-+Version+2_348x196.jpg)
 - [March on Washington | Radio broadcast 1963] (http://openvault.wgbh.org/collections/march-march-on-washington)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/open_vault/March+on+Washington_348x196.jpg)
