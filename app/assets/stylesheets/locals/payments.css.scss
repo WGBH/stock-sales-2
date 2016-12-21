@@ -1,0 +1,31 @@
+.blacklight-payments-index {
+    h1 {
+        color: #FFF;
+        margin-top: 0;
+        margin-bottom: $grid-gutter-width;
+        margin-left: $grid-gutter-width;
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .container {
+        background: #FFF;
+        .pull-right {
+            background: $light-blue;
+            margin: $grid-gutter-width;
+        }
+        .body {
+            margin-left: $grid-gutter-width/2;
+            margin-top: $grid-gutter-width/2;
+        }
+    }
+    ol.cmless {
+        list-style-type:none;
+        padding: 1em 0em;
+        li.cmless {
+            &.cmless-h3 {
+                padding-top: 1em;
+                font-weight: 600;
+            }
+        }
+    }
+}
