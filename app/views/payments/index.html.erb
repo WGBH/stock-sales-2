@@ -2,10 +2,70 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-7 body">
 
-      <p>WOOOOOOOOOOOOOOOOOO!</p>
+    <% if @payment.present? %>
+      <div class="col-md-7 body">
+        <h3>Complete Your Order</h3>
+        <p>Please review your order details on the right and submit payment through our secure payment gateway using the form below.</p>
+        <br />
+        <div id="paymentDiv"></div>
+        <br /><br />
+        <h5>Results:</h5>
+        <p style="width:100%"><pre><code id="paymentResponse">The response will appear here as JSON, and in your browser console as a JavaScript object.</code></pre></p>
+      </div>
+      <div class="col-md-4 pull-right">
+        <h3>Order Details</h3>
+        <p>
+          <strong>Name</strong>: <%= @billing_details[:name] %><br />
+          <strong>Address</strong>: <%= @billing_details[:address] %><br />
+          <strong>City</strong>: <%= @billing_details[:city] %><br />
+          <strong>State</strong>: <%= @billing_details[:state] %><br />
+          <strong>Postal Code</strong>: <%= @billing_details[:postal] %><br />
+          <h4>Amount: $<%= @billing_details[:amount] %></h4>
+        </p>
+      </div>
 
-    </div>
+      <script type="text/javascript">
+        // full api reference is available at https://github.com/SagePayments/PaymentsJS
+
+        // the entire library is accessed through the PayJS() function:
+
+        PayJS(['PayJS/UI', 'jquery'],
+        function($UI, $) {
+          $UI.Initialize({
+            apiKey: "<%= @payment.api_key %>",
+            merchantId: "<%= @payment.mid %>",
+            authKey: "<%= @payment.get_auth_key %>", // Calls the get_auth_key method which will generate the auth key
+            requestType: "payment",
+            requestId: "<%= @payment.request_id %>",
+            amount: "<%= @billing_details[:amount] %>",
+            elementId: "paymentDiv",
+            nonce: "<%= @payment.get_salt %>", // Calls the get_salt method which will inject the salt used for the auth key
+            debug: true,
+            preAuth: false,
+            environment: "cert",
+            billing: {
+              name: "<%= @billing_details[:name] %>",
+              address: "<%= @billing_details[:address] %>",
+              city: "<%= @billing_details[:city] %>",
+              state: "<%= @billing_details[:state] %>",
+              postalCode: "<%= @billing_details[:postal] %>"
+            }
+          });
+          $UI.setCallback(function($RESP) {
+            console.log($RESP.getResponse());
+            $("#paymentResponse").text(
+                $RESP.getResponse({ "json": true })
+            );
+          });
+      });
+      </script>
+    <% else %>
+      <div class="col-md-12">
+        <h3>Cannot Complete Your Order</h3>
+        <p>Unfortunately we could not locate your order. Please contact us at the information below if you are attempting to complete an existing order.</p>
+      </div>
+    <% end %>
+
   </div>
 </div>
