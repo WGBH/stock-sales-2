@@ -18,6 +18,23 @@
             margin-top: $grid-gutter-width/2;
         }
     }
+    #paymentDiv {
+        width: 60%;
+        margin-left:auto;
+        margin-right:auto;
+        padding: 30px;
+        border-width: thin;
+        border-style: dotted;
+        border-color: #3c424f;
+    }
+    label.sps.pull-left {
+        margin-top: 30px;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+    .sps.pull-right {
+        margin-bottom: 5px;
+    }
     ol.cmless {
         list-style-type:none;
         padding: 1em 0em;
