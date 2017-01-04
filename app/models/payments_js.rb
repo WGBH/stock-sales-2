@@ -12,27 +12,31 @@ class PaymentsJs
     Base64.strict_encode64(salt)
   end
 
-  attr_accessor :address, :city, :state, :zip, :amount, :request_id, :name, :request_type, :pre_auth, :environment, :api_key, :salt, :mid, :postback_url, :auth_key
+  attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :salt, :mid, :postback_url
 
   def initialize(args = {})
     payment_creds = YAML.load_file(Rails.root + 'config/payments_js.yml')
 
-    @api_key      = payment_creds['api_key']
-    @mid          = payment_creds['mid']
-    @mkey         = payment_creds['mkey']
-    @api_secret   = payment_creds['api_secret']
+    @mid            = payment_creds['mid'].try(:to_s)
+    @mkey           = payment_creds['mkey'].try(:to_s)
+    @client_id      = payment_creds['client_id'].try(:to_s)
+    @client_secret  = payment_creds['client_secret'].try(:to_s)
 
     @request_type = args[:request_type].present? ? args[:request_type] : 'payment'
-    @request_id   = args[:request_id]
-    @postback_url = args[:postback_url].present? ? args[:postback_url] : 'https://www.example.com'
+    @order_number = args[:order_number]
+    # @postback_url = args[:postback_url].present? ? args[:postback_url] : 'https://www.example.com'
     @amount       = args[:amount]
-    @pre_auth     = args[:pre_auth].present? ? args[:pre_auth] : false
+    @pre_auth     = args[:pre_auth].present? ? args[:pre_auth].try(:to_s) : false
     @environment  = args[:environment].present? ? args[:environment] : 'cert'
+    @name         = args[:name].present? ? args[:name] : nil
+    @address      = args[:address].present? ? args[:address] : nil
+    @city         = args[:city].present? ? args[:city] : nil
+    @state        = args[:state].present? ? args[:state] : nil
+    @zip          = args[:zip].present? ? args[:zip] : nil
 
     # Generate the salt and iv at initialization so they can be consistently called
     @iv = OpenSSL::Random.pseudo_bytes(16)
     @salt = generate_salt(@iv)
-
   end
 
   def get_auth_key
@@ -40,23 +44,22 @@ class PaymentsJs
     cipher.encrypt
 
     req  = {
-      "apiKey"      => @api_key,
+      "clientId"    => @client_id,
       "merchantId"  => @mid,
       "merchantKey" => @mkey,
       "requestType" => @request_type,
-      "requestId"   => @request_id,
-      "postbackUrl" => @postback_url,
+      "orderNumber" => @order_number,
       "amount"      => @amount,
-      "nonce"       => @salt,
+      "salt"        => @salt,
       "preAuth"     => @pre_auth,
       "environment" => @environment
     }
 
     data       = JSON.generate(req)
-    key        = OpenSSL::PKCS5.pbkdf2_hmac_sha1(@api_secret, @salt, 1500, 32)
+    key        = OpenSSL::PKCS5.pbkdf2_hmac_sha1(@client_secret, @salt, 1500, 32)
     cipher.key = key
     cipher.iv  = @iv
-    auth_key    = cipher.update(data) + cipher.final()
+    auth_key   = cipher.update(data) + cipher.final()
 
     Base64.strict_encode64(auth_key)
   end
