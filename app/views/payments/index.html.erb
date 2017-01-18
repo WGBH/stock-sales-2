@@ -8,6 +8,7 @@
         <h3>Complete Your Order</h3>
         <p>Please review your order details on the right and submit payment through our secure payment gateway using the form below.</p>
         <br />
+        <%= csrf_meta_tag %>
         <div id="paymentDiv"></div>
         <br /><br />
       </div>
@@ -19,6 +20,8 @@
           <strong>City</strong>: <%= @payment.city %><br />
           <strong>State</strong>: <%= @payment.state %><br />
           <strong>Postal Code</strong>: <%= @payment.zip %><br />
+          <strong>Email</strong>: <%= @payment.email %><br />
+
           <h4>Amount: $<%= @payment.amount %></h4>
         </p>
       </div>
@@ -51,6 +54,19 @@
               postalCode: "<%= @payment.zip %>"
             }
           });
+        $UI.setCallback(function(result) { // custom code that will execute when the UI receives a response
+            console.log(result.getResponse()); // log the result to the console
+            var wasApproved = result.getTransactionSuccess();
+            if (wasApproved) {
+              $.ajax({
+                url: "/payments?email=" + "<%= @payment.email %>",
+                type: 'POST',
+                beforeSend: function(xhr) {
+                  xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
+                }
+              });
+            };
+        });
       });
       </script>
     <% else %>

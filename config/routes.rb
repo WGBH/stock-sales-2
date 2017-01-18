@@ -24,5 +24,5 @@ Rails.application.routes.draw do
     only: [:show]
 
   resources :payments,
-    only: [:index]
+    only: [:index, :create]
 end
