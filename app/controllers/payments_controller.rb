@@ -12,13 +12,14 @@ class PaymentsController < ApplicationController
                                 state: params[:state],
                                 zip: params[:zip],
                                 email: params[:email],
+                                description: params[:description],
                                 environment: 'cert',
                                 pre_auth: 'false' )
   end
 
   def create
     return unless params[:email].present?
-    PaymentMailer.successful_transaction(params[:email])
+    PaymentMailer.successful_transaction(params[:email]).deliver
     render :index
   end
 

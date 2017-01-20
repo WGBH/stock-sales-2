@@ -12,7 +12,7 @@ class PaymentsJs
     Base64.strict_encode64(salt)
   end
 
-  attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :salt, :mid, :postback_url, :email
+  attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :salt, :mid, :postback_url, :email, :description
 
   def initialize(args = {})
     payment_creds = YAML.load_file(Rails.root + 'config/payments_js.yml')
@@ -34,6 +34,7 @@ class PaymentsJs
     @state        = args[:state].present? ? args[:state] : nil
     @zip          = args[:zip].present? ? args[:zip] : nil
     @email        = args[:email].present? ? args[:email] : nil
+    @description  = args[:description].present? ? args[:description] : nil
     # Generate the salt and iv at initialization so they can be consistently called
     @iv = OpenSSL::Random.pseudo_bytes(16)
     @salt = generate_salt(@iv)
