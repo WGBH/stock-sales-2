@@ -49,6 +49,9 @@ gem 'curb'
 
 gem 'aws-sdk', '~> 2'
 
+# For using Amazon SES as ActionMailer Delivery Method
+gem 'aws-ses', '~> 0.4.4', require: 'aws/ses'
+
 gem 'rspec', :group => :test
 gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
