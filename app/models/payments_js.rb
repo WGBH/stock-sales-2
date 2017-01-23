@@ -4,6 +4,8 @@ class PaymentsJs
   require 'json'
   require 'yaml'
 
+  attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :client_secret, :salt, :mid, :mkey, :postback_url, :email, :description
+
   # Generate a salt
   def generate_salt(iv)
     salt = iv.unpack('H*').first
@@ -11,8 +13,6 @@ class PaymentsJs
     salt = salt.pack('U*')
     Base64.strict_encode64(salt)
   end
-
-  attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :salt, :mid, :postback_url, :email, :description
 
   def initialize(args = {})
     payment_creds = YAML.load_file(Rails.root + 'config/payments_js.yml')
