@@ -18,22 +18,6 @@ describe PaymentsJs do
 
   let(:payment_js) { PaymentsJs.new(payment_attrs) }
 
-  let(:expected_credentials) { YAML.load_file(Rails.root + 'config/payments_js.yml') }
-
-  describe "Sage credentials" do
-    it 'successfully load' do
-      payment = payment_js
-      payment_credentials = {
-        'mid'           => payment.mid.to_i,
-        'mkey'          => payment.mkey,
-        'client_id'     => payment.client_id,
-        'client_secret' => payment.client_secret
-      }
-
-      expect(payment_credentials).to eq(expected_credentials)
-    end
-  end
-
   describe "Payment attributes" do
     it "successfully populate on initialization" do
       payment = payment_js
