@@ -24,10 +24,9 @@ class PaymentsJs
 
     @request_type = args[:request_type].present? ? args[:request_type] : 'payment'
     @order_number = args[:order_number]
-    # @postback_url = args[:postback_url].present? ? args[:postback_url] : 'https://www.example.com'
     @amount       = args[:amount]
     @pre_auth     = args[:pre_auth].present? ? args[:pre_auth].try(:to_s) : false
-    @environment  = args[:environment].present? ? args[:environment] : 'cert'
+    @environment  = args[:environment].present? ? args[:environment] : 'cert' # 'prod' NEED TO CHANGE PRIOR TO LAUNCH
     @name         = args[:name].present? ? args[:name] : nil
     @address      = args[:address].present? ? args[:address] : nil
     @city         = args[:city].present? ? args[:city] : nil
@@ -35,6 +34,7 @@ class PaymentsJs
     @zip          = args[:zip].present? ? args[:zip] : nil
     @email        = args[:email].present? ? args[:email] : nil
     @description  = args[:description].present? ? args[:description] : nil
+
     # Generate the salt and iv at initialization so they can be consistently called
     @iv = OpenSSL::Random.pseudo_bytes(16)
     @salt = generate_salt(@iv)

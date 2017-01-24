@@ -5,7 +5,7 @@ class StocksalesMailer < ActionMailer::Base
   SMTP_PASSWORD = smtp_creds['smtp_password']
 
   # NEED TO CHANGE PRIOR TO LAUNCH
-  default from: "jason_corum@wgbh.org"
+  default from: "jason_corum@wgbh.org" # WgbhStocksales::EMAIL
 
   def successful_transaction(params)
     @description  = params['description']
