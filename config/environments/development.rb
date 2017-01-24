@@ -22,8 +22,8 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     :address => "email-smtp.us-east-1.amazonaws.com",
     :port => 587,
-    :user_name => WgbhStocksales::SMTP_USER,
-    :password => WgbhStocksales::SMTP_PASSWORD,
+    :user_name => StocksalesMailer::SMTP_USER,
+    :password => StocksalesMailer::SMTP_PASSWORD,
     :authentication => :login,
     :enable_starttls_auto => true
   }

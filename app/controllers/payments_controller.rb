@@ -1,7 +1,11 @@
 class PaymentsController < ApplicationController
 
   def index
-    return unless params[:amount].present? && params[:order].present? && params[:email].present?
+    return unless
+        params[:amount].present? &&
+        params[:order].present? &&
+        params[:email].present? &&
+        params[:description].present?
 
     @payment = PaymentsJs.new(  amount: params[:amount],
                                 order_number: params[:order],
@@ -18,8 +22,12 @@ class PaymentsController < ApplicationController
   end
 
   def create
-    return unless params[:email].present?
-    PaymentMailer.successful_transaction(params[:email]).deliver
+    return unless
+        params[:amount].present? &&
+        params[:email].present? &&
+        params[:description].present?
+
+    StocksalesMailer.successful_transaction(params).deliver
     render :index
   end
 

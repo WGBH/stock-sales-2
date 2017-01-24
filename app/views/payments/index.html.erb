@@ -1,11 +1,8 @@
-<h1>Payments</h1>
-
 <div class="container">
   <div class="row">
-
     <% if @payment.present? %>
       <div class="col-md-7 body col-sm-12">
-        <h3>Complete Your Order</h3>
+        <h2>Complete Your Order</h2>
         <p>Please review your order details on the right and submit payment through our secure payment gateway using the form below.</p>
         <br />
         <%= csrf_meta_tag %>
@@ -15,14 +12,25 @@
       <div class="col-md-4 pull-right col-sm-10">
         <h3>Order Details</h3>
         <p>
-          <strong>Name</strong>: <%= @payment.name %><br />
-          <strong>Address</strong>: <%= @payment.address %><br />
-          <strong>City</strong>: <%= @payment.city %><br />
-          <strong>State</strong>: <%= @payment.state %><br />
-          <strong>Postal Code</strong>: <%= @payment.zip %><br />
+          <% if @payment.name.present? %>
+            <strong>Name</strong>: <%= @payment.name %><br />
+          <% end %>
+          <% if @payment.address.present? %>
+            <strong>Address</strong>: <%= @payment.address %><br />
+          <% end %>
+          <% if @payment.city.present? %>
+            <strong>City</strong>: <%= @payment.city %><br />
+          <% end %>
+          <% if @payment.state.present? %>
+            <strong>State</strong>: <%= @payment.state %><br />
+          <% end %>
+          <% if @payment.zip.present? %>
+            <strong>Postal Code</strong>: <%= @payment.zip %><br />
+          <% end %>
           <strong>Email</strong>: <%= @payment.email %><br />
-          <strong>Description</strong>: <%= @payment.description %><br />
-
+          <% if @payment.description.present? %>
+            <strong>Description</strong>: <%= @payment.description %><br />
+          <% end %>
           <h4>Amount: $<%= @payment.amount %></h4>
         </p>
       </div>
@@ -60,7 +68,7 @@
             var wasApproved = result.getTransactionSuccess();
             if (wasApproved) {
               $.ajax({
-                url: "/payments?email=" + "<%= @payment.email %>",
+                url: "/payments?email=" + "<%= @payment.email %>" + "&amount=" + "<%= @payment.amount %>" + "&description=" + "<%= @payment.description %>",
                 type: 'POST',
                 beforeSend: function(xhr) {
                   xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
@@ -72,7 +80,7 @@
       </script>
     <% else %>
       <div class="col-md-12">
-        <h3>Cannot Complete Your Order</h3>
+        <h2>Cannot Complete Your Order</h2>
         <p>Unfortunately we could not locate your order. Please contact us at the information below if you are attempting to complete an existing order.</p>
       </div>
     <% end %>
