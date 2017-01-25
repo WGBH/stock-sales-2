@@ -28,7 +28,7 @@ class PaymentsController < ApplicationController
         params[:description].present?
 
     StocksalesMailer.successful_transaction(params).deliver
-    render :index
+    render :nothing => true
   end
 
 end
