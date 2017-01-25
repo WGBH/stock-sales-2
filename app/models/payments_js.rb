@@ -15,12 +15,10 @@ class PaymentsJs
   end
 
   def initialize(args = {})
-    payment_creds = YAML.load_file(Rails.root + 'config/payments_js.yml')
-
-    @mid            = payment_creds['mid'].try(:to_s)
-    @mkey           = payment_creds['mkey'].try(:to_s)
-    @client_id      = payment_creds['client_id'].try(:to_s)
-    @client_secret  = payment_creds['client_secret'].try(:to_s)
+    @mid            = ENV['SAGE_MID'].try(:to_s)
+    @mkey           = ENV['SAGE_MKEY'].try(:to_s)
+    @client_id      = ENV['SAGE_CLIENT_ID'].try(:to_s)
+    @client_secret  = ENV['SAGE_CLIENT_SECRET'].try(:to_s)
 
     @request_type = args[:request_type].present? ? args[:request_type] : 'payment'
     @order_number = args[:order_number]
