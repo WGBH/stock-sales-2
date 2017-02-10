@@ -25,10 +25,17 @@ class PaymentsController < ApplicationController
     return unless
         params[:amount].present? &&
         params[:email].present? &&
-        params[:description].present?
+        params[:order_number].present? &&
+        params[:description].present? &&
+        params[:result].present?
 
-    StocksalesMailer.successful_transaction(params).deliver
-    render :nothing => true
+    if PaymentsJs.check_result?(params[:result])
+        StocksalesMailer.successful_transaction(params).deliver
+        render :nothing => true
+    else
+        StocksalesMailer.suspect_transaction(params).deliver
+        render :nothing => true
+    end
   end
 
 end

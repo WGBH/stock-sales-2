@@ -10,4 +10,13 @@ class StocksalesMailer < ActionMailer::Base
 
     mail(to: @email, subject: 'Thank You For your Purchase')
   end
+
+  def suspect_transaction(params)
+    @order_number = params['order_number']
+    @description  = params['description']
+    @amount       = params['amount']
+    @email        = params['email']
+
+    mail(to: 'jason_corum@wgbh.org', subject: 'Suspect Transaction')
+  end
 end

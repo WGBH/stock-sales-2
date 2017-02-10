@@ -65,10 +65,12 @@
           });
         $UI.setCallback(function(result) { // custom code that will execute when the UI receives a response
             console.log(result.getResponse()); // log the result to the console
+            var resultJSON = result.getResponse({ json: true });
             var wasApproved = result.getTransactionSuccess();
+
             if (wasApproved) {
               $.ajax({
-                url: "/payments?email=" + "<%= @payment.email %>" + "&amount=" + "<%= @payment.amount %>" + "&description=" + "<%= @payment.description %>",
+                url: "/payments?email=" + "<%= @payment.email %>" + "&amount=" + "<%= @payment.amount %>" + "&description=" + "<%= @payment.description %>" + "&order_number=" + "<%=@payment.order_number %>" + "&result=" + resultJSON,
                 type: 'POST',
                 beforeSend: function(xhr) {
                   xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
