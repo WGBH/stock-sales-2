@@ -2,7 +2,6 @@ class PaymentsJs
   require 'openssl'
   require 'base64'
   require 'json'
-  require 'yaml'
 
   attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :client_secret, :salt, :mid, :mkey, :postback_url, :email, :description
 
@@ -65,5 +64,16 @@ class PaymentsJs
 
   def get_salt
     @salt
+  end
+
+  def self.check_result?(result)
+    json_result = JSON.parse(result)
+    payload = JSON.generate(json_result["Response"])
+    calc_hash = Base64.strict_encode64(
+      OpenSSL::HMAC.digest('sha512', ENV['SAGE_CLIENT_SECRET'], payload)
+      ).gsub('+', ' ')
+    result_hash = json_result["Hash"]
+
+    calc_hash == result_hash
   end
 end
