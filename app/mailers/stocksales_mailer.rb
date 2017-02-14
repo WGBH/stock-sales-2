@@ -7,6 +7,7 @@ class StocksalesMailer < ActionMailer::Base
     @description  = params['description']
     @amount       = params['amount']
     @email        = params['email']
+    @wgbh_phone   = params['wgbh_phone']
 
     mail(to: @email, subject: 'Thank You For your Purchase')
   end

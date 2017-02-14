@@ -70,7 +70,7 @@
 
             if (wasApproved) {
               $.ajax({
-                url: "/payments?email=" + "<%= @payment.email %>" + "&amount=" + "<%= @payment.amount %>" + "&description=" + "<%= @payment.description %>" + "&order_number=" + "<%=@payment.order_number %>" + "&result=" + resultJSON,
+                url: "/payments?email=" + "<%= @payment.email %>" + "&amount=" + "<%= @payment.amount %>" + "&description=" + "<%= @payment.description %>" + "&order_number=" + "<%=@payment.order_number %>" + "&wgbh_phone=" + "<%=@payment.wgbh_phone %>" + "&result=" + resultJSON,
                 type: 'POST',
                 beforeSend: function(xhr) {
                   xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))

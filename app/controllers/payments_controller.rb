@@ -18,7 +18,8 @@ class PaymentsController < ApplicationController
                                 email: params[:email],
                                 description: params[:description],
                                 environment: 'cert',
-                                pre_auth: 'false' )
+                                pre_auth: 'false',
+                                wgbh_phone: params[:wgbh_phone] )
   end
 
   def create

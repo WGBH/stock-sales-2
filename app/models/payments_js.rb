@@ -3,7 +3,7 @@ class PaymentsJs
   require 'base64'
   require 'json'
 
-  attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :client_secret, :salt, :mid, :mkey, :postback_url, :email, :description
+  attr_accessor :address, :city, :state, :zip, :amount, :order_number, :name, :request_type, :pre_auth, :environment, :client_id, :client_secret, :salt, :mid, :mkey, :postback_url, :email, :description, :wgbh_phone
 
   # Generate a salt
   def generate_salt(iv)
@@ -31,6 +31,7 @@ class PaymentsJs
     @zip          = args[:zip].present? ? args[:zip] : nil
     @email        = args[:email].present? ? args[:email] : nil
     @description  = args[:description].present? ? args[:description] : nil
+    @wgbh_phone   = args[:wgbh_phone].present? ? args[:wgbh_phone] : WgbhStocksales::PHONE
 
     # Generate the salt and iv at initialization so they can be consistently called
     @iv = OpenSSL::Random.pseudo_bytes(16)
