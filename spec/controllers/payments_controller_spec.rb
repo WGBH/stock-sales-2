@@ -12,8 +12,13 @@ describe PaymentsController do
   }
 
   describe 'POST index' do
-    it 'sends a success email to address in params if hash is ' do
+    it 'sends an email if result hash is good' do
       expect { post :create, email: 'jason_corum@wgbh.org', amount: "50.00", description: "Tall Ships Footage", order_number: '1234', result: result }
+      .to change { ActionMailer::Base.deliveries.count }.by(1)
+    end
+
+    it 'sends an email if result hash is bad' do
+      expect { post :create, email: 'jason_corum@wgbh.org', amount: "50.00", description: "Tall Ships Footage", order_number: '1234', result: bad_result }
       .to change { ActionMailer::Base.deliveries.count }.by(1)
     end
   end

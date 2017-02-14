@@ -37,7 +37,6 @@
 
       <script type="text/javascript">
         // full api reference is available at https://github.com/SagePayments/PaymentsJS
-
         // the entire library is accessed through the PayJS() function:
 
         PayJS(['PayJS/UI', 'jquery'],
@@ -63,8 +62,8 @@
               postalCode: "<%= @payment.zip %>"
             }
           });
-        $UI.setCallback(function(result) { // custom code that will execute when the UI receives a response
-            console.log(result.getResponse()); // log the result to the console
+        $UI.setCallback(function(result) {
+            console.log(result.getResponse());
             var resultJSON = result.getResponse({ json: true });
             var wasApproved = result.getTransactionSuccess();
 
