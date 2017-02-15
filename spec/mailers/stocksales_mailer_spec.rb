@@ -4,7 +4,15 @@ describe StocksalesMailer, type: :mailer do
 
   describe '#successful_transaction' do
     before(:each) do
-      params = {"email"=>"test@test.com", "amount"=>"50", "description"=>"Tall Ships Footage", "action"=>"create", "controller"=>"payments"}
+      params = {
+        "email"=>"test@test.com",
+        "amount"=>"50",
+        "description"=>"Tall Ships Footage",
+        "wgbh_email" =>"test@wgbh.org",
+        "wgbh_phone" => "(555) 555-5555",
+        "action"=>"create",
+        "controller"=>"payments"
+      }
       StocksalesMailer.successful_transaction(params).deliver
     end
 
@@ -27,7 +35,15 @@ describe StocksalesMailer, type: :mailer do
 
   describe '#suspect_transaction' do
     before(:each) do
-      params = {"email"=>"test@test.com", "amount"=>"50", "description"=>"Tall Ships Footage", "action"=>"create", "controller"=>"payments"}
+      params = {
+        "email"=>"test@test.com",
+        "amount"=>"50",
+        "description"=>"Tall Ships Footage",
+        "wgbh_email" =>"test@wgbh.org",
+        "wgbh_phone" => "(555) 555-5555",
+        "action"=>"create",
+        "controller"=>"payments"
+      }
       StocksalesMailer.suspect_transaction(params).deliver
     end
 
@@ -35,9 +51,8 @@ describe StocksalesMailer, type: :mailer do
       ActionMailer::Base.deliveries.clear
     end
 
-    # NEED TO CHANGE PRIOR TO LAUNCH
     it 'should be sent to specified email address' do
-      expect(ActionMailer::Base.deliveries.first.to.first).to eq('jason_corum@wgbh.org')
+      expect(ActionMailer::Base.deliveries.first.to.first).to eq('test@wgbh.org')
     end
 
     it 'should be sent from specified email address' do

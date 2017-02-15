@@ -11,19 +11,23 @@ describe PaymentsController do
 
   let(:good_post) {
     post :create,
-    email: 'jason_corum@wgbh.org',
-    amount: "50.00",
-    description: "Tall Ships Footage",
+    email: 'test@test.org',
+    amount: '50.00',
+    description: 'Tall Ships Footage',
     order_number: '1234',
+    wgbh_email: 'test@wgbh.org',
+    wgbh_phone: '(555) 555-5555',
     result: result
   }
 
   let(:bad_post) {
     post :create,
-    email: 'jason_corum@wgbh.org',
-    amount: "50.00",
-    description: "Tall Ships Footage",
+    email: 'test@test.org',
+    amount: '50.00',
+    description: 'Tall Ships Footage',
     order_number: '1234',
+    wgbh_email: 'test@wgbh.org',
+    wgbh_phone: '(555) 555-5555',
     result: bad_result
   }
 

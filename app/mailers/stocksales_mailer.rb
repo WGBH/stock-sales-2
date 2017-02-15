@@ -7,6 +7,7 @@ class StocksalesMailer < ActionMailer::Base
     @amount       = params['amount']
     @email        = params['email']
     @wgbh_phone   = params['wgbh_phone']
+    @wgbh_email   = params['wgbh_email']
 
     mail(to: @email, subject: 'Thank You For your Purchase')
   end
@@ -16,8 +17,9 @@ class StocksalesMailer < ActionMailer::Base
     @description  = params['description']
     @amount       = params['amount']
     @email        = params['email']
+    @wgbh_email   = params['wgbh_email']
+    @result       = params['result']
 
-    # NEED TO CHANGE PRIOR TO LAUNCH
-    mail(to: 'jason_corum@wgbh.org', subject: 'Suspect Transaction')
+    mail(to: @wgbh_email, subject: 'Suspect Transaction')
   end
 end
