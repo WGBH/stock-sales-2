@@ -17,7 +17,7 @@ class PaymentsController < ApplicationController
                                 zip: params[:zip],
                                 email: params[:email],
                                 description: params[:description],
-                                environment: 'cert',
+                                environment: 'prod',
                                 pre_auth: 'false',
                                 wgbh_phone: params[:wgbh_phone],
                                 wgbh_email: params[:wgbh_email] )

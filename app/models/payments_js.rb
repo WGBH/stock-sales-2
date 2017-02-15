@@ -23,7 +23,7 @@ class PaymentsJs
     @order_number = args[:order_number]
     @amount       = args[:amount]
     @pre_auth     = args[:pre_auth].present? ? args[:pre_auth].try(:to_s) : false
-    @environment  = args[:environment].present? ? args[:environment] : 'cert' # 'prod' NEED TO CHANGE PRIOR TO LAUNCH
+    @environment  = args[:environment].present? ? args[:environment] : 'prod'
     @name         = args[:name].present? ? args[:name] : nil
     @address      = args[:address].present? ? args[:address] : nil
     @city         = args[:city].present? ? args[:city] : nil
