@@ -1,7 +1,6 @@
 class StocksalesMailer < ActionMailer::Base
 
-  # NEED TO CHANGE PRIOR TO LAUNCH
-  default from: "jason_corum@wgbh.org" # WgbhStocksales::EMAIL
+  default from: WgbhStocksales::EMAIL
 
   def successful_transaction(params)
     @description  = params['description']
@@ -18,6 +17,7 @@ class StocksalesMailer < ActionMailer::Base
     @amount       = params['amount']
     @email        = params['email']
 
+    # NEED TO CHANGE PRIOR TO LAUNCH
     mail(to: 'jason_corum@wgbh.org', subject: 'Suspect Transaction')
   end
 end
