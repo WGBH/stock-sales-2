@@ -19,5 +19,3 @@
 /coverage
 
 /config/ci.yml
-/config/payments_js.yml
-/config/amazon_smtp.yml
