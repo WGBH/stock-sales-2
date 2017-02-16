@@ -19,11 +19,11 @@ describe PaymentsJs do
   let(:payment_js) { PaymentsJs.new(payment_attrs) }
 
   let(:result) {
-    "{\"Response\":{\"status\":\"Approved\",\"reference\":\"D2EHFF88e0\",\"message\":\"APPROVED 519519                 \",\"code\":\"519519\",\"cvvResult\":\"P\",\"avsResult\":\" \",\"riskCode\":\"00\",\"networkId\":\"10\",\"isPurchaseCard\":false,\"vaultResponse\":{\"status\":1,\"data\":\"67567508f6d241709df068adc59e6b76\"},\"orderNumber\":\"1\",\"transactionId\":\"ZmJlYzNiZjMwYzM3ZGJlNDYxZTYwMGEyMjE3YTdiYzY\",\"timestamp\":\"2017-02-14T15:15:08.535454-05:00\"},\"Hash\":\"pM/ br7N 9xczU 2WkH7xVwTEYFzLR0ps AnuG2fl7zOFY0Eij5X6e0kCMFxmsed1/0SOcMAFkSLXLUAjaBvUA==\"}"
+    "{\"Response\":{\"status\":\"Approved\",\"reference\":\"D2GHFem1b0\",\"message\":\"APPROVED 449449\",\"code\":\"449449\",\"cvvResult\":\"P\",\"avsResult\":\" \",\"riskCode\":\"00\",\"networkId\":\"10\",\"isPurchaseCard\":false,\"vaultResponse\":{\"status\":1,\"message\":\"Success\",\"data\":\"39e5de751ca9461783f1f524a42cea41\"},\"orderNumber\":\"1a2b\",\"transactionId\":\"ZWQ5OTkyNGRmNDUwZjc1MjFlYTIwYTY5ZmRiZTNiYTI\",\"timestamp\":\"2017-02-16T15:39:47.4645871-05:00\"},\"Hash\":\"vJIm2kflV6aL4cDVpSPZIGJ5gto35Nn0VjR78HImPrG5PXt8SbXkCnrxyPfQNkCXgj2guFbBZ lFdSfgbXaktQ==\"}"
   }
 
   let(:bad_result) {
-    "{\"Response\":{\"status\":\"Approved\",\"reference\":\"D2EHFF88e0\",\"message\":\"APPROVED 519519                 \",\"code\":\"519519\",\"cvvResult\":\"P\",\"avsResult\":\" \",\"riskCode\":\"00\",\"networkId\":\"10\",\"isPurchaseCard\":false,\"vaultResponse\":{\"status\":1,\"data\":\"67567508f6d241709df068adc59e6b76\"},\"orderNumber\":\"1\",\"transactionId\":\"ZmJlYzNiZjMwYzM3ZGJlNDYxZTYwMGEyMjE3YTdiYzY\",\"timestamp\":\"2017-02-14T15:15:08.535454-05:00\"},\"Hash\":\"pM/ br7N 9xczU 2WkH7xVwTEYFzLR0ps AnuG2fl7zOFY0Eij5X6e0kCMFxmsed1/0SOcMAFkSLXLUAjaBvUA==BAD==\"}"
+    "{\"Response\":{\"status\":\"Approved\",\"reference\":\"D2GHFem1b0\",\"message\":\"APPROVED 449449\",\"code\":\"449449\",\"cvvResult\":\"P\",\"avsResult\":\" \",\"riskCode\":\"00\",\"networkId\":\"10\",\"isPurchaseCard\":false,\"vaultResponse\":{\"status\":1,\"message\":\"Success\",\"data\":\"39e5de751ca9461783f1f524a42cea41\"},\"orderNumber\":\"1a2b\",\"transactionId\":\"ZWQ5OTkyNGRmNDUwZjc1MjFlYTIwYTY5ZmRiZTNiYTI\",\"timestamp\":\"2017-02-16T15:39:47.4645871-05:00\"},\"Hash\":\"vJIm2kflV6aL4cDVpSPZIGJ5gto35Nn0VjR78HImPrG5PXt8SbXkCnrxyPfQNkCXgj2guFbBZ lFdSfgbXaktQ==BAD==\"}"
   }
 
   describe "Payment attributes" do
