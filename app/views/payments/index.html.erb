@@ -41,28 +41,10 @@
 
         PayJS(['PayJS/UI', 'jquery'],
         function($UI, $) {
-          $UI.Initialize({
-            clientId: "<%= @payment.client_id %>",
-            merchantId: "<%= @payment.mid %>",
-            requestType: "payment",
-            orderNumber: "<%= @payment.order_number %>",
-            amount: "<%= @payment.amount %>",
-            authKey: "<%= @payment.get_auth_key %>", // Calls the get_auth_key method which will generate the auth key
-            salt: "<%= @payment.get_salt %>", // Calls the get_salt method which will inject the salt used for the auth key
-            elementId: "paymentDiv",
-            debug: "true",
-            preAuth: "<%= @payment.pre_auth %>",
-            addFakeData: "false",
-            environment: "<%= @payment.environment %>",
-            billing: {
-              name: "<%= @payment.name %>",
-              address: "<%= @payment.address %>",
-              city: "<%= @payment.city %>",
-              state: "<%= @payment.state %>",
-              postalCode: "<%= @payment.zip %>"
-            }
-          });
-        $UI.setCallback(function(result) {
+          var jsAttributes = JSON.parse(JSON.stringify(<%= raw @payment.pay_js_ui_attributes.to_json %>));
+
+          $UI.Initialize( jsAttributes );
+          $UI.setCallback(function(result) {
             console.log(result.getResponse());
             var resultJSON = result.getResponse({ json: true });
             var wasApproved = result.getTransactionSuccess();

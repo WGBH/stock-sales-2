@@ -9,7 +9,6 @@ class PaymentsController < ApplicationController
 
     @payment = PaymentsJs.new(  amount: params[:amount],
                                 order_number: params[:order],
-                                request_type: 'payment',
                                 name: params[:name],
                                 address: params[:address],
                                 city: params[:city],
@@ -17,8 +16,6 @@ class PaymentsController < ApplicationController
                                 zip: params[:zip],
                                 email: params[:email],
                                 description: params[:description],
-                                environment: 'prod',
-                                pre_auth: 'false',
                                 wgbh_phone: params[:wgbh_phone],
                                 wgbh_email: params[:wgbh_email] )
   end

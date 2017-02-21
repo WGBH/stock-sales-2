@@ -46,23 +46,6 @@ describe PaymentsJs do
     end
   end
 
-  describe "#get_salt" do
-    it 'does not return nil after initialization' do
-      expect(payment_js.salt).to_not eq(nil)
-    end
-
-    it 'persists' do
-      payment = payment_js
-      expect(payment.salt).to eq(payment.get_salt)
-    end
-  end
-
-  describe '#get_auth_key' do
-    it 'does not return nil after initialization' do
-      expect(payment_js.get_auth_key).to_not eq(nil)
-    end
-  end
-
   describe '.check_result?' do
     it 'returns true if Hash is valid' do
       expect(PaymentsJs.check_result?(result)).to eq(true)
