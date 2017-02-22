@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>The following transaction is suspect and should be canceled.</h1>
+    <p>Please log in to the Sage Virtual Terminal, cancel the transaction, and contact the customer.</p>
+    <p>Have the customer attempt the transaction again. If you get this email a second time for the same transaction, please report it to your friendly neighborhood web developer.</p>
+    <h2>Order Details:</h2>
+    <p>
+      <strong>Order Number</strong>: <%= @order_number %><br />
+      <strong>Description</strong>: <%= @description %><br />
+      <strong>Amount</strong>: $<%= @amount %><br />
+      <strong>Customer Email</strong>: <%= @email %><br />
+    </p>
+    <h2>Sage Result</h2>
+    <p><%= @result %>
+  </body>
+</html>

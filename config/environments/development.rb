@@ -13,8 +13,20 @@ Rails.application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
-  # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  # Now we care if the mailer can't send.
+  config.action_mailer.raise_delivery_errors = true
+
+  # For testing emails in Development
+  config.action_mailer.perform_deliveries = true
+
+  config.action_mailer.smtp_settings = {
+    :address => "email-smtp.us-east-1.amazonaws.com",
+    :port => 587,
+    :user_name => ENV["AMAZON_SMTP_USER"],
+    :password => ENV["AMAZON_SMTP_PASS"],
+    :authentication => :login,
+    :enable_starttls_auto => true
+  }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
