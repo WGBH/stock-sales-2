@@ -1,7 +1,7 @@
 class PaymentsController < ApplicationController
 
   def index
-    return unless
+    render :missing_data unless
         params[:amount].present? &&
         params[:order].present? &&
         params[:email].present? &&
@@ -35,6 +35,9 @@ class PaymentsController < ApplicationController
         StocksalesMailer.suspect_transaction(params).deliver
         render :nothing => true
     end
+  end
+
+  def missing_data
   end
 
 end

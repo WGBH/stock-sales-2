@@ -1,72 +1,64 @@
 <div class="container">
   <div class="row">
-    <% if @payment.present? %>
-      <div class="col-md-7 body col-sm-12">
-        <h2>Complete Your Order</h2>
-        <p>Please review your order details on the right and submit payment through our secure payment gateway using the form below.</p>
-        <br />
-        <%= csrf_meta_tag %>
-        <div id="paymentDiv"></div>
-        <br /><br />
-      </div>
-      <div class="col-md-4 pull-right col-sm-10">
-        <h3>Order Details</h3>
-        <p>
-          <% if @payment.name.present? %>
-            <strong>Name</strong>: <%= @payment.name %><br />
-          <% end %>
-          <% if @payment.address.present? %>
-            <strong>Address</strong>: <%= @payment.address %><br />
-          <% end %>
-          <% if @payment.city.present? %>
-            <strong>City</strong>: <%= @payment.city %><br />
-          <% end %>
-          <% if @payment.state.present? %>
-            <strong>State</strong>: <%= @payment.state %><br />
-          <% end %>
-          <% if @payment.zip.present? %>
-            <strong>Postal Code</strong>: <%= @payment.zip %><br />
-          <% end %>
-          <strong>Email</strong>: <%= @payment.email %><br />
-          <% if @payment.description.present? %>
-            <strong>Description</strong>: <%= @payment.description %><br />
-          <% end %>
-          <h4>Amount: $<%= @payment.amount %></h4>
-        </p>
-      </div>
+    <div class="col-md-7 body col-sm-12">
+      <h2>Complete Your Order</h2>
+      <p>Please review your order details on the right and submit payment through our secure payment gateway using the form below.</p>
+      <br />
+      <%= csrf_meta_tag %>
+      <div id="paymentDiv"></div>
+      <br /><br />
+    </div>
+    <div class="col-md-4 pull-right col-sm-10">
+      <h3>Order Details</h3>
+      <p>
+        <% if @payment.name.present? %>
+          <strong>Name</strong>: <%= @payment.name %><br />
+        <% end %>
+        <% if @payment.address.present? %>
+          <strong>Address</strong>: <%= @payment.address %><br />
+        <% end %>
+        <% if @payment.city.present? %>
+          <strong>City</strong>: <%= @payment.city %><br />
+        <% end %>
+        <% if @payment.state.present? %>
+          <strong>State</strong>: <%= @payment.state %><br />
+        <% end %>
+        <% if @payment.zip.present? %>
+          <strong>Postal Code</strong>: <%= @payment.zip %><br />
+        <% end %>
+        <strong>Email</strong>: <%= @payment.email %><br />
+        <% if @payment.description.present? %>
+          <strong>Description</strong>: <%= @payment.description %><br />
+        <% end %>
+        <h4>Amount: $<%= @payment.amount %></h4>
+      </p>
+    </div>
 
-      <script type="text/javascript">
-        // full api reference is available at https://github.com/SagePayments/PaymentsJS
-        // the entire library is accessed through the PayJS() function:
+    <script type="text/javascript">
+      // full api reference is available at https://github.com/SagePayments/PaymentsJS
+      // the entire library is accessed through the PayJS() function:
 
-        PayJS(['PayJS/UI', 'jquery'],
-        function($UI, $) {
-          var jsAttributes = JSON.parse(JSON.stringify(<%= raw @payment.pay_js_ui_attributes.to_json %>));
+      PayJS(['PayJS/UI', 'jquery'],
+      function($UI, $) {
+        var jsAttributes = JSON.parse(JSON.stringify(<%= raw @payment.pay_js_ui_attributes.to_json %>));
 
-          $UI.Initialize( jsAttributes );
-          $UI.setCallback(function(result) {
-            console.log(result.getResponse());
-            var resultJSON = result.getResponse({ json: true });
-            var wasApproved = result.getTransactionSuccess();
+        $UI.Initialize( jsAttributes );
+        $UI.setCallback(function(result) {
+          console.log(result.getResponse());
+          var resultJSON = result.getResponse({ json: true });
+          var wasApproved = result.getTransactionSuccess();
 
-            if (wasApproved) {
-              $.ajax({
-                url: "/payments?email=" + "<%= @payment.email %>" + "&amount=" + "<%= @payment.amount %>" + "&description=" + "<%= @payment.description %>" + "&order_number=" + "<%=@payment.order_number %>" + "&wgbh_phone=" + "<%=@payment.wgbh_phone %>" + "&wgbh_email=" + "<%=@payment.wgbh_email %>" + "&result=" + resultJSON,
-                type: 'POST',
-                beforeSend: function(xhr) {
-                  xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
-                }
-              });
-            };
-        });
+          if (wasApproved) {
+            $.ajax({
+              url: "/payments?email=" + "<%= @payment.email %>" + "&amount=" + "<%= @payment.amount %>" + "&description=" + "<%= @payment.description %>" + "&order_number=" + "<%=@payment.order_number %>" + "&wgbh_phone=" + "<%=@payment.wgbh_phone %>" + "&wgbh_email=" + "<%=@payment.wgbh_email %>" + "&result=" + resultJSON,
+              type: 'POST',
+              beforeSend: function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
+              }
+            });
+          };
       });
-      </script>
-    <% else %>
-      <div class="col-md-12">
-        <h2>Cannot Complete Your Order</h2>
-        <p>Unfortunately we could not locate your order. Please contact us at the information below if you are attempting to complete an existing order.</p>
-      </div>
-    <% end %>
-
+    });
+    </script>
   </div>
 </div>
