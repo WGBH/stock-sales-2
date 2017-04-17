@@ -1,6 +1,6 @@
 class AboutController < ApplicationController
   def show
     @about = About.find_by_path(params[:id])
-    @page_title = @about.title
+    @page_title = "#{@about.title} | #{application_name}"
   end
 end
