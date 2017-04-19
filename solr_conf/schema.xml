@@ -506,7 +506,8 @@
           type="string" indexed="true" stored="true" required="true" />
    <field name="timestamp" 
           type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
-   
+   <field name="is_clip" 
+          type="boolean" indexed="true" stored="true" multiValued="false"/>
    <field name="json" 
           type="string" indexed="false" stored="true" multiValued="false"/>
    

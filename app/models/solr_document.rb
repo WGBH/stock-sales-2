@@ -17,7 +17,8 @@ class SolrDocument
     {
       'id' => id,
       'json' => @_source[:json],
-      'text' => json.values
+      'text' => json.values,
+      'is_clip' => clip?
     }
   end
   
@@ -27,6 +28,10 @@ class SolrDocument
     end.select do |pair| 
       !pair[:value].nil? && !pair[:value].empty?
     end
+  end
+  
+  def clip?
+    !ci_id.empty?
   end
 
   def artesia_id

@@ -34,4 +34,33 @@
     <time_in>00:00:00;00</time_in>
     <type>Beta SP</type>
   </ROW>
+  <ROW MODID="0" RECORDID="7">
+    <artesia_id></artesia_id>
+    <aspect_ratio></aspect_ratio>
+    <barcode></barcode>
+    <category></category>
+    <Ci_ID></Ci_ID>
+    <clip_description>Lorem ipsum yada yada yada</clip_description>
+    <clip_keywords></clip_keywords>
+    <clip_title></clip_title>
+    <codec></codec>
+    <digital_wrapper></digital_wrapper>
+    <dimensions></dimensions>
+    <drive_name></drive_name>
+    <episode_number>42</episode_number>
+    <event_date>1/1/2001</event_date>
+    <event_location></event_location>
+    <file_name></file_name>
+    <folder_name></folder_name>
+    <format></format>
+    <frames_per_second></frames_per_second>
+    <id>PROGRAM1</id>
+    <length>60 minutes</length>
+    <origin></origin>
+    <program>Secret Weapons of the Dinosaurs</program>
+    <series>NOVA</series>
+    <tape_number></tape_number>
+    <time_in></time_in>
+    <type></type>
+  </ROW>
 </FMPDSORESULT>
