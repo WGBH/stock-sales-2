@@ -33,6 +33,8 @@ The backing database for the clips is a WGBH-hosted Filemaker database. It provi
 
 The Filemaker database also has a script for redeploys. It does not actually depend on any information from the database: It's just a convenient place to put the script.
 
+For the script to work, demo.wgbhstocksales.org must be included in the known_hosts file otherwise it will exit with a 255 error. The easiest way to add a host to the known_hosts file is to manually ssh in to the server at least once.
+
 ### Video Clips
 
 For clips described in the Filemaker database, the essence video file is ingested into the WGBH Stock Sales Sony Ci account.  There, the essence files are hosted and lower-resolution versions are created automatically and used by the website.  Files should be named the same as their id value found in the stock-sales-loose Filemaker database.
@@ -41,7 +43,7 @@ For clips described in the Filemaker database, the essence video file is ingeste
 
 We are using [Sony Ci](http://developers.cimediacloud.com) to host the video and audio files.
 In the office we are using the Ci API to upload content, and on the server the API
-is used to generate transient download URLs. On either end, an additional 
+is used to generate transient download URLs. On either end, an additional
 git-ignored configuration file (`config/ci.yml`) is necessary.
 
 ```yaml
@@ -52,7 +54,7 @@ client_secret: [32 character hexadecimal client secret]
 workspace_id: [32 character hexadecimal workspace ID]
 ```
 
-Use your personal workspace ID if you are working on the Ci code itself, or the 
+Use your personal workspace ID if you are working on the Ci code itself, or the
 AAPB workspace ID if you want to view media that is stored.
 
 To actually ingest:
