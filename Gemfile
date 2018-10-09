@@ -44,7 +44,7 @@ gem "rsolr", "~> 1.0.6"
 gem 'jettywrapper', '~> 1.7'
 
 gem 'cmless', '0.1.0'
-gem 'sony-ci-api', '0.1.1'
+gem 'sony_ci_api', '~>0.2.1'
 gem 'curb'
 
 gem 'aws-sdk', '~> 2'
