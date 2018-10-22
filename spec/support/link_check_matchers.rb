@@ -11,3 +11,13 @@ RSpec::Matchers.define :be_a_valid_image_url do
     end
   end
 end
+
+RSpec::Matchers.define :be_a_working_link do
+  match do |check_link|
+    begin
+      good_statuses.include? Faraday.head(check_link).status
+    rescue => e
+      raise "Failed when checking \"#{check_link}\": #{e.message}"
+    end
+  end
+end
