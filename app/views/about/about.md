@@ -17,7 +17,9 @@ WGBH is public television’s single largest producer for television, the Web, a
 
 ## Links
 
-[History of WGBH Timeline](http://www.wgbh.org/wgbhtimeline/index.cfm)
+[WGBH](https://www.wgbh.org/foundation/)
+
+[WGBH Media Library and Archives](https://www.wgbh.org/foundation/what-we-do/media-library-and-archives)
 
 [Buy DVDs of WGBH Programs](http://www.shoppbs.org)
 
