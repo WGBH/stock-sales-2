@@ -11,29 +11,29 @@
 ## Short
 
 WGBH Archives official website:
-Interviews and in-depth program content 
+Interviews and in-depth program content
 
 ## Medium
 
-**Interviews** and unique content from historic WGBH television series curated by the WGBH Media Library and Archives 
+**Interviews** and unique content from historic WGBH television series curated by the WGBH Media Library and Archives
 
 ## Long
 
 *Open Vault* is the official website of the WGBH Media Library and Archives.
 
-Screen and browse annotated interviews from seminal WGBH miniseries from the 
-1980s and 1990s including: 
-[*Vietnam: A Television History*](http://openvault.wgbh.org/collections/vietnam-the-vietnam-collection) (1983), 
-[*War and Peace in the Nuclear Age*](http://openvault.wgbh.org/collections/wpna-wpna-war-and-peace-in-the-nuclear-age) (1989) and 
-[*Rock and Roll*](http://openvault.wgbh.org/catalog/44ffa1-rock-and-roll) (1995).
-In addition, you will find content from older WGBH series including the innovative series, 
-[*New Television Workshop*](http://openvault.wgbh.org/collections/new-television-workshop) (1974-1993), 
-[*Say Brother*](http://openvault.wgbh.org/collections/say-brother) (1968-1982), one of the first African American public affairs series, 
-[*The Advocates*](http://openvault.wgbh.org/collections/advocates-advocates) (1969-1984), 
-the [*WGBH Ten O’Clock News*](http://bostonlocaltv.org/catalog?f[collection_s][]=Ten+O%27Clock+News) (1976-1991), 
-[*Press and the People*](http://openvault.wgbh.org/collections/prpe-press-and-the-people) (1958-59), 
-and complete audio coverage from the 1963 
-[March on Washington](http://openvault.wgbh.org/collections/march-march-on-washington) and other highlights from WGBH’s history. 
+Screen and browse annotated interviews from seminal WGBH miniseries from the
+1980s and 1990s including:
+[*Vietnam: A Television History*](http://openvault.wgbh.org/collections/vietnam-the-vietnam-collection) (1983),
+[*War and Peace in the Nuclear Age*](http://openvault.wgbh.org/collections/wpna-wpna-war-and-peace-in-the-nuclear-age) (1989) and
+[*Rock and Roll*](http://openvault.wgbh.org/collections/rock_roll/interviews) (1995).
+In addition, you will find content from older WGBH series including the innovative series,
+[*New Television Workshop*](http://openvault.wgbh.org/collections/new-television-workshop) (1974-1993),
+[*Say Brother*](http://openvault.wgbh.org/collections/say-brother) (1968-1982), one of the first African American public affairs series,
+[*The Advocates*](http://openvault.wgbh.org/collections/advocates-advocates) (1969-1984),
+the [*WGBH Ten O’Clock News*](http://bostonlocaltv.org/catalog?f[collection_s][]=Ten+O%27Clock+News) (1976-1991),
+[*Press and the People*](http://openvault.wgbh.org/collections/prpe-press-and-the-people) (1958-59),
+and complete audio coverage from the 1963
+[March on Washington](http://openvault.wgbh.org/collections/march-march-on-washington) and other highlights from WGBH’s history.
 
 [A list of all WGBH programs](http://openvault.wgbh.org/series) is also available on *Open Vault*.   
 
