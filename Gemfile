@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
+ruby '2.4.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.2'
+gem 'rails', '4.2.8'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.7'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -38,13 +39,13 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'blacklight'
+gem 'blacklight', '5.11.1'
 
 gem "rsolr", "~> 1.0.6"
 gem 'jettywrapper', '~> 1.7'
 
 gem 'cmless', '0.1.0'
-gem 'sony-ci-api', '0.1.1'
+gem 'sony_ci_api', '~> 0.2.1'
 gem 'curb'
 
 gem 'aws-sdk', '~> 2'
@@ -63,3 +64,4 @@ group :development, :test do
   gem 'faraday'
   gem 'byebug'
 end
+gem 'bigdecimal'

@@ -18,22 +18,20 @@ Streaming programs, articles, video shorts, interviews
 Television’s top rated **news** and **investigative** documentary series
 
 ## Long
-Featuring in-depth investigative journalism, *Frontline*'s coverage of issues has earned it multiple 
+Featuring in-depth investigative journalism, *Frontline*'s coverage of issues has earned it multiple
 Emmys since it was first broadcast on WGBH in 1983.  Frontline has shot footage all over
 the world, much of which is available for licensing.  In addition, the companion website
 contains extensive interviews, teacher resources, video and additional material
-related to the broadcast subjects.  *Frontline* also recently launched an extensive 
+related to the broadcast subjects.  *Frontline* also recently launched an extensive
 Youtube Channel with short form videos. From 2002-2010, *Frontline* produced
-*Frontline/World* which profiled the global community, covering countries and cultures rarely 
-seen on American television.  *Frontline* streams 189 current and archival 
-programs on its site, organized by broadcast year. 
+*Frontline/World* which profiled the global community, covering countries and cultures rarely
+seen on American television.  *Frontline* streams 189 current and archival
+programs on its site, organized by broadcast year.
 
-Check out some examples of our content below 
-**(select your browsers back button or tab to return to our site)**: 
+Check out some examples of our content below
+**(select your browsers back button or tab to return to our site)**:
 
 ## Links
-
-[*Frontline* programs by year](http://www.pbs.org/wgbh/pages/frontline/programs/)
 
 [*Frontline* YouTube Channel](https://www.youtube.com/user/PBSfrontline)
 
@@ -48,5 +46,5 @@ Check out some examples of our content below
 - [Pro-Assad Militia Commander | Syria]
 (https://www.youtube.com/watch?v=uL9EbC-4QF0)![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Inside+Assad%27s+Syria_348x196.png)
 - [Exxon and Climate Change] (https://www.youtube.com/watch?v=ppfpFZ92JAY) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Exxon+and+Climate+Change_348x196.png)
-- [League of Denial| The NFL's concussion crisis] (http://www.pbs.org/wgbh/pages/frontline/league-of-denial/) ![](	
+- [League of Denial| The NFL's concussion crisis] (http://www.pbs.org/wgbh/pages/frontline/league-of-denial/) ![](
 https://s3.amazonaws.com/wgbhstocksales.org/content/collections/frontline/Footballs_348x196.png)

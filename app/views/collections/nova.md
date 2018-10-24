@@ -24,10 +24,10 @@ In addition to NOVA footage, an amazing amount of content is available on the *N
 Find programs, short videos, activities, interviews with scientists, episode transcripts, and more.
 NOVA also produces the magazine series, [*NOVA ScienceNow*](http://www.pbs.org/wgbh/nova/sciencenow/),
 and the web-only series the [*Secret Life of Scientists*](http://www.pbs.org/wgbh/nova/blogs/secretlife),
-[*Gross Science*](https://www.youtube.com/user/grossscienceshow) and more.  You can also visit the 
+[*Gross Science*](https://www.youtube.com/user/grossscienceshow) and more.  You can also visit the
 [*NOVA* YouTube channel](https://www.youtube.com/user/NOVAonline).
 
-Check out some examples of our web content below: 
+Check out some examples of our web content below:
 
 ## Links
 
@@ -37,7 +37,7 @@ Check out some examples of our web content below:
 
 [NOVA Secret Life of Scientists](http://www.pbs.org/wgbh/nova/blogs/secretlife)
 
-[NOVA YouTube Channel](https://www.youtube.com/show/nova)
+[NOVA YouTube Channel](https://www.youtube.com/user/NOVAonline)
 
 ## Grid
 
@@ -48,5 +48,3 @@ Check out some examples of our web content below:
 - [Video |Cybersecurity 101](http://www.pbs.org/wgbh/nova/labs/video_popup/5/31/) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/cybersecurity_348x196.png)
 - [Interactive |Anatomy of a Mars Rover](http://www.pbs.org/wgbh/nova/space/anatomy-mars-rover.html) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/MarsRover_348x196.png)
 - [Interactive |How New Orleans Flooded](http://www.pbs.org/wgbh/nova/earth/how-new-orleans-flooded.html) ![](https://s3.amazonaws.com/wgbhstocksales.org/content/collections/nova/HowNewOrleansFlooded_348x196.png)
-
-

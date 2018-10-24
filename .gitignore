@@ -19,3 +19,4 @@
 /coverage
 
 /config/ci.yml
+.DS_Store
