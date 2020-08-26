@@ -4,12 +4,14 @@ ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.2'
+
 gem 'logger', '1.2.8.1'
+gem 'bootstrap-sass', '3.3.4.1'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.10'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '4.0.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -58,8 +60,6 @@ gem 'aws-ses', '~> 0.4.4', require: 'aws/ses'
 gem 'rspec', :group => :test
 gem 'rspec-rails', :group => :test
 gem 'capybara', :group => :test
-
-gem 'simplecov', :require => false, :group => :test
 
 group :development, :test do
   gem 'pry'
